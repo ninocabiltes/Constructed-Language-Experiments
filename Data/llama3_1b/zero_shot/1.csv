@@ -1,26 +1,15 @@
 Prompt;Target Output;Actual Output;Bleu Score;chrF Score
-"""Translate to English Sentence: e teno.""";"""There is snow. / It is snowing.""";"I'm not familiar with a specific phrase or sentence called ""e teno."" Could you please provide more context or information about where you encountered this phrase? I'll do my best to help you translate it into English.";;
-"""Translate to English: bay i loy e pila teso i bali.""";"""I watch a bird that flies.""";"The translation of ""bay i loy e pila teso i bali"" from Balinese to English is:
+"""Translate to English Sentence: e teno.""";"""There is snow. / It is snowing.""";"I don't know ""e teno"".";;
+"""Translate to English: bay i loy e pila teso i bali.""";"""I watch a bird that flies.""";"bay = 1
+i = 0
+loy = 2
+e = 5
+pila = 6
+teso = 7
+bali = 8
 
-""The sea is calm and peaceful in Bali.""
-
-Or, more naturally:
-
-""Bali's sea is very calm.""";;
-"""Translate to English: sapye.""";"""Cool. / I’m cool.""";"I'm not familiar with the term ""sapye."" Could you please provide more context or information about what it means? I'd be happy to try and help you understand or translate it if possible.";;
-"""Translate to English: swe hugwa i mye pindinbuli.""";"""He (and his dog) arrived here.""";"The translation of ""swe hugwa i mye pindinbuli"" is not immediately clear, as it appears to be a phrase in a language that doesn't follow standard grammar or sentence structure.
-
-However, I can attempt to break down the phrase into its individual words and provide a possible translation:
-
-* ""Swe"" could be a greeting or an expression of affection.
-* ""Hugwa"" might mean ""to hug"" or ""to embrace"".
-* ""I"" is a pronoun indicating the speaker's identity.
-* ""Mye"" could be a word or phrase that means ""my"" or ""mine"".
-* ""Pindinbuli"" appears to be a noun or a place name.
-
-Given these possible interpretations, a possible translation of the phrase could be:
-
-""I am embracing my [something]"".
-
-Without more context or information about the language and cultural background, it's difficult to provide a definitive translation. If you have any additional information or clarification, I'd be happy to try and assist further.";;
-"""Translate to English: pila i bali.""";"""A bird flies.""";"The translation of ""pila i bali"" from Balinese to English is ""Pillar of Bali"".";;
+Translation: ""one zero two five six seven eight""";;
+"""Translate to English: sapye.""";"""Cool. / I’m cool.""";"I cannot translate ""sapye"" into English because it is not a known word or phrase.";;
+"""Translate to English: swe hugwa i mye pindinbuli.""";"""He (and his dog) arrived here.""";"I cannot translate a sentence that contains an unknown word ""pindinbuli"" into English. Can I help you with something else?";;
+"""Translate to English: pila i bali.""";"""A bird flies.""";"pila -> palm
+bali -> Bali";;

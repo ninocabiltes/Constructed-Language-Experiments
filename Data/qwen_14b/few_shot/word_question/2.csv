@@ -3,52 +3,52 @@ Prompt;Target Output;Actual Output;Bleu Score;chrF Score
 sun = similar / -like
 daw = person
 Question:
-What does sundaw most likely mean?""";"""person-like / humanoid""";;;
+What does sundaw most likely mean?""";"""person-like / humanoid""";similar-like person;;
 """Word/Rule:
 tay = many / very
 daw = person
 Question:
-What does tay daw most likely mean?""";"""many people""";;;
+What does tay daw most likely mean?""";"""many people""";very person或多的意思是“很多人”;;
 """Word/Rule:
 homu = calm
 kwe = invert prefix
 segu = music
 Question:
-What does kwehomusegu most likely mean?""";"""chaotic music/ rock music""";;;
+What does kwehomusegu most likely mean?""";"""chaotic music/ rock music""";calm inverted music;;
 """Word/Rule:
 begu = if
 myu = would
 Question:
-In begu bay i myu plu, what tense is plu?""";"""Conditional future / would go""";;;
+In begu bay i myu plu, what tense is plu?""";"""Conditional future / would go""";future tense;;
 """Word/Rule:
 tamye = fun
 bey = -ly
 Question:
-What does tamyebey most likely mean?""";"""funnily / in a fun way""";;;
+What does tamyebey most likely mean?""";"""funnily / in a fun way""";funly;;
 """Word/Rule:
 mye = before / already
 plu = to go
 Question:
 What does mye plu most likely mean?""";"""went / already go
 ""
-""";;;
+""";already went;;
 """Word/Rule:
 pomo = egg
 sun = -like
 Question:
-What does pomosun most likely mean?""";"""egg-like""";;;
+What does pomosun most likely mean?""";"""egg-like""";egg-like;;
 """Word/Rule:
 pay = up / above
 kwe = invert prefix
 Question:
-What does kwepay most likely mean?""";"""below / under""";;;
+What does kwepay most likely mean?""";"""below / under""";below/up below/invert pay;;
 """Word/Rule:
 gwi = good
 kwe = invert
 Question:
-What does kwegwi most likely mean?""";"""bad""";;;
+What does kwegwi most likely mean?""";"""bad""";kwegwi most likely means not good;;
 """Word/Rule:
 moy = multiple
 bay = me
 Question:
-What does moybay most likely mean?""";"""we / us""";;;
+What does moybay most likely mean?""";"""we / us""";multiple me;;

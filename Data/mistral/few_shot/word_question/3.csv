@@ -1,0 +1,51 @@
+Prompt;Target Output;Actual Output;Bleu Score;chrF Score
+"""Word/Rule:
+mosey = interesting
+gen = -ness
+Question:
+What does moseygen most likely mean?""";"""interestingness""";;;
+"""Word/Rule:
+pya = talk
+lase = fast
+Question:
+What does pyalase most likely mean?""";"""fast talk / rap""";;;
+"""Word/Rule:
+day = give
+u = indirect object particle
+Question:
+In bay i day u kyu e lano, what is the indirect object?""";"""kyu (you)""";;;
+"""Word/Rule:
+law = inside
+kwe = invert
+Question:
+What does kwelaw most likely mean?""";"""outside""";;;
+"""Word/Rule:
+sote = hot
+bey = -ly
+Question:
+What does sotebey most likely mean?""";"""hotly""";;;
+"""Word/Rule:
+gwi = good
+baw = more
+Question:
+What does bawgwi most likely mean?""";"""better""";;;
+"""Word/Rule:
+suka = sibling
+moy = multiple
+Question:
+What does moysuka most likely mean?""";"""siblings""";;;
+"""Word/Rule:
+dey = animal
+sun = -like
+Question:
+What does deysun most likely mean?""";"""animal-like""";;;
+"""Word/Rule:
+loy = see
+gen = -ness
+Question:
+What does loygen most likely mean?""";"""sight / vision""";;;
+"""Word/Rule:
+taku = cause / because
+gen = -ness
+Question:
+What does takugen most likely mean?""";"""cause / origin-ness""";;;

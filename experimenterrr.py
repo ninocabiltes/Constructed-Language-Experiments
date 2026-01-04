@@ -1,18 +1,18 @@
 # Do shit here
 
-# Model Names           EXPERIMENT_TYPE
-# qwen2.5:14b           zero_shot
-# phi3:14b              few_shot
+# Model Names           EXPERIMENT_TYPE             SUBTYPES (for few_shot only)
+# qwen2.5:14b           zero_shot                   WORD
+# phi3:14b              few_shot                    TRANSLATION
 # mistral:latest        gramatical_induction
 # llama3:8b             morphological_induction
 # phi3:3.8b             
 # llama3.2:1b
 
+#config here
 MODEL_TO_USE = "llama3.2:1b"
 EXPERIMENT_TYPE = "zero_shot"
-EXPERIMENT_NAME = "WORD"
+EXPERIMENT_SUBTYPE = "WORD"
 EXPERIMENT_NUMBER = "1"
-
 
 import requests
 import json

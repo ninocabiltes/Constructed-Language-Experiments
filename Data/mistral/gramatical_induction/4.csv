@@ -1,0 +1,109 @@
+Prompt;Target Output;Actual Output;Bleu Score;chrF Score
+"""New Vocab:
+demu (to collect)
+
+heko (gem)
+
+luka (rare)
+
+Rules:
+teso = relative marker.
+
+New subject introduced with a.
+
+Adjective follows e.
+
+Object marked with e.
+
+Verb marked with i.
+
+Sentence Sample:
+heko teso a swe i demu e luka.
+Question:
+What is rare?""";"""The gem that they collect is rare. / The gem they collect.""";;;
+"""New Vocab:
+sesu (to ensure)
+
+helu (safety)
+
+mitu (to reach)
+
+Rules:
+telu = in order to.
+
+Verbs can stack.
+
+i before verb phrase.
+
+Object marked with e.
+
+telu introduces goal.
+
+Sentence Sample:
+swe i mitu e helu telu sesu.
+Question:
+Why do they reach safety?""";"""In order to ensure (it).""";;;
+"""New Vocab:
+guse (excessive)
+
+sadi (to begin)
+
+Rules:
+kwebaw = less (invert + more).
+
+buki = than (comparison).
+
+Adjective follows e.
+
+kwe inverts root.
+
+Comparison after buki.
+
+Sentence Sample:
+pin e kwebawguse buki san.
+Question:
+What does kwebawguse mean?""";"""Less excessive.""";;;
+"""New Vocab:
+kiso (seat)
+
+doke (from)
+
+paci (to open)
+
+Rules:
+doke = from.
+
+boy marks preposition.
+
+i before verb.
+
+Object marked with e.
+
+Location phrase after object.
+
+Sentence Sample:
+bay i paci e kiso boydoke gan.
+Question:
+Where is the seat opened from?""";"""From the room.""";;;
+"""New Vocab:
+magu (sky)
+
+baso (color)
+
+mope (purple)
+
+Rules:
+hoy = possessive.
+
+teso = relative marker.
+
+Adjective follows e.
+
+Possessor after hoy.
+
+teso clause describes noun.
+
+Sentence Sample:
+baso hoy magu teso e mope.
+Question:
+Translate to English.""";"""The color of the sky that is purple.""";;;

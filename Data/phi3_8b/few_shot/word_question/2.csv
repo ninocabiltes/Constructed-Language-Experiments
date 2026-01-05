@@ -3,52 +3,52 @@ Prompt;Target Output;Actual Output;Bleu Score;chrF Score
 sun = similar / -like
 daw = person
 Question:
-What does sundaw most likely mean?""";"""person-like / humanoid""";;;
+What does sundaw most likely mean?""";"""person-like / humanoid""";A sun-person, a figure resembling the sun.;;
 """Word/Rule:
 tay = many / very
 daw = person
 Question:
-What does tay daw most likely mean?""";"""many people""";;;
+What does tay daw most likely mean?""";"""many people""";Many persons;;
 """Word/Rule:
 homu = calm
 kwe = invert prefix
 segu = music
 Question:
-What does kwehomusegu most likely mean?""";"""chaotic music/ rock music""";;;
+What does kwehomusegu most likely mean?""";"""chaotic music/ rock music""";Inverted Calm Music;;
 """Word/Rule:
 begu = if
 myu = would
 Question:
-In begu bay i myu plu, what tense is plu?""";"""Conditional future / would go""";;;
+In begu bay i myu plu, what tense is plu?""";"""Conditional future / would go""";Present continuous;;
 """Word/Rule:
 tamye = fun
 bey = -ly
 Question:
-What does tamyebey most likely mean?""";"""funnily / in a fun way""";;;
+What does tamyebey most likely mean?""";"""funnily / in a fun way""";fun-ly;;
 """Word/Rule:
 mye = before / already
 plu = to go
 Question:
 What does mye plu most likely mean?""";"""went / already go
 ""
-""";;;
+""";Before going;;
 """Word/Rule:
 pomo = egg
 sun = -like
 Question:
-What does pomosun most likely mean?""";"""egg-like""";;;
+What does pomosun most likely mean?""";"""egg-like""";An egg-shaped sun;;
 """Word/Rule:
 pay = up / above
 kwe = invert prefix
 Question:
-What does kwepay most likely mean?""";"""below / under""";;;
+What does kwepay most likely mean?""";"""below / under""";Invert pay up;;
 """Word/Rule:
 gwi = good
 kwe = invert
 Question:
-What does kwegwi most likely mean?""";"""bad""";;;
+What does kwegwi most likely mean?""";"""bad""";Inverted good, bad, or neutral (since 'good' and 'bad' are not defined);;
 """Word/Rule:
 moy = multiple
 bay = me
 Question:
-What does moybay most likely mean?""";"""we / us""";;;
+What does moybay most likely mean?""";"""we / us""";Multiple me;;

@@ -19,7 +19,7 @@ Sentence Sample:
 bay i dyu hebi kapi e kado.
 Question:
 Is this sentence grammatical according to the rules above? Translate it to English.""";"""Yes, it is grammatical.
-Translation: I will fit and break the box.""";;;
+Translation: I will fit and break the box.""";"Yes, the sentence is grammatical based on the provided rules and translates to ""I will fit a box that I break.""";;
 """New Vocab:
 kesu (healthy)
 
@@ -36,7 +36,7 @@ Sentence Sample:
 swe e kwekesu.
 Question:
 Is this sentence grammatical? What does kwekesu mean?""";"""Yes, it is grammatical.
-kwekesu = unhealthy / not healthy.""";;;
+kwekesu = unhealthy / not healthy.""";"Yes, the sentence is grammatical according to the rules provided in the prompt. Kwekesu means ""unhealthy."" The prefix 'kwe-' negates the meaning of the root word 'kesu,' which translates directly as healthy when attached without a prefix or with an affix that does not invert its meaning, such as '-esu.'";;
 """New Vocab:
 sito (chair)
 
@@ -53,7 +53,7 @@ Sentence Sample:
 sito teso e sunu.
 Question:
 Is this sentence grammatical? Translate to English.""";"""Yes, it is grammatical.
-Translation: The chair that is comfortable.""";;;
+Translation: The chair that is comfortable.""";"Yes, the sentence is grammatical in its constructed language and translates to ""The comfortable chair that/which.""";;
 """New Vocab:
 jadi (to send)
 
@@ -71,7 +71,7 @@ Indirect object comes before direct object.
 Sentence Sample:
 bay i jadi u seya e dibo.
 Question:
-Who receives the message?""";"""seya (Mr./Ms.) receives the message.""";;;
+Who receives the message?""";"""seya (Mr./Ms.) receives the message.""";Mr./Ms. Seya;;
 """New Vocab:
 hate (dangerous)
 
@@ -87,4 +87,6 @@ baw attaches to adjective.
 Sentence Sample:
 pin koba e bawhate buki san.
 Question:
-What does bawhate mean?""";"""bawhate = more dangerous.""";;;
+What does bawhate mean?""";"""bawhate = more dangerous.""";"Hate dangerous path
+
+(Note: This answer assumes that ""bawhate"" is a misspelling or misinterpretation of the provided word, as it's not defined in the prompt.)";;

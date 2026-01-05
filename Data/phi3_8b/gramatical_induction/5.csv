@@ -24,7 +24,7 @@ Verb stacking allowed.
 Sentence Sample:
 begu bay i myu mye lati u kyu e melo sehu.
 Question:
-Translate to English.""";"""If I would have borrowed 100 money from you. / If I had borrowed 100 units of money from you.""";;;
+Translate to English.""";"""If I would have borrowed 100 money from you. / If I had borrowed 100 units of money from you.""";I borrowed one hundred dollars from you yesterday if I had money.;;
 """New Vocab:
 sume (mature)
 
@@ -50,7 +50,7 @@ No i for “to be”.
 Sentence Sample:
 sume twikutodaw.
 Question:
-What does this mean vs. sumekutodaw?""";"""Adult student (adult + school-person) vs. college student (adult-school + person).""";;;
+What does this mean vs. sumekutodaw?""";"""Adult student (adult + school-person) vs. college student (adult-school + person).""";"Mature school person. (The prefix ""twi-"" reorders the compound, changing it from a noun followed by an adjective to an adjective followed by a noun.)";;
 """New Vocab:
 degu (war)
 
@@ -76,7 +76,7 @@ i marks verb.
 Sentence Sample:
 degu teso e hido i hay boykwepay baso.
 Question:
-Where is the war located?""";"""Below the city.""";;;
+Where is the war located?""";"""Below the city.""";Below the city of Hido.;;
 """New Vocab:
 sole (happy)
 
@@ -102,7 +102,7 @@ Compound: kwebyugeni.
 Sentence Sample:
 swe e kwebyusolegen.
 Question:
-What does kwebyusolegen mean?""";"""The least happiness / unhappiness (minimal happiness).""";;;
+What does kwebyusolegen mean?""";"""The least happiness / unhappiness (minimal happiness).""";Least abstractness.;;
 """New Vocab:
 hesa (shark)
 
@@ -130,4 +130,6 @@ i before verb phrase.
 Sentence Sample:
 bay i ludo u seya e hesa telu begu bay i myu hay e helu.
 Question:
-Translate to English.""";"""I protect the person from the shark so that I would have safety.""";;;
+Translate to English.""";"""I protect the person from the shark so that I would have safety.""";"If I protect the person, then in order to shark if it's conditional that they do so; and if I conditionally say yes or no, what is this sentence saying?
+
+Answer: The given sample does not translate directly into a coherent statement due to its structure. It seems like an attempt at constructing sentences with the provided vocabulty but lacks clear meaning without additional contextual information about how these words are used in grammar and syntax within their language system.";;

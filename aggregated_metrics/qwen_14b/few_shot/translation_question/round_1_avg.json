@@ -1,0 +1,10 @@
+{
+  "llm": "qwen_14b",
+  "category": "few_shot/translation_question",
+  "round": 1,
+  "avg_bleu_score": 18.529539757592794,
+  "avg_chrF_score": 25.913180681796053,
+  "avg_ter_test": 82.0,
+  "avg_bert_score_f1": 0.8782383441925049,
+  "sample_count": 5
+}

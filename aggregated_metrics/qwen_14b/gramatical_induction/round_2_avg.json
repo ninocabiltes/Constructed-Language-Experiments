@@ -1,0 +1,10 @@
+{
+  "llm": "qwen_14b",
+  "category": "gramatical_induction",
+  "round": 2,
+  "avg_bleu_score": 19.023320591782905,
+  "avg_chrF_score": 46.46823057179766,
+  "avg_ter_test": 55.33333333333333,
+  "avg_bert_score_f1": 0.9005488753318787,
+  "sample_count": 5
+}

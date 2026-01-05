@@ -1,0 +1,10 @@
+{
+  "llm": "llama3_1b",
+  "category": "morphological_induction",
+  "round": 1,
+  "avg_bleu_score": 6.186577330136094,
+  "avg_chrF_score": 21.908225882424926,
+  "avg_ter_test": 102.12816944959802,
+  "avg_bert_score_f1": 0,
+  "sample_count": 15
+}

@@ -1,0 +1,10 @@
+{
+  "llm": "qwen_14b",
+  "category": "morphological_induction",
+  "round": 1,
+  "avg_bleu_score": 29.274373785793625,
+  "avg_chrF_score": 62.33251239882213,
+  "avg_ter_test": 100.50401978973407,
+  "avg_bert_score_f1": 0,
+  "sample_count": 15
+}

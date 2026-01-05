@@ -1,0 +1,10 @@
+{
+  "llm": "mistral",
+  "category": "gramatical_induction",
+  "round": 1,
+  "avg_bleu_score": 35.622320676568556,
+  "avg_chrF_score": 48.514544979733444,
+  "avg_ter_test": 134.76190476190476,
+  "avg_bert_score_f1": 0.9222132563591003,
+  "sample_count": 5
+}

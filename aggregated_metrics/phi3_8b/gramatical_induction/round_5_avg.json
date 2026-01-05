@@ -1,0 +1,10 @@
+{
+  "llm": "phi3_8b",
+  "category": "gramatical_induction",
+  "round": 5,
+  "avg_bleu_score": 12.353318717694169,
+  "avg_chrF_score": 36.454819895319055,
+  "avg_ter_test": 195.431656063235,
+  "avg_bert_score_f1": 0.8941708683967591,
+  "sample_count": 5
+}

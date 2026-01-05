@@ -1,0 +1,10 @@
+{
+  "llm": "qwen_14b",
+  "category": "zero_shot",
+  "round": 1,
+  "avg_bleu_score": 4.488220245495637,
+  "avg_chrF_score": 8.975902714896257,
+  "avg_ter_test": 265.55555555555554,
+  "avg_bert_score_f1": 0.8717982053756714,
+  "sample_count": 5
+}

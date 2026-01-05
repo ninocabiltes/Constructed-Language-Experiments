@@ -1,0 +1,10 @@
+{
+  "llm": "phi3_14b",
+  "category": "zero_shot",
+  "round": 1,
+  "avg_bleu_score": 8.45277062567205,
+  "avg_chrF_score": 8.45898929063495,
+  "avg_ter_test": 154.44444444444443,
+  "avg_bert_score_f1": 0.8763692140579223,
+  "sample_count": 5
+}

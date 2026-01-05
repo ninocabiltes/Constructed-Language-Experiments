@@ -1,0 +1,10 @@
+{
+  "llm": "mistral",
+  "category": "morphological_induction",
+  "round": 1,
+  "avg_bleu_score": 36.69956409053356,
+  "avg_chrF_score": 63.366960295766994,
+  "avg_ter_test": 64.2547928262214,
+  "avg_bert_score_f1": 0,
+  "sample_count": 15
+}

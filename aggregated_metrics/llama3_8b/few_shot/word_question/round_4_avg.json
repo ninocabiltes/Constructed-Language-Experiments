@@ -1,0 +1,10 @@
+{
+  "llm": "llama3_8b",
+  "category": "few_shot/word_question",
+  "round": 4,
+  "avg_bleu_score": 11.597357760615685,
+  "avg_chrF_score": 40.09302078410404,
+  "avg_ter_test": 90.0,
+  "avg_bert_score_f1": 0.8982674896717071,
+  "sample_count": 10
+}

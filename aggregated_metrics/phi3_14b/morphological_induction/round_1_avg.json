@@ -1,0 +1,10 @@
+{
+  "llm": "phi3_14b",
+  "category": "morphological_induction",
+  "round": 1,
+  "avg_bleu_score": 12.834643070197883,
+  "avg_chrF_score": 48.63683553443315,
+  "avg_ter_test": 128.59075448361162,
+  "avg_bert_score_f1": 0,
+  "sample_count": 15
+}

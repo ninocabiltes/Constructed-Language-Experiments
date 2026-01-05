@@ -1,0 +1,10 @@
+{
+  "llm": "llama3_8b",
+  "category": "gramatical_induction",
+  "round": 1,
+  "avg_bleu_score": 50.80245726299755,
+  "avg_chrF_score": 62.032402725891714,
+  "avg_ter_test": 92.38095238095238,
+  "avg_bert_score_f1": 0.9386077880859375,
+  "sample_count": 5
+}

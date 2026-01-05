@@ -1,0 +1,10 @@
+{
+  "llm": "mistral",
+  "category": "few_shot/translation_question",
+  "round": 3,
+  "avg_bleu_score": 5.436301999960039,
+  "avg_chrF_score": 32.3645657671882,
+  "avg_ter_test": 110.0,
+  "avg_bert_score_f1": 0.8684197187423706,
+  "sample_count": 5
+}

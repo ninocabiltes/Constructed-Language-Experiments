@@ -1,0 +1,10 @@
+{
+  "llm": "phi3_14b",
+  "category": "few_shot/word_question",
+  "round": 3,
+  "avg_bleu_score": 35.000000000000014,
+  "avg_chrF_score": 57.01005060958092,
+  "avg_ter_test": 296.66666666666663,
+  "avg_bert_score_f1": 0.9018213152885437,
+  "sample_count": 10
+}

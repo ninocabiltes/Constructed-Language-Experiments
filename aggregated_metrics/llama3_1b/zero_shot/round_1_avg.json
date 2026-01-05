@@ -1,0 +1,10 @@
+{
+  "llm": "llama3_1b",
+  "category": "zero_shot",
+  "round": 1,
+  "avg_bleu_score": 3.943223765116289,
+  "avg_chrF_score": 5.875656193481854,
+  "avg_ter_test": 90.0,
+  "avg_bert_score_f1": 0.8572383761405945,
+  "sample_count": 5
+}

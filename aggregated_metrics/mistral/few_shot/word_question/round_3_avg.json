@@ -1,0 +1,10 @@
+{
+  "llm": "mistral",
+  "category": "few_shot/word_question",
+  "round": 3,
+  "avg_bleu_score": 32.381672463202676,
+  "avg_chrF_score": 58.386789431039276,
+  "avg_ter_test": 303.33333333333337,
+  "avg_bert_score_f1": 0.882246321439743,
+  "sample_count": 10
+}

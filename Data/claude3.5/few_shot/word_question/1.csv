@@ -1,0 +1,62 @@
+Prompt,Target Output,Actual Output,Bleu Score,chrF Score
+"Word/Rule:
+mya = parent
+bey = related / -ly
+
+Question:
+What does myabey most likely mean?",parental / parent-related,related to parent / parentally,,
+"Word/Rule:
+bya = male
+mya = parent
+
+Question:
+What does byamya most likely mean?",father,male parent / father,,
+"Word/Rule:
+domay = friend
+bay = I / me
+
+Question:
+What does bay domay most likely mean?",my friend,I friend / me friend,,
+"Word/Rule:
+kyu = you
+moy = multiple
+
+Question:
+What does moykyu most likely mean?",you (plural),multiple you(s),,
+"Word/Rule:
+dune = number
+gen = concept / -ness
+
+Question:
+What does dungen most likely mean?",quantity / amount-ness,numberless,,
+"lenu = art
+syu = to do / make
+
+Question:
+What does lenusyu most likely mean?",to make art,art-making,,
+"bote = blue
+sun = similar / -like
+
+Question:
+What does botesun most likely mean?",blue-like / bluish,blue-like / similar to blue,,
+"Word/Rule:
+pila = bird
+lase = fast
+
+Question:
+What does lase pila most likely mean?",fast bird,fast bird,,
+"Word/Rule:
+hagu = story
+goy = thing / object
+
+Question:
+What does hagugoy most likely mean?
+
+Target Output:
+story-thing / book / tale object",Story-thing / Storybook / book,story-thing / book / tale object,,
+"Word/Rule:
+swa = to be
+lase = fast
+
+Question:
+In swe i swa lase, what does lase modify?",The verb “to be” — so “they are quickly”,swa,,

@@ -1,0 +1,92 @@
+Prompt,Target Output,Actual Output,Bleu Score,chrF Score
+"New Vocab:
+gati (to catch)
+
+pika (bug)
+
+Rules:
+myu = conditional (“would”).
+
+mye = past marker.
+
+Verbs stack after i.
+
+Object marked with e.
+
+Sentence Sample:
+begu bay i myu mye gati e pika.
+Question:
+Is this sentence grammatical according to the rules above? Translate it to English.","Yes, it is grammatical.
+Translation: If I would have caught the bug. / If I had caught the bug.","Yes.
+
+Translation: ""I would have caught the bug.""",,
+"New Vocab:
+sene (clean)
+
+kwe (invert prefix)
+
+Rules:
+gen = abstract noun suffix (“-ness”).
+
+kwe inverts root before gen.
+
+e marks predicate noun.
+
+Sentence Sample:
+swe e kwe senegen.
+Question:
+What does kwe senegen mean?",Uncleanliness/ dirtiness,uncleanness,,
+"New Vocab:
+lato (liquid)
+
+podo (dirt)
+
+law (inside)
+
+Rules:
+boy = preposition marker.
+
+law = inside.
+
+Location phrase follows verb.
+
+boy can prefix location word.
+
+Sentence Sample:
+swe i hay e lato boylaw podo.
+Question:
+Is this sentence grammatical? Where is the liquid?","Target Output:
+Yes, it is grammatical.
+The liquid is inside the dirt.",Grammatical. The liquid is inside the dirt.,,
+"New Vocab:
+suki (to swim)
+
+liso (water)
+
+Rules:
+Commands: omit subject, use i yoy.
+
+Object marked with e.
+
+Verb can be intransitive.
+
+Sentence Sample:
+i yoy suki e liso!
+Question:
+What is this a command to do?",Swim in the water!,i yoy suki e liso!,,
+"New Vocab:
+bese (pretty)
+
+hasu (flower)
+
+Rules:
+byu = most (superlative).
+
+Question starts with kay.
+
+Adjective follows e.
+
+Sentence Sample:
+kay a pin hasu byubese e?
+Question:
+Is this sentence grammatical? explain.",No it is not grammatical.,"Yes, the sentence is grammatical.",,

@@ -1,0 +1,94 @@
+Prompt,Target Output,Actual Output,Bleu Score,chrF Score
+"New Vocab:
+hebi (to fit)
+
+kado (box)
+
+kapi (to break)
+
+Rules:
+dyu = future marker before verb.
+
+Verbs can be compounded.
+
+i comes before whole verb phrase.
+
+Object marked with e.
+
+Sentence Sample:
+bay i dyu hebi kapi e kado.
+Question:
+Is this sentence grammatical according to the rules above? Translate it to English.","Yes, it is grammatical.
+Translation: I will fit and break the box.","Yes.
+
+The box will fit to break.",,
+"New Vocab:
+kesu (healthy)
+
+daw (person)
+
+Rules:
+kwe inverts meaning of following root.
+
+Adjective follows e.
+
+kwe attaches directly to root.
+
+Sentence Sample:
+swe e kwekesu.
+Question:
+Is this sentence grammatical? What does kwekesu mean?","Yes, it is grammatical.
+kwekesu = unhealthy / not healthy.","Yes.
+""kwekesu"" means ""unhealthy.""",,
+"New Vocab:
+sito (chair)
+
+sunu (comfortable)
+
+Rules:
+teso = relative marker (“that/which”).
+
+teso acts as subject for second clause.
+
+Adjective follows e.
+
+Sentence Sample:
+sito teso e sunu.
+Question:
+Is this sentence grammatical? Translate to English.","Yes, it is grammatical.
+Translation: The chair that is comfortable.","Grammatical.
+""The chair that is comfortable.""",,
+"New Vocab:
+jadi (to send)
+
+dibo (message)
+
+seya (Mr./Ms.)
+
+Rules:
+u = indirect object particle (“to”).
+
+Direct object marked with e.
+
+Indirect object comes before direct object.
+
+Sentence Sample:
+bay i jadi u seya e dibo.
+Question:
+Who receives the message?",seya (Mr./Ms.) receives the message.,seya,,
+"New Vocab:
+hate (dangerous)
+
+koba (path)
+
+Rules:
+baw = more (comparative).
+
+Adjective follows e.
+
+baw attaches to adjective.
+
+Sentence Sample:
+pin koba e bawhate buki san.
+Question:
+What does bawhate mean?",bawhate = more dangerous.,more dangerous,,

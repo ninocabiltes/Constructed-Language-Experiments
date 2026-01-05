@@ -1,0 +1,20 @@
+Prompt,Target Output,Actual Output,Bleu Score,chrF Score
+"Rule: Nouns can be compounded; mabo = food, goy = thing.Dasopya → English
+Sentence:
+bay i boti e mabogoy",I want food.,bay i boti e foodthing,,
+"Rule: Word order: Subject + i + verb + e + object. loy = see, pila = bird.
+English → Dasopya
+Sentence:
+I see a bird.",bay i loy e pila,I i loy e pila,,
+"Rule: hoy = possessive marker (“of”).
+Dasopya → English
+Sentence:
+kyu e domay hoy bay",You are the friend of me / You are my friend.,kyu e domay of bay,,
+"Rule: Adjectives follow *e* without *i* for “to be” statements. lase = fast.
+English → Dasopya
+Sentence:
+They are fast.",swe e lase,They e lase.,,
+"Rule: Questions start with kay; tey = can; pya = talk; bey = -ly.
+Dasopya → English
+Sentence:
+kay a kyu i tey pya e bey?",Can you speak related-ly? / Can you speak fluently?,Can I talk easily?,,

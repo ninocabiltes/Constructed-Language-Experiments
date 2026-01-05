@@ -1,0 +1,51 @@
+Prompt,Target Output,Actual Output,Bleu Score,chrF Score
+"Word/Rule:
+bade = strong
+byu = most
+Question:
+What does byubade most likely mean?",Strongest,most strong,,
+"Word/Rule:
+pana = hand
+goy = thing
+Question:
+What does panagoy most likely mean?",hand-thing / tool / glove,hand thing,,
+"Word/Rule:
+toso = sound
+doso = device
+Question:
+What does tosodoso most likely mean?",Speaker / phone,sound device,,
+"Word/Rule:
+lano = bread
+tako = container
+Question:
+What does lanotako most likely mean?",bread container / breadbox,bread container,,
+"Word/Rule:
+gyu = in front
+kwe = invert
+Question:
+What does kwegyu most likely mean?",behind,behind,,
+"Word/Rule:
+pome = soft
+bey = -ly
+Question:
+What does pomebey most likely mean?",softly,softly,,
+"Word/Rule:
+swa = to be
+sume = mature
+Question:
+In swe e sume, what part of speech is sume?",Adjective (mature),adjective,,
+"Word/Rule:
+mye = before
+hay = have
+Question:
+What does mye hay most likely mean?",Had / already have,before have,,
+"Word/Rule:
+koy = far
+kwe = invert
+Question:
+What does kwekoy most likely mean?",close / nearby,near,,
+"Word/Rule:
+syo = life
+gen = -ness
+Question:
+What does syogen most likely mean?",life-ness / vitality,lifeness,,

@@ -33,7 +33,7 @@ e marks predicate noun.
 Sentence Sample:
 swe e kwe senegen.
 Question:
-What does kwe senegen mean?""";"""Uncleanliness/ dirtiness""";" kwe senegen means ""inverted cleanliness.""";;
+What does kwe senegen mean?""";"""Uncleanliness/ dirtiness"""; cleanliness;;
 """New Vocab:
 lato (liquid)
 
@@ -55,7 +55,7 @@ swe i hay e lato boylaw podo.
 Question:
 Is this sentence grammatical? Where is the liquid?""";"""Target Output:
 Yes, it is grammatical.
-The liquid is inside the dirt."""; Yes, the sentence is grammatical. The liquid is inside (boylaw) the dirt (podo).;;
+The liquid is inside the dirt."""; Yes, the sentence is grammatical. The liquid is inside the dirt.;;
 """New Vocab:
 suki (to swim)
 
@@ -71,7 +71,7 @@ Verb can be intransitive.
 Sentence Sample:
 i yoy suki e liso!
 Question:
-What is this a command to do?""";"""Swim in the water!"""; This is a command to swim in the water.;;
+What is this a command to do?""";"""Swim in the water!"""; Swim in the water!;;
 """New Vocab:
 bese (pretty)
 
@@ -87,4 +87,4 @@ Adjective follows e.
 Sentence Sample:
 kay a pin hasu byubese e?
 Question:
-Is this sentence grammatical? explain.""";"""No it is not grammatical."""; Yes, the sentence is grammatical according to the provided rules. It asks if this pin has the most pretty flower. The word order and usage of the new vocabulary words are correct.;;
+Is this sentence grammatical? explain.""";"""No it is not grammatical.""";" Yes, the sentence is grammatical. The translation would be: ""Is this the most pretty flower?"" where 'a' is an article, 'pin' is a determiner or demonstrative, and 'e' is the question marker in this context.";;

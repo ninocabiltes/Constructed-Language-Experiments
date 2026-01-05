@@ -1,6 +1,7 @@
 Prompt;Target Output;Actual Output;Bleu Score;chrF Score
-"""Translate to English Sentence: e teno.""";"""There is snow. / It is snowing.""";I have.;;
+"""Translate to English Sentence: e teno.""";"""There is snow. / It is snowing.""";            I have.;;
 """Translate to English: bay i loy e pila teso i bali.""";"""I watch a bird that flies.""";            I love playing basketball in Bali.;;
-"""Translate to English: sapye.""";"""Cool. / I’m cool.""";            Unknown;;
-"""Translate to English: swe hugwa i mye pindinbuli.""";"""He (and his dog) arrived here.""";"            ""I will give you a big hug.""";;
-"""Translate to English: pila i bali.""";"""A bird flies.""";"            ""Pile and Bali.""";;
+"""Translate to English: sapye.""";"""Cool. / I’m cool.""";"            Sapye translates to ""Say"" in English.";;
+"""Translate to English: swe hugwa i mye pindinbuli.""";"""He (and his dog) arrived here.""";"
+            He will embrace her tightly.";;
+"""Translate to English: pila i bali.""";"""A bird flies.""";            Pile and Bale;;

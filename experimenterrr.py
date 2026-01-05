@@ -142,11 +142,15 @@ if __name__ == "__main__":
             and our current chat history.
             Do not use any prior knowledge, world knowledge, or external
             assumptions.
-            If a rule or word is not explicitly defined in the prompt, treat it as
-            unknown.
 
-            Answer as concisely as possible. Do not add any additional information
-            or explanation.
+            If a word or rule is not explicitly defined in the prompt, treat it as
+            unknown, but you must still attempt a translation by analogy to the
+            examples provided.
+
+            Never refuse, apologize, explain limitations, or ask questions.
+            Always output a translation, even if incomplete or uncertain.
+
+            Answer with the translation only. No additional text.
 
             The prompt is:
             """ + prompt

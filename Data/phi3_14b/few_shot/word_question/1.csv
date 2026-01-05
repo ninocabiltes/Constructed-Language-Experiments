@@ -5,20 +5,20 @@ bey = related / -ly
 
 Question:
 What does myabey most likely mean?""
-""";"""parental / parent-related""";"Myabey most likely means ""parent-related.""";;
+""";"""parental / parent-related""";parent-related;;
 """Word/Rule:
 bya = male
 mya = parent
 
 Question:
-What does byamya most likely mean?""";"""father""";Male parent;;
+What does byamya most likely mean?""";"""father""";parent of a male;;
 """Word/Rule:
 domay = friend
 bay = I / me
 
 Question:
 What does bay domay most likely mean?""";"""my friend""
-""";I am a friend.;;
+""";I am a friend;;
 """Word/Rule:
 kyu = you
 moy = multiple
@@ -32,24 +32,24 @@ dune = number
 gen = concept / -ness
 
 Question:
-What does dungen most likely mean?""";"""quantity / amount-ness""";Dugen most likely means a numerical concept or quantity.;;
+What does dungen most likely mean?""";"""quantity / amount-ness""";number-concept;;
 """lenu = art
 syu = to do / make
 
 Question:
 What does lenusyu most likely mean?""";"""to make art""
-""";To create art;;
+""";            To create an artwork;;
 """bote = blue
 sun = similar / -like
 
 Question:
-What does botesun most likely mean?""";"""blue-like / bluish""";Blue-like;;
+What does botesun most likely mean?""";"""blue-like / bluish""";"botesun most likely means ""blue-like"" or ""similar to blue"".";;
 """Word/Rule:
 pila = bird
 lase = fast
 
 Question:
-What does lase pila most likely mean?""";"""blue-like / bluish""";Fast bird;;
+What does lase pila most likely mean?""";"""blue-like / bluish""";fast bird;;
 """Word/Rule:
 hagu = story
 goy = thing / object
@@ -58,7 +58,7 @@ Question:
 What does hagugoy most likely mean?
 
 Target Output:
-story-thing / book / tale object""";"""Story-thing / Storybook / book""";Story-thing / book / tale object;;
+story-thing / book / tale object""";"""Story-thing / Storybook / book""";Story-object;;
 """Word/Rule:
 swa = to be
 lase = fast

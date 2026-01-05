@@ -8,22 +8,22 @@ What does byubade most likely mean?""";"""Strongest""";most strong;;
 pana = hand
 goy = thing
 Question:
-What does panagoy most likely mean?""";"""hand-thing / tool / glove""";hand thing;;
+What does panagoy most likely mean?""";"""hand-thing / tool / glove""";handthing;;
 """Word/Rule:
 toso = sound
 doso = device
 Question:
-What does tosodoso most likely mean?""";"""Speaker / phone""";sound device;;
+What does tosodoso most likely mean?""";"""Speaker / phone""";sounddevice;;
 """Word/Rule:
 lano = bread
 tako = container
 Question:
-What does lanotako most likely mean?""";"""bread container / breadbox""";bread container;;
+What does lanotako most likely mean?""";"""bread container / breadbox""";breadcontainer;;
 """Word/Rule:
 gyu = in front
 kwe = invert
 Question:
-What does kwegyu most likely mean?""";"""behind""";most likely means in front inverted;;
+What does kwegyu most likely mean?""";"""behind""";behind;;
 """Word/Rule:
 pome = soft
 bey = -ly
@@ -43,7 +43,7 @@ What does mye hay most likely mean?""";"""Had / already have""";before having;;
 koy = far
 kwe = invert
 Question:
-What does kwekoy most likely mean?""";"""close / nearby""";not far;;
+What does kwekoy most likely mean?""";"""close / nearby""";near;;
 """Word/Rule:
 syo = life
 gen = -ness

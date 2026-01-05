@@ -5,7 +5,7 @@ bey = related / -ly
 
 Question:
 What does myabey most likely mean?""
-""";"""parental / parent-related""";parent-related或与父母有关的亲戚;;
+""";"""parental / parent-related""";parent-related / parent-like;;
 """Word/Rule:
 bya = male
 mya = parent
@@ -18,7 +18,7 @@ bay = I / me
 
 Question:
 What does bay domay most likely mean?""";"""my friend""
-""";I am your friend;;
+""";I am me friend;;
 """Word/Rule:
 kyu = you
 moy = multiple
@@ -64,4 +64,4 @@ swa = to be
 lase = fast
 
 Question:
-In swe i swa lase, what does lase modify?""";"""The verb “to be” — so “they are quickly”""";lase modifies swa;;
+In swe i swa lase, what does lase modify?""";"""The verb “to be” — so “they are quickly”""";fast modifies to be;;

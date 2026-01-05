@@ -20,7 +20,7 @@ Verb marked with i.
 Sentence Sample:
 heko teso a swe i demu e luka.
 Question:
-What is rare?""";"""The gem that they collect is rare. / The gem they collect.""";luka;;
+What is rare?""";"""The gem that they collect is rare. / The gem they collect.""";eko;;
 """New Vocab:
 sesu (to ensure)
 
@@ -42,7 +42,7 @@ telu introduces goal.
 Sentence Sample:
 swe i mitu e helu telu sesu.
 Question:
-Why do they reach safety?""";"""In order to ensure (it).""";swe i mitu e helu telu sesu.;;
+Why do they reach safety?""";"""In order to ensure (it).""";elesu.;;
 """New Vocab:
 guse (excessive)
 
@@ -62,7 +62,7 @@ Comparison after buki.
 Sentence Sample:
 pin e kwebawguse buki san.
 Question:
-What does kwebawguse mean?""";"""Less excessive.""";kwe;;
+What does kwebawguse mean?""";"""Less excessive.""";sadiw;;
 """New Vocab:
 kiso (seat)
 
@@ -84,7 +84,7 @@ Location phrase after object.
 Sentence Sample:
 bay i paci e kiso boydoke gan.
 Question:
-Where is the seat opened from?""";"""From the room.""";bay i paci e kiso boydoke.;;
+Where is the seat opened from?""";"""From the room.""";e doke.;;
 """New Vocab:
 magu (sky)
 

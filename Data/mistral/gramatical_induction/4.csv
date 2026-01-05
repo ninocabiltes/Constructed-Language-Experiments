@@ -20,7 +20,7 @@ Verb marked with i.
 Sentence Sample:
 heko teso a swe i demu e luka.
 Question:
-What is rare?""";"""The gem that they collect is rare. / The gem they collect."""; luka;;
+What is rare?""";"""The gem that they collect is rare. / The gem they collect."""; Luka;;
 """New Vocab:
 sesu (to ensure)
 
@@ -42,9 +42,7 @@ telu introduces goal.
 Sentence Sample:
 swe i mitu e helu telu sesu.
 Question:
-Why do they reach safety?""";"""In order to ensure (it).""";" They reach safety to ensure it. (Translation of the sentence sample provided)
-
-In English, this would be: Why are they ensuring safety?";;
+Why do they reach safety?""";"""In order to ensure (it)."""; They ensure it (to reach safety).;;
 """New Vocab:
 guse (excessive)
 
@@ -64,7 +62,7 @@ Comparison after buki.
 Sentence Sample:
 pin e kwebawguse buki san.
 Question:
-What does kwebawguse mean?""";"""Less excessive.""";" Kwebawguse means ""less excessive.""";;
+What does kwebawguse mean?""";"""Less excessive."""; more_less_excessive;;
 """New Vocab:
 kiso (seat)
 

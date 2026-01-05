@@ -2,19 +2,21 @@ Prompt;Target Output;Actual Output;Bleu Score;chrF Score
 """Rule: dani = like, lano = bread, tay = many/very.
 Dasopya → English
 Sentence:
-swe i dani e tay lano""";"""They like a lot of bread."""; Many likes bread;;
+swe i dani e tay lano""";"""They like a lot of bread."""; Very much I like many breads;;
 """Rule: Adjectives follow *e* for “to be.” lase = fast, daw = person.
 English → Dasopya
 Sentence:
-I am a fast person.""";"""bay e lase daw"""; Lasedaw lase.;;
+I am a fast person.""";"""bay e lase daw"""; Lasedawayopa;;
 """Rule: dyu = future marker before verb. kami = buy, kupa = fruit.
 Dasopya → English
 Sentence:
-bay i dyu kami e kupa""";"""I will buy fruit."""; Buy will buy fruit tomorrow.;;
+bay i dyu kami e kupa""";"""I will buy fruit.""";" Buy will buy fruit in the future.
+
+Sentence translation: Bay i dyu kami e kupa -> Will buy fruit in the future.";;
 """Rule: Subject can be a noun; pila = bird, loy = see, sapa = fish.
 English → Dasopya
 Sentence:
-The bird sees the fish.""";"""pila i loy e sapa"""; Pila loy sapa.;;
+The bird sees the fish.""";"""pila i loy e sapa"""; Sapa loya pila;;
 """Rule: may = now, placed at start; subject *a* not needed if subject first.
 Dasopya → English
 Sentence:

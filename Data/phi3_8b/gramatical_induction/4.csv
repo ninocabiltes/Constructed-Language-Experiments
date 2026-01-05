@@ -20,7 +20,9 @@ Verb marked with i.
 Sentence Sample:
 heko teso a swe i demu e luka.
 Question:
-What is rare?""";"""The gem that they collect is rare. / The gem they collect.""";luka;;
+What is rare?""";"""The gem that they collect is rare. / The gem they collect.""";"luka heko teso a swe i demu.
+
+Translation: The relative gem of the rare stone has been collected.";;
 """New Vocab:
 sesu (to ensure)
 
@@ -42,7 +44,7 @@ telu introduces goal.
 Sentence Sample:
 swe i mitu e helu telu sesu.
 Question:
-Why do they reach safety?""";"""In order to ensure (it).""";To ensure safety in order to achieve their goal.;;
+Why do they reach safety?""";"""In order to ensure (it).""";To ensure reaching in order to achieve safety, ensuring it is done for the purpose of security.;;
 """New Vocab:
 guse (excessive)
 
@@ -84,7 +86,7 @@ Location phrase after object.
 Sentence Sample:
 bay i paci e kiso boydoke gan.
 Question:
-Where is the seat opened from?""";"""From the room.""";From bay.;;
+Where is the seat opened from?""";"""From the room.""";From bay, in a place called KisoBoy.;;
 """New Vocab:
 magu (sky)
 
@@ -106,4 +108,4 @@ teso clause describes noun.
 Sentence Sample:
 baso hoy magu teso e mope.
 Question:
-Translate to English.""";"""The color of the sky that is purple.""";"""The sky' endowed with purple.""";;
+Translate to English.""";"""The color of the sky that is purple.""";"""The sky is purple.""";;

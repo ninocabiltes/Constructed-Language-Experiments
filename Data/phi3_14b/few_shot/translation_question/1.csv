@@ -3,12 +3,12 @@ Prompt;Target Output;Actual Output;Bleu Score;chrF Score
 Dasopya → English
 Sentence:
 bay i boti e mabogoy""";"""I want food.""
-""";Bay of boats and things to eat;;
+""";Bay I Boti and Food Thing;;
 """Rule: Word order: Subject + i + verb + e + object. loy = see, pila = bird.
 English → Dasopya
 Sentence:
 I see a bird.""";"""bay i loy e pila""
-""";            Ii sepa lolo yela.;;
+""";Dasopia I loy pile.;;
 """Rule: hoy = possessive marker (“of”).
 Dasopya → English
 Sentence:
@@ -18,9 +18,9 @@ kyu e domay hoy bay""";"""You are the friend of me / You are my friend.""
 English → Dasopya
 Sentence:
 They are fast.""";"""swe e lase""
-""";Dasopie sind lasse.;;
+""";Dasopie e lase.;;
 """Rule: Questions start with kay; tey = can; pya = talk; bey = -ly.
 Dasopya → English
 Sentence:
 kay a kyu i tey pya e bey?""
-""";"""Can you speak related-ly? / Can you speak fluently?""";"""Can you speak quickly?""";;
+""";"""Can you speak related-ly? / Can you speak fluently?""";Can you speak quickly?;;

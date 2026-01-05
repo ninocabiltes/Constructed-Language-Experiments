@@ -3,12 +3,12 @@ Prompt;Target Output;Actual Output;Bleu Score;chrF Score
 sun = similar / -like
 daw = person
 Question:
-What does sundaw most likely mean?""";"""person-like / humanoid""";A sun-person, a figure resembling the sun.;;
+What does sundaw most likely mean?""";"""person-like / humanoid""";Sun-person;;
 """Word/Rule:
 tay = many / very
 daw = person
 Question:
-What does tay daw most likely mean?""";"""many people""";Many persons;;
+What does tay daw most likely mean?""";"""many people""";Many persons (or people) or Very much of a person (in terms of quantity, presence, etc.);;
 """Word/Rule:
 homu = calm
 kwe = invert prefix
@@ -19,7 +19,11 @@ What does kwehomusegu most likely mean?""";"""chaotic music/ rock music""";Inver
 begu = if
 myu = would
 Question:
-In begu bay i myu plu, what tense is plu?""";"""Conditional future / would go""";Present continuous;;
+In begu bay i myu plu, what tense is plu?""";"""Conditional future / would go""";"In ""begu bay I myu plu,"" the word ""plu"" appears to be in a conditional form based on the provided rule for ""begu."" However, since there's no explicit definition of how begu translates into English or any tense markers given within this prompt context, we can only speculate. If we follow an analogy with common languages where 'if' often introduces conditions in present and future scenarios (e.g., ""If I would like more,"" which is a non-standard but understandable construction), then it might suggest that the word following ""begu"" could be intended to express desire or intention, similar to how one uses modal verbs for such purposes (""would"").
+
+Given this speculative framework and assuming 'plu' follows English conditional patterns (which are not provided in your prompt but can serve as a loose analogy), the phrase ""I would like more"" could be translated into an equivalent form using begu. However, without explicit rules for tense or mood within the context of this unique language construct, any translation remains hypothetical and tentative at best:
+
+Begu bay I myu plu (If I would want)";;
 """Word/Rule:
 tamye = fun
 bey = -ly
@@ -31,24 +35,25 @@ plu = to go
 Question:
 What does mye plu most likely mean?""";"""went / already go
 ""
-""";Before going;;
+""";Before going (or has gone);;
 """Word/Rule:
 pomo = egg
 sun = -like
 Question:
-What does pomosun most likely mean?""";"""egg-like""";An egg-shaped sun;;
+What does pomosun most likely mean?""";"""egg-like""";An object resembling an egg-like sun.;;
 """Word/Rule:
 pay = up / above
 kwe = invert prefix
 Question:
-What does kwepay most likely mean?""";"""below / under""";Invert pay up;;
+What does kwepay most likely mean?""";"""below / under""";Invert pay;;
 """Word/Rule:
 gwi = good
 kwe = invert
 Question:
-What does kwegwi most likely mean?""";"""bad""";Inverted good, bad, or neutral (since 'good' and 'bad' are not defined);;
+What does kwegwi most likely mean?""";"""bad""";Inverted good;;
 """Word/Rule:
 moy = multiple
 bay = me
 Question:
-What does moybay most likely mean?""";"""we / us""";Multiple me;;
+What does moybay most likely mean?""";"""we / us""";"
+multiple me";;

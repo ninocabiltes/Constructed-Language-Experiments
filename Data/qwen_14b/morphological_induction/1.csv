@@ -20,7 +20,7 @@ kwe + sole = kwesole = unhappy/sad
 
 Question:
 What is the difference between kwehate and soyhate if hate = dangerous?""";"""kwehate = safe (opposite), soyhate = not dangerous (neutral)""";"kwehate = safe (opposite of dangerous)
-soyhate = not dangerous (less dangerous or neutral)";;
+soyhate = not dangerous (neutral)";;
 """Context Examples:
 plu = to go → pluti = to make go/move (something)
 
@@ -29,7 +29,7 @@ loy = to see → loyti = to show (make see)
 suki = to swim → sukiha = to want to swim
 
 Question:
-If paki = to find and pakiha = to want to find, what does pakiti mean?""";"""to make find / to help find / to cause to be found""";to make find/find for someone;;
+If paki = to find and pakiha = to want to find, what does pakiti mean?""";"""to make find / to help find / to cause to be found""";to make find/make someone find something;;
 """Context Examples:
 toga = body → togapa = body part
 
@@ -82,7 +82,7 @@ bote = blue → botene = somewhat blue
 lake = red → lakene = somewhat red
 
 Question:
-If bade = strong and badefo = too strong, what does badene mean?""";"""somewhat strong / strongish""";somewhat strong;;
+If bade = strong and badefo = too strong, what does badene mean?""";"""somewhat strong / strongish""";badene = somewhat strong;;
 """Context Examples:
 kuto = school → kutodin = school location
 
@@ -102,7 +102,7 @@ sole = happy → soleta = happiness (state)
 bade = strong → badevi = strength (quality)
 
 Question:
-If gwi = good and gwivi = goodness, what does gwita mean?""";"""state of being good / goodness (as a condition)""";unknown;;
+If gwi = good and gwivi = goodness, what does gwita mean?""";"""state of being good / goodness (as a condition)""";goodness (state);;
 """Context Examples:
 pya = speak → pyazo = speaking tool (microphone)
 
@@ -111,7 +111,7 @@ kato = cut → katozo = cutting tool (knife)
 plu = go → plumo = means of going (vehicle)
 
 Question:
-If doli = write and dolizo = writing tool (pen), what does dolimo mean?""";"""means of writing (method/process)""";means of writing (paper);;
+If doli = write and dolizo = writing tool (pen), what does dolimo mean?""";"""means of writing (method/process)""";means of writing (writing instrument);;
 """Context Examples:
 kapi = break → kapira = breakage (result)
 
@@ -120,9 +120,7 @@ syu = make → syura = product/creation
 doli = write → dolibu = writing/text
 
 Question:
-If kami = buy and kamira = purchase (result), what does kamibu mean?""";"""bought item / purchase (product)""";"purchase text或与购买相关的文本记录。但根据给定的例子，更可能的意思是与购买行为直接相关但未明确给出的抽象概念，最接近的是购买行为产生的某种状态或结果的描述形式，类似于""dolibu""对于写作的关系。然而，基于提供的模式和词汇，“kamibu”没有直接对应的示例解释，所以答案需根据已给定结构推断。如果严格遵循格式，可能需要更多具体指导来准确定义“kamibu”。但按要求简洁回答：
-
-购买行为的文本记录或描述。";;
+If kami = buy and kamira = purchase (result), what does kamibu mean?""";"""bought item / purchase (product)""";purchase text/information related to buying;;
 """sami = walk → samire = walk often
 
 mabo = eat → mabore = eat frequently
@@ -141,11 +139,11 @@ bamu = hello → bamujo = formal greeting
 kyu = you → kyujo = formal ""you""
 
 Question:
-If domay = friend and domayshi = respected friend, what does domayjo mean?""";"""formal friend / polite acquaintance""";domayjo means formal friend;;
+If domay = friend and domayshi = respected friend, what does domayjo mean?""";"""formal friend / polite acquaintance""";domayjo = formal friend;;
 """Context Examples:
 suki = swim → sukidaw = swimmer → sukidawbey = in a swimmer-like way
 
 kato = cut → katoti = make cut → katotizo = cutting tool → katotizoki = small cutter
 
 Question:
-If pya = speak, pyadaw = speaker, pyadawbey = speaker-like, what does pyatizoki likely mean?""";"""small speaking tool / little device for making speech""";speaker-like tool or small speaker-related item;;
+If pya = speak, pyadaw = speaker, pyadawbey = speaker-like, what does pyatizoki likely mean?""";"""small speaking tool / little device for making speech""";speaker-like tool or speaking device;;

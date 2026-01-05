@@ -17,8 +17,7 @@ Sentence Sample:
 begu bay i myu mye gati e pika.
 Question:
 Is this sentence grammatical according to the rules above? Translate it to English.""";"""Yes, it is grammatical.
-Translation: If I would have caught the bug. / If I had caught the bug.""";"Yes, it is grammatical.
-Translation: I would have caught a bug.";;
+Translation: If I would have caught the bug. / If I had caught the bug.""";"The sentence is grammatical according to the rules provided. Translation: ""I would have caught a bug.""";;
 """New Vocab:
 sene (clean)
 
@@ -56,7 +55,9 @@ swe i hay e lato boylaw podo.
 Question:
 Is this sentence grammatical? Where is the liquid?""";"""Target Output:
 Yes, it is grammatical.
-The liquid is inside the dirt.""";Yes, it is grammatical. The liquid is inside.;;
+The liquid is inside the dirt.""";"grammatical
+
+the liquid is inside the dirt";;
 """New Vocab:
 suki (to swim)
 
@@ -88,5 +89,4 @@ Adjective follows e.
 Sentence Sample:
 kay a pin hasu byubese e?
 Question:
-Is this sentence grammatical? explain.""";"""No it is not grammatical.""";"Yes, the sentence is grammatical.
-Explanation: The sentence ""kay a pin hasu byubese e?"" follows the given rules. It asks if the flower (hasu) is the most pretty (bese byu).";;
+Is this sentence grammatical? explain.""";"""No it is not grammatical.""";kay a pin hasu byubese e?;;

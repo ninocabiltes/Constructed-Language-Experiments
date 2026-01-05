@@ -6,7 +6,7 @@ doso = machine → dosoki = small machine (device/tool)
 pilo = bird → pilodo = big bird (eagle/large bird)
 
 Question:
-If gwa = house and gwaki = cottage, what does gwanodo mean?""";"""large room / hall""";gwanodo = big house (mansion);;
+If gwa = house and gwaki = cottage, what does gwanodo mean?""";"""large room / hall""";small house (cottage);;
 """Context Examples:
 gwi = good → soygwi = not good (bad)
 
@@ -19,7 +19,7 @@ kwe + gwi = kwegwi = bad (opposite of good)
 kwe + sole = kwesole = unhappy/sad
 
 Question:
-What is the difference between kwehate and soyhate if hate = dangerous?""";"""kwehate = safe (opposite), soyhate = not dangerous (neutral)""";kwehate = not dangerous, soyhate = dangerous;;
+What is the difference between kwehate and soyhate if hate = dangerous?""";"""kwehate = safe (opposite), soyhate = not dangerous (neutral)""";soykwesole;;
 """Context Examples:
 plu = to go → pluti = to make go/move (something)
 
@@ -28,7 +28,7 @@ loy = to see → loyti = to show (make see)
 suki = to swim → sukiha = to want to swim
 
 Question:
-If paki = to find and pakiha = to want to find, what does pakiti mean?""";"""to make find / to help find / to cause to be found""";pakiti = to make find/move (something);;
+If paki = to find and pakiha = to want to find, what does pakiti mean?""";"""to make find / to help find / to cause to be found""";to make find/move (something);;
 """Context Examples:
 toga = body → togapa = body part
 
@@ -39,7 +39,7 @@ kyu = you → hoykyu = yours
 bay = me → hoybay = mine
 
 Question:
-If paka = head and pakapa = part of head (face/skull), what does hoypaka mean?""";"""belonging to the head / head's""";hoy paka;;
+If paka = head and pakapa = part of head (face/skull), what does hoypaka mean?""";"""belonging to the head / head's""";yours head;;
 """Context Examples:
 mabo = eat → mabole = to eat regularly
 
@@ -50,7 +50,7 @@ loy = see → loypu = to glance/see briefly
 pya = speak → pyapu = to speak briefly
 
 Question:
-If suki = swim and sukile = to swim regularly, what does sukipu mean?""";"""to take a quick swim / swim briefly""";sukipu = to swim briefly;;
+If suki = swim and sukile = to swim regularly, what does sukipu mean?""";"""to take a quick swim / swim briefly""";to swim briefly;;
 """Context Examples:
 mabo = eat → mabodaw = eater
 
@@ -70,7 +70,7 @@ daw = person → dawmu = group of people
 muta = leg → mutatu = pair of legs
 
 Question:
-If pila = bird, what does pilamu mean?""";"""flock of birds""";pilamu = flock of birds;;
+If pila = bird, what does pilamu mean?""";"""flock of birds""";school of birds;;
 """Context Examples:
 sote = hot → sotefo = too hot
 
@@ -81,7 +81,7 @@ bote = blue → botene = somewhat blue
 lake = red → lakene = somewhat red
 
 Question:
-If bade = strong and badefo = too strong, what does badene mean?""";"""somewhat strong / strongish""";badene = somewhat strong;;
+If bade = strong and badefo = too strong, what does badene mean?""";"""somewhat strong / strongish""";somewhat strong;;
 """Context Examples:
 kuto = school → kutodin = school location
 
@@ -92,7 +92,7 @@ pay = up → paysay = upward direction
 gyu = front → gyusay = forward
 
 Question:
-If law = inside and lawdin = inside place, what does lawsay mean?""";"""inward direction / toward the inside""";lawsay = inward direction;;
+If law = inside and lawdin = inside place, what does lawsay mean?""";"""inward direction / toward the inside""";insidesay;;
 """Context Examples:
 homu = calm → homuta = calmness (state)
 
@@ -101,7 +101,7 @@ sole = happy → soleta = happiness (state)
 bade = strong → badevi = strength (quality)
 
 Question:
-If gwi = good and gwivi = goodness, what does gwita mean?""";"""state of being good / goodness (as a condition)""";gwita = happiness (state);;
+If gwi = good and gwivi = goodness, what does gwita mean?""";"""state of being good / goodness (as a condition)""";happiness;;
 """Context Examples:
 pya = speak → pyazo = speaking tool (microphone)
 
@@ -110,7 +110,7 @@ kato = cut → katozo = cutting tool (knife)
 plu = go → plumo = means of going (vehicle)
 
 Question:
-If doli = write and dolizo = writing tool (pen), what does dolimo mean?""";"""means of writing (method/process)""";dolimo = writing tool (pen);;
+If doli = write and dolizo = writing tool (pen), what does dolimo mean?""";"""means of writing (method/process)""";writing tool (typewriter);;
 """Context Examples:
 kapi = break → kapira = breakage (result)
 
@@ -119,7 +119,7 @@ syu = make → syura = product/creation
 doli = write → dolibu = writing/text
 
 Question:
-If kami = buy and kamira = purchase (result), what does kamibu mean?""";"""bought item / purchase (product)""";kamibu = buying/text (result);;
+If kami = buy and kamira = purchase (result), what does kamibu mean?""";"""bought item / purchase (product)""";purchase (result);;
 """sami = walk → samire = walk often
 
 mabo = eat → mabore = eat frequently
@@ -129,7 +129,7 @@ han = day → hanpe = every day
 sebo = week → sebope = every week
 
 Question:
-If suki = swim and sukire = swim often, what does hanre mean?""";"""""";hanre = walk every day;;
+If suki = swim and sukire = swim often, what does hanre mean?""";"""""";swim every day;;
 """Context Examples:
 mya = parent → myashi = honorable parent
 
@@ -138,11 +138,11 @@ bamu = hello → bamujo = formal greeting
 kyu = you → kyujo = formal ""you""
 
 Question:
-If domay = friend and domayshi = respected friend, what does domayjo mean?""";"""formal friend / polite acquaintance""";domayjo = formal greeting to a friend;;
+If domay = friend and domayshi = respected friend, what does domayjo mean?""";"""formal friend / polite acquaintance""";Respected friend;;
 """Context Examples:
 suki = swim → sukidaw = swimmer → sukidawbey = in a swimmer-like way
 
 kato = cut → katoti = make cut → katotizo = cutting tool → katotizoki = small cutter
 
 Question:
-If pya = speak, pyadaw = speaker, pyadawbey = speaker-like, what does pyatizoki likely mean?""";"""small speaking tool / little device for making speech""";small speaker;;
+If pya = speak, pyadaw = speaker, pyadawbey = speaker-like, what does pyatizoki likely mean?""";"""small speaking tool / little device for making speech""";speaker-like cutter;;

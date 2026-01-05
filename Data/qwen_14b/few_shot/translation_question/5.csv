@@ -2,15 +2,15 @@ Prompt;Target Output;Actual Output;Bleu Score;chrF Score
 """Rule: goy = thing, hay = have, homu = calm, hagu = story.
 Dasopya → English
 Sentence:
-goy i hay e homu hagu""";"""The thing has a calm story.""";I have a calm story.;;
+goy i hay e homu hagu""";"""The thing has a calm story.""";thing I have it calm story;;
 """Rule: bote = blue, *e* for adjectives, swe = they.
 English → Dasopya
 Sentence:
-They are blue.""";"""swe e bote""";swe bote*e*;;
+They are blue.""";"""swe e bote""";swe bote*e;;
 """Rule: lon = when, masu = morning, *a* subject marker if subject not first.
 Dasopya → English
 Sentence:
-lon e masu, a bay i plu""";"""When it is morning, I go.""";In the morning, I will go.;;
+lon e masu, a bay i plu""";"""When it is morning, I go.""";when it is morning, bay plu a;;
 """Rule: kwe = invert, gwi = good, baw = more.
 English → Dasopya
 Sentence:

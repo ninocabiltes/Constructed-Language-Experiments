@@ -17,9 +17,7 @@ Sentence Sample:
 begu bay i myu mye gati e pika.
 Question:
 Is this sentence grammatical according to the rules above? Translate it to English.""";"""Yes, it is grammatical.
-Translation: If I would have caught the bug. / If I had caught the bug.""";"Yes, the sentence is grammatical.
-
-Translation: ""If I would catch a bug.""";;
+Translation: If I would have caught the bug. / If I had caught the bug.""";Would catch bug.;;
 """New Vocab:
 sene (clean)
 
@@ -35,7 +33,7 @@ e marks predicate noun.
 Sentence Sample:
 swe e kwe senegen.
 Question:
-What does kwe senegen mean?""";"""Uncleanliness/ dirtiness""";"Invert the root ""sen"" with the prefix ""kwe"", then add the suffix ""-gen"" (abstract noun). The result is ""senegen"". Since ""e"" marks a predicate noun, it means ""cleanliness"". Therefore, ""swe e kwe senegen"" translates to ""What is cleanliness?""";;
+What does kwe senegen mean?""";"""Uncleanliness/ dirtiness""";"Inverted sense of clean is unclean. So, ""kwe senegen"" means uncleanliness.";;
 """New Vocab:
 lato (liquid)
 
@@ -57,7 +55,7 @@ swe i hay e lato boylaw podo.
 Question:
 Is this sentence grammatical? Where is the liquid?""";"""Target Output:
 Yes, it is grammatical.
-The liquid is inside the dirt.""";Yes, the sentence is grammatical. The liquid (lato) is inside the dirt (podo).;;
+The liquid is inside the dirt.""";Inside the dirt.;;
 """New Vocab:
 suki (to swim)
 
@@ -73,7 +71,7 @@ Verb can be intransitive.
 Sentence Sample:
 i yoy suki e liso!
 Question:
-What is this a command to do?""";"""Swim in the water!""";To swim.;;
+What is this a command to do?""";"""Swim in the water!""";To swim in the water!;;
 """New Vocab:
 bese (pretty)
 
@@ -89,4 +87,4 @@ Adjective follows e.
 Sentence Sample:
 kay a pin hasu byubese e?
 Question:
-Is this sentence grammatical? explain.""";"""No it is not grammatical.""";Yes, the sentence is grammatical.;;
+Is this sentence grammatical? explain.""";"""No it is not grammatical.""";What a lovely flower is the most pretty!;;

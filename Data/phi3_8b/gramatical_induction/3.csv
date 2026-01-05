@@ -17,7 +17,7 @@ Sentence Sample:
 begu bay i myu mye gati e pika.
 Question:
 Is this sentence grammatical according to the rules above? Translate it to English.""";"""Yes, it is grammatical.
-Translation: If I would have caught the bug. / If I had caught the bug.""";"Yes, the sentence is grammatical according to the given rules. The translation into English would be ""If I had caught a bug.""";;
+Translation: If I would have caught the bug. / If I had caught the bug.""";"Yes, ""Begu Bay I would catch a bug"" is grammatical in accordance with the provided language rules and translates to its respective meaning as per my understanding of contextual translation based on given examples. However, please note that this interpretation might not be entirely accurate due to limited information available for constructing an exact grammar rule set or vocabulary usage within a specific cultural or linguistic framework in real-world scenarios.";;
 """New Vocab:
 sene (clean)
 
@@ -33,7 +33,7 @@ e marks predicate noun.
 Sentence Sample:
 swe e kwe senegen.
 Question:
-What does kwe senegen mean?""";"""Uncleanliness/ dirtiness""";Inverted clean abstract ness (impurity);;
+What does kwe senegen mean?""";"""Uncleanliness/ dirtiness""";Inverted clean abstractness.;;
 """New Vocab:
 lato (liquid)
 
@@ -55,7 +55,7 @@ swe i hay e lato boylaw podo.
 Question:
 Is this sentence grammatical? Where is the liquid?""";"""Target Output:
 Yes, it is grammatical.
-The liquid is inside the dirt.""";"Yes, it's grammatical in our constructed language; the liquid (lato) is inside dirt (podo). The location phrase follows the verb ""swe i hay,"" indicating that 'I sweep.' So, if we translate this to English while maintaining structure: ""I sweep lato boylaw podo.""";;
+The liquid is inside the dirt.""";"Yes, it's a grammatically correct sentence in this constructed language where ""lato"" means liquid and comes after the verb as per rule #3; hence 'e lato'. The location of the liquid follows the action word which seems to be implied by context. However, without explicit information about what each part represents (like subject or object), it's hard to determine exactly where in a physical sense this sentence would place the liquid within an environment as we don't have equivalent words for 'I', 'am', and other common English parts of speech that provide clearer syntactic structure.";;
 """New Vocab:
 suki (to swim)
 
@@ -87,4 +87,4 @@ Adjective follows e.
 Sentence Sample:
 kay a pin hasu byubese e?
 Question:
-Is this sentence grammatical? explain.""";"""No it is not grammatical.""";"Yes, the sentence is grammatically correct according to the provided rules and vocabulary. The structure adheres to ""adjective + noun + most (superlative)"". In English translation it would be ""Is a pretty flower the best?""";;
+Is this sentence grammatical? explain.""";"""No it is not grammatical.""";"Yes, the sentence is grammatically correct according to the provided rules and vocabulary. It translates to ""Is this pretty flower?"" in English. The structure follows an adjective (beautiful) after 'e' as per rule one, with 'bese' being used for beautiful or pretty which fits into our new vocabulary.";;

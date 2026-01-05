@@ -3,17 +3,18 @@ Prompt;Target Output;Actual Output;Bleu Score;chrF Score
 bade = strong
 byu = most
 Question:
-What does byubade most likely mean?""";"""Strongest""";Most Strong;;
+What does byubade most likely mean?""";"""Strongest""";"
+Strongest (or Most Strong)";;
 """Word/Rule:
 pana = hand
 goy = thing
 Question:
-What does panagoy most likely mean?""";"""hand-thing / tool / glove""";Hand-thing;;
+What does panagoy most likely mean?""";"""hand-thing / tool / glove""";Handthing;;
 """Word/Rule:
 toso = sound
 doso = device
 Question:
-What does tosodoso most likely mean?""";"""Speaker / phone""";Sound device;;
+What does tosodoso most likely mean?""";"""Speaker / phone""";sounddevice;;
 """Word/Rule:
 lano = bread
 tako = container
@@ -23,17 +24,17 @@ What does lanotako most likely mean?""";"""bread container / breadbox""";Bread c
 gyu = in front
 kwe = invert
 Question:
-What does kwegyu most likely mean?""";"""behind""";Invert gyu (inverted before);;
+What does kwegyu most likely mean?""";"""behind""";Invert Front;;
 """Word/Rule:
 pome = soft
 bey = -ly
 Question:
-What does pomebey most likely mean?""";"""softly""";Softly;;
+What does pomebey most likely mean?""";"""softly""";soft-ly;;
 """Word/Rule:
 swa = to be
 sume = mature
 Question:
-In swe e sume, what part of speech is sume?""";"""Adjective (mature)""";Noun;;
+In swe e sume, what part of speech is sume?""";"""Adjective (mature)""";noun;;
 """Word/Rule:
 mye = before
 hay = have
@@ -43,9 +44,9 @@ What does mye hay most likely mean?""";"""Had / already have""";Before I have;;
 koy = far
 kwe = invert
 Question:
-What does kwekoy most likely mean?""";"""close / nearby""";Inverted far;;
+What does kwekoy most likely mean?""";"""close / nearby""";Invert far;;
 """Word/Rule:
 syo = life
 gen = -ness
 Question:
-What does syogen most likely mean?""";"""life-ness / vitality""";Life-lessness;;
+What does syogen most likely mean?""";"""life-ness / vitality""";Life-ness;;

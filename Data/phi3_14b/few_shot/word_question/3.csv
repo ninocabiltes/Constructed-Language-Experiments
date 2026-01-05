@@ -8,7 +8,7 @@ What does moseygen most likely mean?""";"""interestingness""";Interesting-ness;;
 pya = talk
 lase = fast
 Question:
-What does pyalase most likely mean?""";"""fast talk / rap""";Talk fast;;
+What does pyalase most likely mean?""";"""fast talk / rap""";talkfast;;
 """Word/Rule:
 day = give
 u = indirect object particle
@@ -18,7 +18,7 @@ In bay i day u kyu e lano, what is the indirect object?""";"""kyu (you)""";kyu;;
 law = inside
 kwe = invert
 Question:
-What does kwelaw most likely mean?""";"""outside""";Inverted law;;
+What does kwelaw most likely mean?""";"""outside""";outside;;
 """Word/Rule:
 sote = hot
 bey = -ly
@@ -28,7 +28,7 @@ What does sotebey most likely mean?""";"""hotly""";hotly;;
 gwi = good
 baw = more
 Question:
-What does bawgwi most likely mean?""";"""better""";More good;;
+What does bawgwi most likely mean?""";"""better""";gooder;;
 """Word/Rule:
 suka = sibling
 moy = multiple
@@ -38,12 +38,12 @@ What does moysuka most likely mean?""";"""siblings""";Multiple siblings;;
 dey = animal
 sun = -like
 Question:
-What does deysun most likely mean?""";"""animal-like""";Dey-sun most likely means an animal that is sun-like.;;
+What does deysun most likely mean?""";"""animal-like""";Dey-sun most likely means an animal that resembles or has characteristics similar to the sun, possibly referring to a brightly colored or warm creature.;;
 """Word/Rule:
 loy = see
 gen = -ness
 Question:
-What does loygen most likely mean?""";"""sight / vision""";Loyness, seeing-ness.;;
+What does loygen most likely mean?""";"""sight / vision""";see-ness;;
 """Word/Rule:
 taku = cause / because
 gen = -ness

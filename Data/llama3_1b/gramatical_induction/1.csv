@@ -28,7 +28,7 @@ No article (“a/the”) needed.
 Sentence Sample:
 kado e lake.
 Question:
-What does this mean in English?""";"""The box is red.""";"What does the sentence ""kado e lake"" mean in English?";;
+What does this mean in English?""";"""The box is red.""";kado e lake.;;
 """New Vocab:
 seba (snake)
 
@@ -56,8 +56,10 @@ Subject marked with a if not first.
 Sentence Sample:
 kay a swe i doyi e sutu?
 Question:
-What is this asking?""";"""Do they follow the order?""";"kay a sutu?
-Question: What order?";;
+What is this asking?""";"""Do they follow the order?""";"kay a sutu
+subject: if
+verb: mark
+sentence sample: kay a sutu if e doyi.";;
 """New Vocab:
 haso (village)
 
@@ -71,4 +73,4 @@ Attach directly to noun.
 Sentence Sample:
 moydaw i plu e law haso.
 Question:
-What does moydaw mean?""";"""(Many) people / people (plural).""";moydaw;;
+What does moydaw mean?""";"""(Many) people / people (plural).""";dawi;;

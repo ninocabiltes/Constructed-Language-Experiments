@@ -2,7 +2,7 @@ Prompt;Target Output;Actual Output;Bleu Score;chrF Score
 """Rule: teso = relative clause marker (“that/which”). gwi = good.
 Dasopya → English
 Sentence:
-bay i dani e kopo teso e gwi""";"""I like books that are good.""";Bay I dani e kopo teso e gwi -> He gave me a cup that is good.;;
+bay i dani e kopo teso e gwi""";"""I like books that are good.""";That which is good for danie kopo;;
 """Rule: mabo = eat/food, law = inside, kuto = school.
 English → Dasopya
 Sentence:
@@ -18,4 +18,4 @@ The fish is blue.""";"""sapa e bote""";The fish is bote.;;
 """Rule: kay = question marker, dani = like, lenu = art.
 Dasopya → English
 Sentence:
-kay a kyu i dani e lenu?""";"""Do you like art?""";Do you like art?;;
+kay a kyu i dani e lenu?""";"""Do you like art?""";Are you like art?;;

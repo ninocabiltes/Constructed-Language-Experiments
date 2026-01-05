@@ -3,52 +3,49 @@ Prompt;Target Output;Actual Output;Bleu Score;chrF Score
 mosey = interesting
 gen = -ness
 Question:
-What does moseygen most likely mean?""";"""interestingness""";moseygen = wandering;;
+What does moseygen most likely mean?""";"""interestingness""";moseygen = amuse;;
 """Word/Rule:
 pya = talk
 lase = fast
 Question:
-What does pyalase most likely mean?""";"""fast talk / rap""";"pya = talk
-lase = fast
-pyalase = to speak quickly";;
+What does pyalase most likely mean?""";"""fast talk / rap""";paya = yell;;
 """Word/Rule:
 day = give
 u = indirect object particle
 Question:
-In bay i day u kyu e lano, what is the indirect object?""";"""kyu (you)""";bay;;
+In bay i day u kyu e lano, what is the indirect object?""";"""kyu (you)""";lano;;
 """Word/Rule:
 law = inside
 kwe = invert
 Question:
-What does kwelaw most likely mean?""";"""outside""";kwelaw means to turn inside out.;;
+What does kwelaw most likely mean?""";"""outside""";kwelaw = outside;;
 """Word/Rule:
 sote = hot
 bey = -ly
 Question:
-What does sotebey most likely mean?""";"""hotly""";sotebey = cold;;
+What does sotebey most likely mean?""";"""hotly""";tobe;;
 """Word/Rule:
 gwi = good
 baw = more
 Question:
-What does bawgwi most likely mean?""";"""better""";bawgwi = better;;
+What does bawgwi most likely mean?""";"""better""";bawgwi = happy;;
 """Word/Rule:
 suka = sibling
 moy = multiple
 Question:
-What does moysuka most likely mean?""";"""siblings""";"moysuka: ""multiple siblings""";;
+What does moysuka most likely mean?""";"""siblings""";moysuka = many siblings;;
 """Word/Rule:
 dey = animal
 sun = -like
 Question:
-What does deysun most likely mean?""";"""animal-like""";deysun = deer;;
+What does deysun most likely mean?""";"""animal-like""";deer;;
 """Word/Rule:
 loy = see
 gen = -ness
 Question:
-What does loygen most likely mean?""";"""sight / vision""";loygen = seeing;;
+What does loygen most likely mean?""";"""sight / vision""";see-gen;;
 """Word/Rule:
 taku = cause / because
 gen = -ness
 Question:
-What does takugen most likely mean?""";"""cause / origin-ness""";"taku = cause / because
-gen = -ness";;
+What does takugen most likely mean?""";"""cause / origin-ness""";gaike;;

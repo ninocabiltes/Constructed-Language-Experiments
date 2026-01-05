@@ -3,18 +3,18 @@ Prompt;Target Output;Actual Output;Bleu Score;chrF Score
 sun = similar / -like
 daw = person
 Question:
-What does sundaw most likely mean?""";"""person-like / humanoid""";similar-like person;;
+What does sundaw most likely mean?""";"""person-like / humanoid""";similar person like;;
 """Word/Rule:
 tay = many / very
 daw = person
 Question:
-What does tay daw most likely mean?""";"""many people""";Many people.;;
+What does tay daw most likely mean?""";"""many people""";Many people;;
 """Word/Rule:
 homu = calm
 kwe = invert prefix
 segu = music
 Question:
-What does kwehomusegu most likely mean?""";"""chaotic music/ rock music""";invert calm music;;
+What does kwehomusegu most likely mean?""";"""chaotic music/ rock music""";"Invert prefix ""kwe"" + calm ""homu"" + music ""segu"" = Invert music to be calm";;
 """Word/Rule:
 begu = if
 myu = would
@@ -24,19 +24,19 @@ In begu bay i myu plu, what tense is plu?""";"""Conditional future / would go"""
 tamye = fun
 bey = -ly
 Question:
-What does tamyebey most likely mean?""";"""funnily / in a fun way""";Fun-ly;;
+What does tamyebey most likely mean?""";"""funnily / in a fun way""";Playfully;;
 """Word/Rule:
 mye = before / already
 plu = to go
 Question:
 What does mye plu most likely mean?""";"""went / already go
 ""
-""";already to go;;
+""";already going;;
 """Word/Rule:
 pomo = egg
 sun = -like
 Question:
-What does pomosun most likely mean?""";"""egg-like""";Egg-like.;;
+What does pomosun most likely mean?""";"""egg-like""";Egg-like;;
 """Word/Rule:
 pay = up / above
 kwe = invert prefix
@@ -51,4 +51,4 @@ What does kwegwi most likely mean?""";"""bad""";Good;;
 moy = multiple
 bay = me
 Question:
-What does moybay most likely mean?""";"""we / us""";Multiple me.;;
+What does moybay most likely mean?""";"""we / us""";Me multiple;;

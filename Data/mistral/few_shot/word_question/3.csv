@@ -3,37 +3,37 @@ Prompt;Target Output;Actual Output;Bleu Score;chrF Score
 mosey = interesting
 gen = -ness
 Question:
-What does moseygen most likely mean?""";"""interestingness""";" Moseygen most likely means ""interestingness.""";;
+What does moseygen most likely mean?""";"""interestingness""";" moseygen most likely means ""interestingness""";;
 """Word/Rule:
 pya = talk
 lase = fast
 Question:
-What does pyalase most likely mean?""";"""fast talk / rap""";" pyaLase most likely means ""fast talking."" This is derived from the given definitions for 'pya' meaning 'talk' and 'lase' meaning 'fast.'";;
+What does pyalase most likely mean?""";"""fast talk / rap""";" pyaalase most likely means ""fast talking"".";;
 """Word/Rule:
 day = give
 u = indirect object particle
 Question:
-In bay i day u kyu e lano, what is the indirect object?""";"""kyu (you)""";" The indirect object in ""In bay i day u kyu e lano"" would be ""kyu"".";;
+In bay i day u kyu e lano, what is the indirect object?""";"""kyu (you)"""; kyu;;
 """Word/Rule:
 law = inside
 kwe = invert
 Question:
-What does kwelaw most likely mean?""";"""outside""";" Most likely, kwelaw means ""outside"". Since law means ""inside"" and kwe means ""invert"", the inverse of inside would be outside.";;
+What does kwelaw most likely mean?""";"""outside"""; insideinverted;;
 """Word/Rule:
 sote = hot
 bey = -ly
 Question:
-What does sotebey most likely mean?""";"""hotly""";" sotebey most likely means ""hotly"".";;
+What does sotebey most likely mean?""";"""hotly"""; hotly;;
 """Word/Rule:
 gwi = good
 baw = more
 Question:
-What does bawgwi most likely mean?""";"""better""";" bawgwi most likely means ""more good.""";;
+What does bawgwi most likely mean?""";"""better""";" gwibaw (combining ""gwi"" and ""baw"" in the given order) most likely means ""more good"".";;
 """Word/Rule:
 suka = sibling
 moy = multiple
 Question:
-What does moysuka most likely mean?""";"""siblings""";" moysuka most likely means ""multiple siblings.""";;
+What does moysuka most likely mean?""";"""siblings""";" moysuka most likely means ""multiple siblings"".";;
 """Word/Rule:
 dey = animal
 sun = -like
@@ -43,9 +43,9 @@ What does deysun most likely mean?""";"""animal-like"""; animal-like;;
 loy = see
 gen = -ness
 Question:
-What does loygen most likely mean?""";"""sight / vision""";" Loygen most likely means ""seeingness.""";;
+What does loygen most likely mean?""";"""sight / vision"""; seeness;;
 """Word/Rule:
 taku = cause / because
 gen = -ness
 Question:
-What does takugen most likely mean?""";"""cause / origin-ness""";" Takugen most likely means ""causeness"" or ""because-ness"".";;
+What does takugen most likely mean?""";"""cause / origin-ness"""; causeness;;

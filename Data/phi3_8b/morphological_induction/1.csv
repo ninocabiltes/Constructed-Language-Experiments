@@ -6,7 +6,7 @@ doso = machine → dosoki = small machine (device/tool)
 pilo = bird → pilodo = big bird (eagle/large bird)
 
 Question:
-If gwa = house and gwaki = cottage, what does gwanodo mean?""";"""large room / hall""";big eagle;;
+If gwa = house and gwaki = cottage, what does gwanodo mean?""";"""large room / hall""";big bird (eagle/large bird);;
 """Context Examples:
 gwi = good → soygwi = not good (bad)
 
@@ -19,11 +19,25 @@ kwe + gwi = kwegwi = bad (opposite of good)
 kwe + sole = kwesole = unhappy/sad
 
 Question:
-What is the difference between kwehate and soyhate if hate = dangerous?""";"""kwehate = safe (opposite), soyhate = not dangerous (neutral)""";"Since ""hate"" isn't defined in terms of a prefix, we cannot determine its opposite. Therefore, without additional information about how to form opposites with this term, it remains unknown whether there is an equivalent for ""soyhate."" However, based on the pattern provided:
+What is the difference between kwehate and soyhate if hate = dangerous?""";"""kwehate = safe (opposite), soyhate = not dangerous (neutral)""";"Since no information about ""hate"" or its negation has been provided in the examples, we cannot accurately translate these terms based on given rules. However, by analogy to other prefixes:
 
-kwe + gwi = kwegwi (bad)
+kwe + gwi (bad) → kwegwi (opposite of good/goodness)
 
-If hate were similar in structure and we apply a hypothetical prefix rule analogous to those given, then potentially soyhate could be neutral or another defined state if ""so-"" is considered as an opposite of the base term. But since this isn't explicitly stated, it remains unknown without further information on how opposites are formed with terms starting with 'so'.";;
+kwe + sole (unhappy/sad) → kwesole (not happy/neutral or sad but not necessarily dangerous as no information about danger has been provided.)
+
+Therefore, without additional context:
+
+kwehate = unknown term based on given rules.
+
+soyhate = neutral to unhappy since ""sole"" is associated with happiness and its negation would be a state of being neither happy nor sad (neutral/sad). 
+
+Since the prompt does not provide information about how hate relates to danger, we cannot definitively translate kwehate in terms of dangerous. However, if one were to make an assumption based on common interpretations:
+
+kwe + gwi = bad → kwegwi (opposite of good/goodness) 
+
+If ""bad"" is associated with negative connotations and we assume that danger could be a subset or related concept within negativity, then by analogy one might infer:
+
+kwehate = dangerous.";;
 """Context Examples:
 plu = to go → pluti = to make go/move (something)
 
@@ -32,7 +46,7 @@ loy = to see → loyti = to show (make see)
 suki = to swim → sukiha = to want to swim
 
 Question:
-If paki = to find and pakiha = to want to find, what does pakiti mean?""";"""to make find / to help find / to cause to be found""";To make go/move something.;;
+If paki = to find and pakiha = to want to find, what does pakiti mean?""";"""to make find / to help find / to cause to be found""";To make go/move something found.;;
 """Context Examples:
 toga = body → togapa = body part
 
@@ -43,7 +57,7 @@ kyu = you → hoykyu = yours
 bay = me → hoybay = mine
 
 Question:
-If paka = head and pakapa = part of head (face/skull), what does hoypaka mean?""";"""belonging to the head / head's""";Head part belonging to someone.;;
+If paka = head and pakapa = part of head (face/skull), what does hoypaka mean?""";"""belonging to the head / head's""";Your face or facial features.;;
 """Context Examples:
 mabo = eat → mabole = to eat regularly
 
@@ -65,11 +79,10 @@ segu = music → segusu = musician
 lenu = art → lenusu = artist
 
 Question:
-If kami = to buy, what does kamidaw mean?""";"""buyer/shopper""";"kamibuydera
+If kami = to buy, what does kamidaw mean?""";"""buyer/shopper""";"kamibuyor
 
 
-
-";;
+Translation Explande: The word ""kamidaw"" would imply a person who buys. Since the prompt provides an example of how verbs are turned into nouns by adding ""-dow,"" we apply this rule to create ""kamibuyor."" However, since there is no direct precedent for turning actions related to commerce into specific roles or titles in our examples (as with eating and drinking), the translation provided follows a logical extension of the pattern.";;
 """Context Examples:
 sapa = fish → sapamu = school of fish
 
@@ -89,7 +102,7 @@ bote = blue → botene = somewhat blue
 lake = red → lakene = somewhat red
 
 Question:
-If bade = strong and badefo = too strong, what does badene mean?""";"""somewhat strong / strongish""";unknown strength level.;;
+If bade = strong and badefo = too strong, what does badene mean?""";"""somewhat strong / strongish""";Stronger than normal.;;
 """Context Examples:
 kuto = school → kutodin = school location
 
@@ -109,7 +122,7 @@ sole = happy → soleta = happiness (state)
 bade = strong → badevi = strength (quality)
 
 Question:
-If gwi = good and gwivi = goodness, what does gwita mean?""";"""state of being good / goodness (as a condition)""";Goodness state.;;
+If gwi = good and gwivi = goodness, what does gwita mean?""";"""state of being good / goodness (as a condition)""";Goodness of state.;;
 """Context Examples:
 pya = speak → pyazo = speaking tool (microphone)
 
@@ -118,7 +131,7 @@ kato = cut → katozo = cutting tool (knife)
 plu = go → plumo = means of going (vehicle)
 
 Question:
-If doli = write and dolizo = writing tool (pen), what does dolimo mean?""";"""means of writing (method/process)""";Dolimo - a mode or method of transportation.;;
+If doli = write and dolizo = writing tool (pen), what does dolimo mean?""";"""means of writing (method/process)""";Dolimo = place for writing (desk or table).;;
 """Context Examples:
 kapi = break → kapira = breakage (result)
 
@@ -127,7 +140,7 @@ syu = make → syura = product/creation
 doli = write → dolibu = writing/text
 
 Question:
-If kami = buy and kamira = purchase (result), what does kamibu mean?""";"""bought item / purchase (product)""";kamibu = buying/purchase process.;;
+If kami = buy and kamira = purchase (result), what does kamibu mean?""";"""bought item / purchase (product)""";kamibu = buying process or transaction.;;
 """sami = walk → samire = walk often
 
 mabo = eat → mabore = eat frequently
@@ -137,7 +150,8 @@ han = day → hanpe = every day
 sebo = week → sebope = every week
 
 Question:
-If suki = swim and sukire = swim often, what does hanre mean?""";"""""";Han means go out.;;
+If suki = swim and sukire = swim often, what does hanre mean?""";"""""";"
+Every day. (Assuming the pattern of adding ""-often"" to indicate frequency continues.)";;
 """Context Examples:
 mya = parent → myashi = honorable parent
 
@@ -146,11 +160,11 @@ bamu = hello → bamujo = formal greeting
 kyu = you → kyujo = formal ""you""
 
 Question:
-If domay = friend and domayshi = respected friend, what does domayjo mean?""";"""formal friend / polite acquaintance""";Friendly acquaintance.;;
+If domay = friend and domayshi = respected friend, what does domayjo mean?""";"""formal friend / polite acquaintance""";Domayjo means honorable friend.;;
 """Context Examples:
 suki = swim → sukidaw = swimmer → sukidawbey = in a swimmer-like way
 
 kato = cut → katoti = make cut → katotizo = cutting tool → katotizoki = small cutter
 
 Question:
-If pya = speak, pyadaw = speaker, pyadawbey = speaker-like, what does pyatizoki likely mean?""";"""small speaking tool / little device for making speech""";Cutter for speaking tools.;;
+If pya = speak, pyadaw = speaker, pyadawbey = speaker-like, what does pyatizoki likely mean?""";"""small speaking tool / little device for making speech""";pyatizoki likely means a speaking device or something that facilitates speech.;;

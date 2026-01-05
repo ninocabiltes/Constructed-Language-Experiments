@@ -1,6 +1,8 @@
 Prompt;Target Output;Actual Output;Bleu Score;chrF Score
 """Translate to English Sentence: e teno.""";"""There is snow. / It is snowing.""";I have it.;;
-"""Translate to English: bay i loy e pila teso i bali.""";"""I watch a bird that flies.""";I don't have enough context to translate that phrase without prior knowledge or assumptions, which are not allowed per your instructions.;;
-"""Translate to English: sapye.""";"""Cool. / I’m cool.""";"The term ""sapye"" is not explicitly defined in the given prompt or current chat history. Treat it as an unknown term.";;
-"""Translate to English: swe hugwa i mye pindinbuli.""";"""He (and his dog) arrived here.""";"I don't have enough information to translate this phrase as no language or context was provided for ""swe hugwa i mye pindinbuli"".";;
-"""Translate to English: pila i bali.""";"""A bird flies.""";pile and ball;;
+"""Translate to English: bay i loy e pila teso i bali.""";"""I watch a bird that flies.""";the money loaned was in large bills.;;
+"""Translate to English: sapye.""";"""Cool. / I’m cool.""";sleep;;
+"""Translate to English: swe hugwa i mye pindinbuli.""";"""He (and his dog) arrived here.""";"I don't have enough context to translate this phrase accurately as it appears to be in a language not specified and without further details, I cannot provide an exact translation. However, adhering strictly to the instruction given:
+
+swe hugwa i mye pindinbuli";;
+"""Translate to English: pila i bali.""";"""A bird flies.""";pile up the rice;;

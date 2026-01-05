@@ -3,49 +3,49 @@ Prompt;Target Output;Actual Output;Bleu Score;chrF Score
 sapye = excellent
 tay = very
 Question:
-What does tay sapye most likely mean?""";"""very excellent / awesome"""; Very excellent;;
+What does tay sapye most likely mean?""";"""very excellent / awesome"""; very excellent;;
 """Word/Rule:
 lesu = straight
 gen = -ness
 Question:
-What does lesugen most likely mean?""";"""straightness"""; Straight-ness;;
+What does lesugen most likely mean?""";"""straightness"""; straitness;;
 """Word/Rule:
 hagu = story
 sun = -like
 Question:
-What does hagusun most likely mean?""";"""story-like / fictional""";" Hagusun most likely means ""-story-like.""";;
+What does hagusun most likely mean?""";"""story-like / fictional"""; story-like;;
 """Word/Rule:
 kya = what
 daw = person
 Question:
-What does kyadaw most likely mean?""";"""Who""";" kyadaw most likely means ""what kind of person"".";;
+What does kyadaw most likely mean?""";"""Who""";" kyadaw most likely means ""what kind of person"" or ""what sort of person"".";;
 """Word/Rule:
 begu = if
 tey = can
 Question:
-In begu bay i tey, what does tey mean?""";"""can / be able""";" In the given context, ""tey"" means ""can"".";;
+In begu bay i tey, what does tey mean?""";"""can / be able"""; can;;
 """Word/Rule:
 boy = preposition marker
 law = inside
 Question:
-What does boylaw clarify?""";"""That law is used as a preposition (“inside”)"""; Boylaw clarifies that something is inside a boy (a container or a person named Boy).;;
+What does boylaw clarify?""";"""That law is used as a preposition (“inside”)"""; Inside a (specific location or concept).;;
 """Word/Rule:
 kwetaw = same
 gwi = good
 Question:
-What does kwetaw gwi most likely mean?""";"""equally good / same good"""; Good same;;
+What does kwetaw gwi most likely mean?""";"""equally good / same good"""; same good;;
 """Word/Rule:
 telu = to / in order to
 mabosyu = to make food
 Question:
-What does telu mabosyu most likely mean?""";"""in order to make food"""; Make food to.;;
+What does telu mabosyu most likely mean?""";"""in order to make food"""; make food in order to;;
 """Word/Rule:
 yoy = hey/command marker
 plu = go
 Question:
-What does i yoy plu mean?""";"""Go! (command)""";" i yoy plu means ""go hey"".";;
+What does i yoy plu mean?""";"""Go! (command)"""; goes (or command) it (hey);;
 """Word/Rule:
 titu = precise
 bey = -ly
 Question:
-What does titu bey most likely mean?""";"""precisely / exactly"""; titu bey likely means precisely-ly, as the 'bey' suffix in this context is used to form an adverb from an adjective.;;
+What does titu bey most likely mean?""";"""precisely / exactly"""; titu bey likely means precisely.;;

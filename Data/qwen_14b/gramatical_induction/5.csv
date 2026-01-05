@@ -24,7 +24,7 @@ Verb stacking allowed.
 Sentence Sample:
 begu bay i myu mye lati u kyu e melo sehu.
 Question:
-Translate to English.""";"""If I would have borrowed 100 money from you. / If I had borrowed 100 units of money from you.""";I would borrow for him a hundred dollars if I could.;;
+Translate to English.""";"""If I would have borrowed 100 money from you. / If I had borrowed 100 units of money from you.""";I would borrow for him if I had a hundred dollars.;;
 """New Vocab:
 sume (mature)
 
@@ -50,8 +50,8 @@ No i for “to be”.
 Sentence Sample:
 sume twikutodaw.
 Question:
-What does this mean vs. sumekutodaw?""";"""Adult student (adult + school-person) vs. college student (adult-school + person).""";"sume twikutodaw means a mature school person.
-sume kutiwodaw means a school mature person.";;
+What does this mean vs. sumekutodaw?""";"""Adult student (adult + school-person) vs. college student (adult-school + person).""";"sume kuto daw means a mature person from school.
+sume twikuto daw means a person from school who is mature.";;
 """New Vocab:
 degu (war)
 
@@ -77,7 +77,7 @@ i marks verb.
 Sentence Sample:
 degu teso e hido i hay boykwepay baso.
 Question:
-Where is the war located?""";"""Below the city.""";below the city;;
+Where is the war located?""";"""Below the city.""";The war is located below the city.;;
 """New Vocab:
 sole (happy)
 
@@ -131,4 +131,4 @@ i before verb phrase.
 Sentence Sample:
 bay i ludo u seya e hesa telu begu bay i myu hay e helu.
 Question:
-Translate to English.""";"""I protect the person from the shark so that I would have safety.""";I protect the person in order to if I must do it.;;
+Translate to English.""";"""I protect the person from the shark so that I would have safety.""";I protect the person in order to if I conditionally hate him.;;

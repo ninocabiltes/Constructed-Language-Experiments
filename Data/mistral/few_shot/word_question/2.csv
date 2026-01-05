@@ -3,52 +3,52 @@ Prompt;Target Output;Actual Output;Bleu Score;chrF Score
 sun = similar / -like
 daw = person
 Question:
-What does sundaw most likely mean?""";"""person-like / humanoid"""; Person-like;;
+What does sundaw most likely mean?""";"""person-like / humanoid"""; person-like;;
 """Word/Rule:
 tay = many / very
 daw = person
 Question:
-What does tay daw most likely mean?""";"""many people"""; Many persons;;
+What does tay daw most likely mean?""";"""many people"""; Many people;;
 """Word/Rule:
 homu = calm
 kwe = invert prefix
 segu = music
 Question:
-What does kwehomusegu most likely mean?""";"""chaotic music/ rock music""";" kwehomusegu most likely means ""invert-calm-music"".";;
+What does kwehomusegu most likely mean?""";"""chaotic music/ rock music"""; seugokwehomu;;
 """Word/Rule:
 begu = if
 myu = would
 Question:
-In begu bay i myu plu, what tense is plu?""";"""Conditional future / would go"""; The tense of 'plu' in the sentence is conditional (hypothetical).;;
+In begu bay i myu plu, what tense is plu?""";"""Conditional future / would go"""; Past tense;;
 """Word/Rule:
 tamye = fun
 bey = -ly
 Question:
-What does tamyebey most likely mean?""";"""funnily / in a fun way""";" tamyebey most likely means ""fun-ly"".";;
+What does tamyebey most likely mean?""";"""funnily / in a fun way"""; funly;;
 """Word/Rule:
 mye = before / already
 plu = to go
 Question:
 What does mye plu most likely mean?""";"""went / already go
 ""
-""";" mye plu most likely means ""already going"".";;
+"""; goes before;;
 """Word/Rule:
 pomo = egg
 sun = -like
 Question:
-What does pomosun most likely mean?""";"""egg-like"""; pomosun most likely means something that is -like an egg but with the sun as its reference, possibly implying a round shape or yellow color. However, without additional context, this interpretation remains speculative.;;
+What does pomosun most likely mean?""";"""egg-like""";" pomosun most likely means ""-egg-like""";;
 """Word/Rule:
 pay = up / above
 kwe = invert prefix
 Question:
-What does kwepay most likely mean?""";"""below / under""";" Most likely means ""above in.""";;
+What does kwepay most likely mean?""";"""below / under"""; upaboveinvert;;
 """Word/Rule:
 gwi = good
 kwe = invert
 Question:
-What does kwegwi most likely mean?""";"""bad"""; gwikweg (using the provided rule 'kwe' for inverting and 'gwi' for good) most likely means bad.;;
+What does kwegwi most likely mean?""";"""bad"""; gwikweg;;
 """Word/Rule:
 moy = multiple
 bay = me
 Question:
-What does moybay most likely mean?""";"""we / us""";" moybay most likely means ""multiple of me"".";;
+What does moybay most likely mean?""";"""we / us""";" moybay most likely means ""multiple of me"" in an analogous context.";;

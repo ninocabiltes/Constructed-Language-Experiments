@@ -2,24 +2,20 @@ Prompt;Target Output;Actual Output;Bleu Score;chrF Score
 """Rule: pin = this, kopo = book, taygwi = very good.
 Dasopya → English
 Sentence:
-pin kopo e taygwi""";"""This book is very good.""";pin kopo e taygwi;;
+pin kopo e taygwi""";"""This book is very good.""";taygwi dasopya;;
 """Rule: boti = want, tey = can, plu = go. Verb phrases stack.
 English → Dasopya
 Sentence:
-I want to be able to go.""";"""bay i boti tey plu""";"Boti = want
-Tey = can
-Plu = go
-Verb phrase: Boti + Tey + Plu
-Answer: Dasopya";;
+I want to be able to go.""";"""bay i boti tey plu""";topy;;
 """Rule: bey = -ly, pya = talk, lase = fast.
 Dasopya → English
 Sentence:
-kyu i pya lasebey""";"""You talk quickly.""";kya i pya lasbe;;
+kyu i pya lasebey""";"""You talk quickly.""";kuye pya lasbe;;
 """Rule: swe = they, milu = love, komya = family.
 English → Dasopya
 Sentence:
-They love their family.""";"""swe i milu e swe komya""";Dasopya milu komya.;;
+They love their family.""";"""swe i milu e swe komya""";milu dasopya;;
 """Rule: *u* = indirect object particle, day = give, lano = bread.
 Dasopya → English
 Sentence:
-bay i day u kyu e lano""";"""I give bread to you.""";bay i da u kyue lano;;
+bay i day u kyu e lano""";"""I give bread to you.""";kai;;

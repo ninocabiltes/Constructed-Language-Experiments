@@ -19,8 +19,7 @@ Sentence Sample:
 bay i dyu hebi kapi e kado.
 Question:
 Is this sentence grammatical according to the rules above? Translate it to English.""";"""Yes, it is grammatical.
-Translation: I will fit and break the box.""";"Yes, grammatical.
-Translation: I will fit and break the box.";;
+Translation: I will fit and break the box.""";"The sentence is grammatical according to the rules provided. Translation: ""I will fit and break the box.""";;
 """New Vocab:
 kesu (healthy)
 
@@ -37,7 +36,7 @@ Sentence Sample:
 swe e kwekesu.
 Question:
 Is this sentence grammatical? What does kwekesu mean?""";"""Yes, it is grammatical.
-kwekesu = unhealthy / not healthy.""";Yes, it is grammatical. kwekesu means unhealthy.;;
+kwekesu = unhealthy / not healthy.""";Yes, the sentence is grammatical. kwekesu means unhealthy.;;
 """New Vocab:
 sito (chair)
 
@@ -54,8 +53,7 @@ Sentence Sample:
 sito teso e sunu.
 Question:
 Is this sentence grammatical? Translate to English.""";"""Yes, it is grammatical.
-Translation: The chair that is comfortable.""";"Yes, grammatical.
-Translation: The chair that is comfortable.";;
+Translation: The chair that is comfortable.""";The chair which is comfortable.;;
 """New Vocab:
 jadi (to send)
 

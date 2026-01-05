@@ -8,7 +8,7 @@ What does moseygen most likely mean?""";"""interestingness""";interestingness;;
 pya = talk
 lase = fast
 Question:
-What does pyalase most likely mean?""";"""fast talk / rap""";talk fast;;
+What does pyalase most likely mean?""";"""fast talk / rap""";talkfast;;
 """Word/Rule:
 day = give
 u = indirect object particle
@@ -18,7 +18,7 @@ In bay i day u kyu e lano, what is the indirect object?""";"""kyu (you)""";kyu e
 law = inside
 kwe = invert
 Question:
-What does kwelaw most likely mean?""";"""outside""";inside invert or invert inside;;
+What does kwelaw most likely mean?""";"""outside""";inside invert;;
 """Word/Rule:
 sote = hot
 bey = -ly
@@ -43,9 +43,9 @@ What does deysun most likely mean?""";"""animal-like""";animal-like;;
 loy = see
 gen = -ness
 Question:
-What does loygen most likely mean?""";"""sight / vision""";loyness;;
+What does loygen most likely mean?""";"""sight / vision""";seeingness;;
 """Word/Rule:
 taku = cause / because
 gen = -ness
 Question:
-What does takugen most likely mean?""";"""cause / origin-ness""";cause-ness or because-ness;;
+What does takugen most likely mean?""";"""cause / origin-ness""";cause-ness;;

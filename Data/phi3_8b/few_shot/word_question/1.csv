@@ -5,13 +5,13 @@ bey = related / -ly
 
 Question:
 What does myabey most likely mean?""
-""";"""parental / parent-related""";Parent-related;;
+""";"""parental / parent-related""";Parent-related or not;;
 """Word/Rule:
 bya = male
 mya = parent
 
 Question:
-What does byamya most likely mean?""";"""father""";Male parent-in-law;;
+What does byamya most likely mean?""";"""father""";Male parent;;
 """Word/Rule:
 domay = friend
 bay = I / me
@@ -26,24 +26,30 @@ moy = multiple
 Question:
 What does moykyu most likely mean?""";"""you (plural)
 ""
-""";"Multiple of ""you""";;
+""";"
+Multiple yous";;
 """Word/Rule:
 dune = number
 gen = concept / -ness
 
 Question:
-What does dungen most likely mean?""";"""quantity / amount-ness""";Dungeoness (concept of being a dungeon);;
+What does dungen most likely mean?""";"""quantity / amount-ness""";number-ness;;
 """lenu = art
 syu = to do / make
 
 Question:
 What does lenusyu most likely mean?""";"""to make art""
-""";To create art;;
+""";"To create/make art
+
+
+Translation of ""lenusyu"" based on the provided rules and analogy from English words would be ""to create or produce art."" The term combines 'lu' (art) with '-syu,' which is analogous to 'do' in its function within a verb. Therefore, it suggests an action related to producing something of value—in this case, the valuable thing being referred to as 'art.'";;
 """bote = blue
 sun = similar / -like
 
 Question:
-What does botesun most likely mean?""";"""blue-like / bluish""";Blue-similar sun;;
+What does botesun most likely mean?""";"""blue-like / bluish""";"A shade of light, resembling or akin to both ""blue"" and the concept denoted by ""similar/like."" Since no direct definition for 'bote' is provided beyond its association with blue, we can infer that it refers to something within this spectrum. The term does not have an established meaning in English based on our current knowledge; thus, I am providing a speculative translation:
+
+""Botesun likely means the color or light quality resembling both 'blue' and another similar hue.""";;
 """Word/Rule:
 pila = bird
 lase = fast
@@ -58,10 +64,10 @@ Question:
 What does hagugoy most likely mean?
 
 Target Output:
-story-thing / book / tale object""";"""Story-thing / Storybook / book""";haguguy means a story-thing or a tale object.;;
+story-thing / book / tale object""";"""Story-thing / Storybook / book""";haguguyok;;
 """Word/Rule:
 swa = to be
 lase = fast
 
 Question:
-In swe i swa lase, what does lase modify?""";"""The verb “to be” — so “they are quickly”""";fast speed of being (to exist) in Swahili;;
+In swe i swa lase, what does lase modify?""";"""The verb “to be” — so “they are quickly”""";"In ""si we swa lase,"" the word 'lase' modifies a noun. However, without additional context or examples of how adjectives are used in this language to describe specific objects, it is impossible to determine exactly which noun 'lase' refers to based on the information provided alone.";;

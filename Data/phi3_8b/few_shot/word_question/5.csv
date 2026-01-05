@@ -8,27 +8,27 @@ What does tay sapye most likely mean?""";"""very excellent / awesome""";Very exc
 lesu = straight
 gen = -ness
 Question:
-What does lesugen most likely mean?""";"""straightness""";Straight-ness;;
+What does lesugen most likely mean?""";"""straightness""";straight-ness;;
 """Word/Rule:
 hagu = story
 sun = -like
 Question:
-What does hagusun most likely mean?""";"""story-like / fictional""";A sun-like story;;
+What does hagusun most likely mean?""";"""story-like / fictional""";A story like sun;;
 """Word/Rule:
 kya = what
 daw = person
 Question:
-What does kyadaw most likely mean?""";"""Who""";"A ""person who knows"" in a spiritual context.";;
+What does kyadaw most likely mean?""";"""Who""";"Person who asks ""what""";;
 """Word/Rule:
 begu = if
 tey = can
 Question:
-In begu bay i tey, what does tey mean?""";"""can / be able""";can;;
+In begu bay i tey, what does tey mean?""";"""can / be able""";"In begu bay I can, it means ""I am able to go in the beach.""";;
 """Word/Rule:
 boy = preposition marker
 law = inside
 Question:
-What does boylaw clarify?""";"""That law is used as a preposition (“inside”)""";"Boylaw clarifies that the word ""boy"" functions as a preposition marker, and ""law"" serves as an internal reference. However, without additional context or definitions within this prompt's universe, their specific meanings remain unclear beyond these roles.";;
+What does boylaw clarify?""";"""That law is used as a preposition (“inside”)""";"A person under legal age within a specific jurisdiction or context, as indicated by their association with the term ""law"" in this instance.";;
 """Word/Rule:
 kwetaw = same
 gwi = good
@@ -38,12 +38,12 @@ What does kwetaw gwi most likely mean?""";"""equally good / same good""";Same go
 telu = to / in order to
 mabosyu = to make food
 Question:
-What does telu mabosyu most likely mean?""";"""in order to make food""";To prepare meals;;
+What does telu mabosyu most likely mean?""";"""in order to make food""";To make food for the sake of something or someone.;;
 """Word/Rule:
 yoy = hey/command marker
 plu = go
 Question:
-What does i yoy plu mean?""";"""Go! (command)""";Hey, go!;;
+What does i yoy plu mean?""";"""Go! (command)""";Hey, Go!;;
 """Word/Rule:
 titu = precise
 bey = -ly

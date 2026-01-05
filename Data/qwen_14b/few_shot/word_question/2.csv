@@ -3,12 +3,12 @@ Prompt;Target Output;Actual Output;Bleu Score;chrF Score
 sun = similar / -like
 daw = person
 Question:
-What does sundaw most likely mean?""";"""person-like / humanoid""";similar-like person;;
+What does sundaw most likely mean?""";"""person-like / humanoid""";similar person;;
 """Word/Rule:
 tay = many / very
 daw = person
 Question:
-What does tay daw most likely mean?""";"""many people""";very person或多的意思是“很多人”;;
+What does tay daw most likely mean?""";"""many people""";many people;;
 """Word/Rule:
 homu = calm
 kwe = invert prefix
@@ -19,7 +19,7 @@ What does kwehomusegu most likely mean?""";"""chaotic music/ rock music""";calm 
 begu = if
 myu = would
 Question:
-In begu bay i myu plu, what tense is plu?""";"""Conditional future / would go""";future tense;;
+In begu bay i myu plu, what tense is plu?""";"""Conditional future / would go""";future conditional;;
 """Word/Rule:
 tamye = fun
 bey = -ly
@@ -31,7 +31,7 @@ plu = to go
 Question:
 What does mye plu most likely mean?""";"""went / already go
 ""
-""";already went;;
+""";before going;;
 """Word/Rule:
 pomo = egg
 sun = -like
@@ -41,12 +41,12 @@ What does pomosun most likely mean?""";"""egg-like""";egg-like;;
 pay = up / above
 kwe = invert prefix
 Question:
-What does kwepay most likely mean?""";"""below / under""";below/up below/invert pay;;
+What does kwepay most likely mean?""";"""below / under""";down above;;
 """Word/Rule:
 gwi = good
 kwe = invert
 Question:
-What does kwegwi most likely mean?""";"""bad""";kwegwi most likely means not good;;
+What does kwegwi most likely mean?""";"""bad""";bad;;
 """Word/Rule:
 moy = multiple
 bay = me

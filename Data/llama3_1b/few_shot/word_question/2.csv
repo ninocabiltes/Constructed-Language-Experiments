@@ -3,45 +3,45 @@ Prompt;Target Output;Actual Output;Bleu Score;chrF Score
 sun = similar / -like
 daw = person
 Question:
-What does sundaw most likely mean?""";"""person-like / humanoid""";sundaw = sun worshiper;;
+What does sundaw most likely mean?""";"""person-like / humanoid""";person;;
 """Word/Rule:
 tay = many / very
 daw = person
 Question:
-What does tay daw most likely mean?""";"""many people""";tay daw: a man;;
+What does tay daw most likely mean?""";"""many people""";many;;
 """Word/Rule:
 homu = calm
 kwe = invert prefix
 segu = music
 Question:
-What does kwehomusegu most likely mean?""";"""chaotic music/ rock music""";kwehomusegu = harmony;;
+What does kwehomusegu most likely mean?""";"""chaotic music/ rock music""";invert prefix;;
 """Word/Rule:
 begu = if
 myu = would
 Question:
-In begu bay i myu plu, what tense is plu?""";"""Conditional future / would go""";In begu bay i myu plu, the verb plu is in the future tense.;;
+In begu bay i myu plu, what tense is plu?""";"""Conditional future / would go""";i;;
 """Word/Rule:
 tamye = fun
 bey = -ly
 Question:
-What does tamyebey most likely mean?""";"""funnily / in a fun way""";tamyebey = play;;
+What does tamyebey most likely mean?""";"""funnily / in a fun way""";tamyebey;;
 """Word/Rule:
 mye = before / already
 plu = to go
 Question:
 What does mye plu most likely mean?""";"""went / already go
 ""
-""";"mye plu means ""before going""";;
+""";before go;;
 """Word/Rule:
 pomo = egg
 sun = -like
 Question:
-What does pomosun most likely mean?""";"""egg-like""";- like;;
+What does pomosun most likely mean?""";"""egg-like""";moonsun;;
 """Word/Rule:
 pay = up / above
 kwe = invert prefix
 Question:
-What does kwepay most likely mean?""";"""below / under""";kwepay = pay above;;
+What does kwepay most likely mean?""";"""below / under""";kwepay;;
 """Word/Rule:
 gwi = good
 kwe = invert
@@ -51,4 +51,4 @@ What does kwegwi most likely mean?""";"""bad""";kwegwi = turn upside down;;
 moy = multiple
 bay = me
 Question:
-What does moybay most likely mean?""";"""we / us""";moybay = moy bay;;
+What does moybay most likely mean?""";"""we / us""";moybay = my bay;;

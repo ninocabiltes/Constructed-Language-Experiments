@@ -1,6 +1,8 @@
 Prompt;Target Output;Actual Output;Bleu Score;chrF Score
-"""Translate to English Sentence: e teno.""";"""There is snow. / It is snowing.""";I don't understand.;;
-"""Translate to English: bay i loy e pila teso i bali.""";"""I watch a bird that flies.""";I don't understand the prompt.;;
-"""Translate to English: sapye.""";"""Cool. / I’m cool.""";Unknown.;;
-"""Translate to English: swe hugwa i mye pindinbuli.""";"""He (and his dog) arrived here.""";"I'm unable to translate the phrase because I don't recognize the words ""swe"", ""hugwa"", ""mye"", and ""pindinbuli"". They appear to be unknown words or a language not familiar to me.";;
-"""Translate to English: pila i bali.""";"""A bird flies.""";"I don't know what ""pila"" and ""bali"" mean, so I can't translate it.";;
+"""Translate to English Sentence: e teno.""";"""There is snow. / It is snowing.""";I have it.;;
+"""Translate to English: bay i loy e pila teso i bali.""";"""I watch a bird that flies.""";I don't understand you.;;
+"""Translate to English: sapye.""";"""Cool. / I’m cool.""";Unknown;;
+"""Translate to English: swe hugwa i mye pindinbuli.""";"""He (and his dog) arrived here.""";I don't understand you.;;
+"""Translate to English: pila i bali.""";"""A bird flies.""";"I don't know what ""pila"" and ""bali"" mean, but I'll try to translate by analogy to the examples provided. Here's my attempt:
+
+Pile in Bali";;

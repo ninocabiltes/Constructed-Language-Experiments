@@ -1,9 +1,11 @@
 Prompt;Target Output;Actual Output;Bleu Score;chrF Score
-"""Translate to English Sentence: e teno.""";"""There is snow. / It is snowing.""";"
-I have a lot of work.";;
-"""Translate to English: bay i loy e pila teso i bali.""";"""I watch a bird that flies.""";    I love the beach in Bali.;;
+"""Translate to English Sentence: e teno.""";"""There is snow. / It is snowing.""";    I have it.;;
+"""Translate to English: bay i loy e pila teso i bali.""";"""I watch a bird that flies.""";    Beautiful sea and white sand beaches in Bali.;;
 """Translate to English: sapye.""";"""Cool. / I’m cool.""";"
-I'm sorry, but I don't have enough context in the current chat history for me to provide a translation of ""sapye."" If you can give more details about where this word comes from or its language of origin within our conversation, I could attempt an educated guess. Otherwise, without additional information, it remains undefined.";;
+    Sapye (English) - A term used in Myanmar for an elderly person who has lived a long life and holds wisdom, respected by younger generations. It's often associated with spirituality or traditional knowledge passed down through the ages. The word itself is not directly translatable but can be understood as 'wise old man/woman'.";;
 """Translate to English: swe hugwa i mye pindinbuli.""";"""He (and his dog) arrived here.""";    I love your poetry.;;
 """Translate to English: pila i bali.""";"""A bird flies.""";"
-Pile and beaches.";;
+    balls and beaches
+
+
+(Note that this answer assumes 'pila' refers to a spherical object, which in context could mean ""balls,"" while 'bali' might refer to the beach or holiday destination known as Bali.)";;

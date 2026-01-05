@@ -3,49 +3,50 @@ Prompt;Target Output;Actual Output;Bleu Score;chrF Score
 mosey = interesting
 gen = -ness
 Question:
-What does moseygen most likely mean?""";"""interestingness""";Interesting-ness;;
+What does moseygen most likely mean?""";"""interestingness""";Interestingness;;
 """Word/Rule:
 pya = talk
 lase = fast
 Question:
-What does pyalase most likely mean?""";"""fast talk / rap""";fast-talking;;
+What does pyalase most likely mean?""";"""fast talk / rap""";Talk quickly;;
 """Word/Rule:
 day = give
 u = indirect object particle
 Question:
-In bay i day u kyu e lano, what is the indirect object?""";"""kyu (you)""";kyu e lano;;
+In bay i day u kyu e lano, what is the indirect object?""";"""kyu (you)""";"In bay i day us kyu elanow (bayi di gide ukelyelon), ""us"" serves as the indirect object. However, this translation does not make sense in English due to a lack of context and potential errors within the prompt itself. The original language or rule set is unknown based on provided information alone.";;
 """Word/Rule:
 law = inside
 kwe = invert
 Question:
-What does kwelaw most likely mean?""";"""outside""";Inverted law within;;
+What does kwelaw most likely mean?""";"""outside""";Inverted law;;
 """Word/Rule:
 sote = hot
 bey = -ly
 Question:
-What does sotebey most likely mean?""";"""hotly""";Hotly;;
+What does sotebey most likely mean?""";"""hotly""";hotly;;
 """Word/Rule:
 gwi = good
 baw = more
 Question:
-What does bawgwi most likely mean?""";"""better""";"Good and more, suggesting something that is even better than ""good.""";;
+What does bawgwi most likely mean?""";"""better""";Good more than good (implying something very positive);;
 """Word/Rule:
 suka = sibling
 moy = multiple
 Question:
-What does moysuka most likely mean?""";"""siblings""";Multiple siblings;;
+What does moysuka most likely mean?""";"""siblings""";"
+Multiple siblings";;
 """Word/Rule:
 dey = animal
 sun = -like
 Question:
-What does deysun most likely mean?""";"""animal-like""";Animal-like sun;;
+What does deysun most likely mean?""";"""animal-like""";Animal-like;;
 """Word/Rule:
 loy = see
 gen = -ness
 Question:
-What does loygen most likely mean?""";"""sight / vision""";Loyalty-ness;;
+What does loygen most likely mean?""";"""sight / vision""";Loyalty (or loyal-ness);;
 """Word/Rule:
 taku = cause / because
 gen = -ness
 Question:
-What does takugen most likely mean?""";"""cause / origin-ness""";Cause-ness;;
+What does takugen most likely mean?""";"""cause / origin-ness""";"The concept of causality due to a certain quality or state, often referred as the reason for something existing in that manner. However, without further context from this language's grammar and vocabulty rules beyond these examples, providing an exact translation is challenging. It could be interpreted along similar lines: ""the cause-ness of"" or ""causality due to"".";;

@@ -3,12 +3,12 @@ Prompt;Target Output;Actual Output;Bleu Score;chrF Score
 mosey = interesting
 gen = -ness
 Question:
-What does moseygen most likely mean?""";"""interestingness""";Interestingness.;;
+What does moseygen most likely mean?""";"""interestingness""";Interestingness;;
 """Word/Rule:
 pya = talk
 lase = fast
 Question:
-What does pyalase most likely mean?""";"""fast talk / rap""";Talk fast.;;
+What does pyalase most likely mean?""";"""fast talk / rap""";Talk Fast;;
 """Word/Rule:
 day = give
 u = indirect object particle
@@ -38,12 +38,12 @@ What does moysuka most likely mean?""";"""siblings""";Sibling(s);;
 dey = animal
 sun = -like
 Question:
-What does deysun most likely mean?""";"""animal-like""";Animal-like.;;
+What does deysun most likely mean?""";"""animal-like""";Animal-like;;
 """Word/Rule:
 loy = see
 gen = -ness
 Question:
-What does loygen most likely mean?""";"""sight / vision""";See-ness;;
+What does loygen most likely mean?""";"""sight / vision""";Sightfulness;;
 """Word/Rule:
 taku = cause / because
 gen = -ness

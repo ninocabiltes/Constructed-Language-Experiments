@@ -19,8 +19,7 @@ kwe + gwi = kwegwi = bad (opposite of good)
 kwe + sole = kwesole = unhappy/sad
 
 Question:
-What is the difference between kwehate and soyhate if hate = dangerous?""";"""kwehate = safe (opposite), soyhate = not dangerous (neutral)""";"kwehate = not safe
-soyhate = safe";;
+What is the difference between kwehate and soyhate if hate = dangerous?""";"""kwehate = safe (opposite), soyhate = not dangerous (neutral)""";sowehate = not safe;;
 """Context Examples:
 plu = to go → pluti = to make go/move (something)
 
@@ -40,7 +39,7 @@ kyu = you → hoykyu = yours
 bay = me → hoybay = mine
 
 Question:
-If paka = head and pakapa = part of head (face/skull), what does hoypaka mean?""";"""belonging to the head / head's""";hoypakau = face;;
+If paka = head and pakapa = part of head (face/skull), what does hoypaka mean?""";"""belonging to the head / head's""";hoypaka;;
 """Context Examples:
 mabo = eat → mabole = to eat regularly
 
@@ -51,7 +50,7 @@ loy = see → loypu = to glance/see briefly
 pya = speak → pyapu = to speak briefly
 
 Question:
-If suki = swim and sukile = to swim regularly, what does sukipu mean?""";"""to take a quick swim / swim briefly""";sukipu = to swim briefly.;;
+If suki = swim and sukile = to swim regularly, what does sukipu mean?""";"""to take a quick swim / swim briefly""";mabole;;
 """Context Examples:
 mabo = eat → mabodaw = eater
 
@@ -71,7 +70,7 @@ daw = person → dawmu = group of people
 muta = leg → mutatu = pair of legs
 
 Question:
-If pila = bird, what does pilamu mean?""";"""flock of birds""";pilamu = flock of birds;;
+If pila = bird, what does pilamu mean?""";"""flock of birds""";pilamu = nest;;
 """Context Examples:
 sote = hot → sotefo = too hot
 
@@ -82,7 +81,7 @@ bote = blue → botene = somewhat blue
 lake = red → lakene = somewhat red
 
 Question:
-If bade = strong and badefo = too strong, what does badene mean?""";"""somewhat strong / strongish""";bote = somewhat blue;;
+If bade = strong and badefo = too strong, what does badene mean?""";"""somewhat strong / strongish""";botene;;
 """Context Examples:
 kuto = school → kutodin = school location
 
@@ -93,7 +92,7 @@ pay = up → paysay = upward direction
 gyu = front → gyusay = forward
 
 Question:
-If law = inside and lawdin = inside place, what does lawsay mean?""";"""inward direction / toward the inside""";lawsay = outside;;
+If law = inside and lawdin = inside place, what does lawsay mean?""";"""inward direction / toward the inside""";kutsay;;
 """Context Examples:
 homu = calm → homuta = calmness (state)
 
@@ -102,7 +101,9 @@ sole = happy → soleta = happiness (state)
 bade = strong → badevi = strength (quality)
 
 Question:
-If gwi = good and gwivi = goodness, what does gwita mean?""";"""state of being good / goodness (as a condition)""";gwita = goodness;;
+If gwi = good and gwivi = goodness, what does gwita mean?""";"""state of being good / goodness (as a condition)""";"gwi = good
+gwivi = goodness
+gwita = goodnessness";;
 """Context Examples:
 pya = speak → pyazo = speaking tool (microphone)
 
@@ -111,7 +112,7 @@ kato = cut → katozo = cutting tool (knife)
 plu = go → plumo = means of going (vehicle)
 
 Question:
-If doli = write and dolizo = writing tool (pen), what does dolimo mean?""";"""means of writing (method/process)""";dolimo = draw;;
+If doli = write and dolizo = writing tool (pen), what does dolimo mean?""";"""means of writing (method/process)""";dolo;;
 """Context Examples:
 kapi = break → kapira = breakage (result)
 
@@ -120,7 +121,7 @@ syu = make → syura = product/creation
 doli = write → dolibu = writing/text
 
 Question:
-If kami = buy and kamira = purchase (result), what does kamibu mean?""";"""bought item / purchase (product)""";kamibu = buy;;
+If kami = buy and kamira = purchase (result), what does kamibu mean?""";"""bought item / purchase (product)""";kapirua;;
 """sami = walk → samire = walk often
 
 mabo = eat → mabore = eat frequently
@@ -139,11 +140,11 @@ bamu = hello → bamujo = formal greeting
 kyu = you → kyujo = formal ""you""
 
 Question:
-If domay = friend and domayshi = respected friend, what does domayjo mean?""";"""formal friend / polite acquaintance""";domayjo = honored friend;;
+If domay = friend and domayshi = respected friend, what does domayjo mean?""";"""formal friend / polite acquaintance""";domajoju;;
 """Context Examples:
 suki = swim → sukidaw = swimmer → sukidawbey = in a swimmer-like way
 
 kato = cut → katoti = make cut → katotizo = cutting tool → katotizoki = small cutter
 
 Question:
-If pya = speak, pyadaw = speaker, pyadawbey = speaker-like, what does pyatizoki likely mean?""";"""small speaking tool / little device for making speech""";pyatizoki = to speak softly;;
+If pya = speak, pyadaw = speaker, pyadawbey = speaker-like, what does pyatizoki likely mean?""";"""small speaking tool / little device for making speech""";katotizoki;;

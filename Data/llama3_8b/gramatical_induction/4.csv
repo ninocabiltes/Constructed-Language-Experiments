@@ -42,7 +42,7 @@ telu introduces goal.
 Sentence Sample:
 swe i mitu e helu telu sesu.
 Question:
-Why do they reach safety?""";"""In order to ensure (it).""";They reach safety in order to ensure.;;
+Why do they reach safety?""";"""In order to ensure (it).""";To ensure safety.;;
 """New Vocab:
 guse (excessive)
 
@@ -62,7 +62,7 @@ Comparison after buki.
 Sentence Sample:
 pin e kwebawguse buki san.
 Question:
-What does kwebawguse mean?""";"""Less excessive.""";Less excessive.;;
+What does kwebawguse mean?""";"""Less excessive.""";excessive less;;
 """New Vocab:
 kiso (seat)
 
@@ -84,7 +84,7 @@ Location phrase after object.
 Sentence Sample:
 bay i paci e kiso boydoke gan.
 Question:
-Where is the seat opened from?""";"""From the room.""";The seat is opened from the bay.;;
+Where is the seat opened from?""";"""From the room.""";To the seat.;;
 """New Vocab:
 magu (sky)
 
@@ -106,4 +106,4 @@ teso clause describes noun.
 Sentence Sample:
 baso hoy magu teso e mope.
 Question:
-Translate to English.""";"""The color of the sky that is purple.""";The color of the sky that is related to purple belongs to me.;;
+Translate to English.""";"""The color of the sky that is purple.""";The color of the sky that is purple is possessed by something.;;

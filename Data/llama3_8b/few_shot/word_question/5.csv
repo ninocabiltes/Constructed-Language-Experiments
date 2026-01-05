@@ -3,7 +3,7 @@ Prompt;Target Output;Actual Output;Bleu Score;chrF Score
 sapye = excellent
 tay = very
 Question:
-What does tay sapye most likely mean?""";"""very excellent / awesome""";Excellent very.;;
+What does tay sapye most likely mean?""";"""very excellent / awesome""";Excellent very;;
 """Word/Rule:
 lesu = straight
 gen = -ness
@@ -18,22 +18,22 @@ What does hagusun most likely mean?""";"""story-like / fictional""";Story-like;;
 kya = what
 daw = person
 Question:
-What does kyadaw most likely mean?""";"""Who""";what person;;
+What does kyadaw most likely mean?""";"""Who""";Who;;
 """Word/Rule:
 begu = if
 tey = can
 Question:
-In begu bay i tey, what does tey mean?""";"""can / be able""";can;;
+In begu bay i tey, what does tey mean?""";"""can / be able""";If;;
 """Word/Rule:
 boy = preposition marker
 law = inside
 Question:
-What does boylaw clarify?""";"""That law is used as a preposition (“inside”)""";Nothing.;;
+What does boylaw clarify?""";"""That law is used as a preposition (“inside”)""";preposition;;
 """Word/Rule:
 kwetaw = same
 gwi = good
 Question:
-What does kwetaw gwi most likely mean?""";"""equally good / same good""";same good;;
+What does kwetaw gwi most likely mean?""";"""equally good / same good""";Good same;;
 """Word/Rule:
 telu = to / in order to
 mabosyu = to make food
@@ -43,9 +43,9 @@ What does telu mabosyu most likely mean?""";"""in order to make food""";to make 
 yoy = hey/command marker
 plu = go
 Question:
-What does i yoy plu mean?""";"""Go! (command)""";Hey, go!;;
+What does i yoy plu mean?""";"""Go! (command)""";Hey go!;;
 """Word/Rule:
 titu = precise
 bey = -ly
 Question:
-What does titu bey most likely mean?""";"""precisely / exactly""";Precise-ly;;
+What does titu bey most likely mean?""";"""precisely / exactly""";Precisely;;

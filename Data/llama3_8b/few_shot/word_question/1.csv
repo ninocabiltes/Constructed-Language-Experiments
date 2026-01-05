@@ -5,20 +5,20 @@ bey = related / -ly
 
 Question:
 What does myabey most likely mean?""
-""";"""parental / parent-related""";;;
+""";"""parental / parent-related""";Parent-related.;;
 """Word/Rule:
 bya = male
 mya = parent
 
 Question:
-What does byamya most likely mean?""";"""father""";;;
+What does byamya most likely mean?""";"""father""";Male parent.;;
 """Word/Rule:
 domay = friend
 bay = I / me
 
 Question:
 What does bay domay most likely mean?""";"""my friend""
-""";;;
+""";"I am bay, and domay is friend. So, bay domay means ""I / me friend"".";;
 """Word/Rule:
 kyu = you
 moy = multiple
@@ -26,30 +26,30 @@ moy = multiple
 Question:
 What does moykyu most likely mean?""";"""you (plural)
 ""
-""";;;
+""";You.;;
 """Word/Rule:
 dune = number
 gen = concept / -ness
 
 Question:
-What does dungen most likely mean?""";"""quantity / amount-ness""";;;
+What does dungen most likely mean?""";"""quantity / amount-ness""";number-ness;;
 """lenu = art
 syu = to do / make
 
 Question:
 What does lenusyu most likely mean?""";"""to make art""
-""";;;
+""";art to do/make;;
 """bote = blue
 sun = similar / -like
 
 Question:
-What does botesun most likely mean?""";"""blue-like / bluish""";;;
+What does botesun most likely mean?""";"""blue-like / bluish""";Blue-like;;
 """Word/Rule:
 pila = bird
 lase = fast
 
 Question:
-What does lase pila most likely mean?""";"""blue-like / bluish""";;;
+What does lase pila most likely mean?""";"""blue-like / bluish""";Bird fast.;;
 """Word/Rule:
 hagu = story
 goy = thing / object
@@ -58,10 +58,10 @@ Question:
 What does hagugoy most likely mean?
 
 Target Output:
-story-thing / book / tale object""";"""Story-thing / Storybook / book""";;;
+story-thing / book / tale object""";"""Story-thing / Storybook / book""";Story-thing / book / tale object;;
 """Word/Rule:
 swa = to be
 lase = fast
 
 Question:
-In swe i swa lase, what does lase modify?""";"""The verb “to be” — so “they are quickly”""";;;
+In swe i swa lase, what does lase modify?""";"""The verb “to be” — so “they are quickly”""";swa;;

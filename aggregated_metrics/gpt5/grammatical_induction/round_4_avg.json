@@ -1,0 +1,10 @@
+{
+  "llm": "gpt5",
+  "category": "grammatical_induction",
+  "round": 4,
+  "avg_bleu_score": 12.203900864225153,
+  "avg_chrF_score": 21.003465031637074,
+  "avg_ter_test": 103.7121212121212,
+  "avg_bert_score_f1": 0.8439011693000793,
+  "sample_count": 5
+}

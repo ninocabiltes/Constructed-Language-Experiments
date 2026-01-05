@@ -1,0 +1,10 @@
+{
+  "llm": "gpt5",
+  "category": "few_shot/translation_question",
+  "round": 2,
+  "avg_bleu_score": 40.82680218462094,
+  "avg_chrF_score": 52.98643164845663,
+  "avg_ter_test": 45.095238095238095,
+  "avg_bert_score_f1": 0.933646845817566,
+  "sample_count": 5
+}

@@ -1,0 +1,10 @@
+{
+  "llm": "claude3.5",
+  "category": "few_shot/word_question",
+  "round": 2,
+  "avg_bleu_score": 59.822673852611025,
+  "avg_chrF_score": 72.35373256575056,
+  "avg_ter_test": 70.66666666666666,
+  "avg_bert_score_f1": 0.9373511433601379,
+  "sample_count": 10
+}

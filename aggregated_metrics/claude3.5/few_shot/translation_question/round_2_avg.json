@@ -1,0 +1,10 @@
+{
+  "llm": "claude3.5",
+  "category": "few_shot/translation_question",
+  "round": 2,
+  "avg_bleu_score": 26.648215803315328,
+  "avg_chrF_score": 37.530203513959734,
+  "avg_ter_test": 56.095238095238095,
+  "avg_bert_score_f1": 0.8941837906837463,
+  "sample_count": 5
+}

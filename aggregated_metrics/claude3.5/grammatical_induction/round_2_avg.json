@@ -1,0 +1,10 @@
+{
+  "llm": "claude3.5",
+  "category": "grammatical_induction",
+  "round": 2,
+  "avg_bleu_score": 22.70772170801493,
+  "avg_chrF_score": 51.47225484774067,
+  "avg_ter_test": 57.777777777777786,
+  "avg_bert_score_f1": 0.9075863599777222,
+  "sample_count": 5
+}

@@ -1,0 +1,10 @@
+{
+  "llm": "claude3.5",
+  "category": "morphological_induction",
+  "round": 1,
+  "avg_bleu_score": 57.51244205639486,
+  "avg_chrF_score": 74.50261944869766,
+  "avg_ter_test": 79.15223665223665,
+  "avg_bert_score_f1": 0.935139532883962,
+  "sample_count": 15
+}

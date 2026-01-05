@@ -1,0 +1,10 @@
+{
+  "llm": "claude3.5",
+  "category": "zero_shot",
+  "round": 1,
+  "avg_bleu_score": 3.60330888359632,
+  "avg_chrF_score": 9.903596908745037,
+  "avg_ter_test": 203.33333333333334,
+  "avg_bert_score_f1": 0.8662420868873596,
+  "sample_count": 5
+}

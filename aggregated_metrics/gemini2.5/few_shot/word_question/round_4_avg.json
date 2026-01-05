@@ -1,0 +1,10 @@
+{
+  "llm": "gemini2.5",
+  "category": "few_shot/word_question",
+  "round": 4,
+  "avg_bleu_score": 45.000000000000014,
+  "avg_chrF_score": 53.32016070532482,
+  "avg_ter_test": 66.66666666666666,
+  "avg_bert_score_f1": 0.7769718170166016,
+  "sample_count": 10
+}

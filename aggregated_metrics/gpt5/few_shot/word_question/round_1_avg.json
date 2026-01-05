@@ -1,0 +1,10 @@
+{
+  "llm": "gpt5",
+  "category": "few_shot/word_question",
+  "round": 1,
+  "avg_bleu_score": 41.40585331297588,
+  "avg_chrF_score": 55.65419235110862,
+  "avg_ter_test": 91.66666666666666,
+  "avg_bert_score_f1": 0.9247082650661469,
+  "sample_count": 10
+}

@@ -1,0 +1,10 @@
+{
+  "llm": "gemini2.5",
+  "category": "grammatical_induction",
+  "round": 4,
+  "avg_bleu_score": 27.536098931608922,
+  "avg_chrF_score": 42.600223363894365,
+  "avg_ter_test": 94.24242424242424,
+  "avg_bert_score_f1": 0.88783038854599,
+  "sample_count": 5
+}

@@ -1,0 +1,10 @@
+{
+  "llm": "gpt5",
+  "category": "zero_shot",
+  "round": 1,
+  "avg_bleu_score": 9.46560797597908,
+  "avg_chrF_score": 6.780362896966871,
+  "avg_ter_test": 102.22222222222221,
+  "avg_bert_score_f1": 0.8642781138420105,
+  "sample_count": 5
+}

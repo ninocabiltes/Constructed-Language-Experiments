@@ -1,0 +1,10 @@
+{
+  "llm": "gemini2.5",
+  "category": "few_shot/translation_question",
+  "round": 3,
+  "avg_bleu_score": 15.383544407019489,
+  "avg_chrF_score": 39.57150917559439,
+  "avg_ter_test": 92.95238095238095,
+  "avg_bert_score_f1": 0.8786805391311645,
+  "sample_count": 5
+}

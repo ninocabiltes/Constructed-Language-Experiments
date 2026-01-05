@@ -1,0 +1,10 @@
+{
+  "llm": "gemini2.5",
+  "category": "morphological_induction",
+  "round": 1,
+  "avg_bleu_score": 65.99264988172808,
+  "avg_chrF_score": 79.8308160343725,
+  "avg_ter_test": 39.68253968253968,
+  "avg_bert_score_f1": 0.947096316019694,
+  "sample_count": 15
+}

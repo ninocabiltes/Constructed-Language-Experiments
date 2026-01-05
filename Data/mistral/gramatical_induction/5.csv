@@ -24,7 +24,7 @@ Verb stacking allowed.
 Sentence Sample:
 begu bay i myu mye lati u kyu e melo sehu.
 Question:
-Translate to English.""";"""If I would have borrowed 100 money from you. / If I had borrowed 100 units of money from you.""";;;
+Translate to English.""";"""If I would have borrowed 100 money from you. / If I had borrowed 100 units of money from you.""";" The sentence translates to: ""I would have borrowed him one hundred dollars.""";;
 """New Vocab:
 sume (mature)
 
@@ -50,7 +50,7 @@ No i for “to be”.
 Sentence Sample:
 sume twikutodaw.
 Question:
-What does this mean vs. sumekutodaw?""";"""Adult student (adult + school-person) vs. college student (adult-school + person).""";;;
+What does this mean vs. sumekutodaw?""";"""Adult student (adult + school-person) vs. college student (adult-school + person).""";" This means: sume twikutodaw = ""mature school-person"", vs. sumekutodaw = ""person mature-school"" (which would be interpreted as ""a person from a mature school""). The difference in meaning is due to the ""twi"" rule that swaps the interpretation of adjective-noun compounds.";;
 """New Vocab:
 degu (war)
 
@@ -76,7 +76,7 @@ i marks verb.
 Sentence Sample:
 degu teso e hido i hay boykwepay baso.
 Question:
-Where is the war located?""";"""Below the city.""";;;
+Where is the war located?""";"""Below the city."""; The war is below the city. (Translation: degu teso e hido i hay boykwepay);;
 """New Vocab:
 sole (happy)
 
@@ -102,7 +102,7 @@ Compound: kwebyugeni.
 Sentence Sample:
 swe e kwebyusolegen.
 Question:
-What does kwebyusolegen mean?""";"""The least happiness / unhappiness (minimal happiness).""";;;
+What does kwebyusolegen mean?""";"""The least happiness / unhappiness (minimal happiness).""";" kwebyusolegen means ""happiness leastness"" (or ""the least degree of happiness"").";;
 """New Vocab:
 hesa (shark)
 
@@ -130,4 +130,4 @@ i before verb phrase.
 Sentence Sample:
 bay i ludo u seya e hesa telu begu bay i myu hay e helu.
 Question:
-Translate to English.""";"""I protect the person from the shark so that I would have safety.""";;;
+Translate to English.""";"""I protect the person from the shark so that I would have safety."""; If condition, protect the person in order that the shark does not eat, if condition, when it swims.;;

@@ -20,7 +20,7 @@ Verb marked with i.
 Sentence Sample:
 heko teso a swe i demu e luka.
 Question:
-What is rare?""";"""The gem that they collect is rare. / The gem they collect.""";;;
+What is rare?""";"""The gem that they collect is rare. / The gem they collect."""; luka;;
 """New Vocab:
 sesu (to ensure)
 
@@ -42,7 +42,9 @@ telu introduces goal.
 Sentence Sample:
 swe i mitu e helu telu sesu.
 Question:
-Why do they reach safety?""";"""In order to ensure (it).""";;;
+Why do they reach safety?""";"""In order to ensure (it).""";" They reach safety to ensure it. (Translation of the sentence sample provided)
+
+In English, this would be: Why are they ensuring safety?";;
 """New Vocab:
 guse (excessive)
 
@@ -62,7 +64,7 @@ Comparison after buki.
 Sentence Sample:
 pin e kwebawguse buki san.
 Question:
-What does kwebawguse mean?""";"""Less excessive.""";;;
+What does kwebawguse mean?""";"""Less excessive.""";" Kwebawguse means ""less excessive.""";;
 """New Vocab:
 kiso (seat)
 
@@ -84,7 +86,7 @@ Location phrase after object.
 Sentence Sample:
 bay i paci e kiso boydoke gan.
 Question:
-Where is the seat opened from?""";"""From the room.""";;;
+Where is the seat opened from?""";"""From the room."""; boydoke kiso;;
 """New Vocab:
 magu (sky)
 
@@ -106,4 +108,4 @@ teso clause describes noun.
 Sentence Sample:
 baso hoy magu teso e mope.
 Question:
-Translate to English.""";"""The color of the sky that is purple.""";;;
+Translate to English.""";"""The color of the sky that is purple."""; Color of the sky that is purple.;;

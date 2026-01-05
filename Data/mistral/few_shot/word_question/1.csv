@@ -5,20 +5,20 @@ bey = related / -ly
 
 Question:
 What does myabey most likely mean?""
-""";"""parental / parent-related""";;;
+""";"""parental / parent-related""";" myabey most likely means ""related parent"".";;
 """Word/Rule:
 bya = male
 mya = parent
 
 Question:
-What does byamya most likely mean?""";"""father""";;;
+What does byamya most likely mean?""";"""father"""; byamya most likely means a male parent.;;
 """Word/Rule:
 domay = friend
 bay = I / me
 
 Question:
 What does bay domay most likely mean?""";"""my friend""
-""";;;
+""";" Friend (or possibly I/me) and friend, so it most likely means ""I have a friend"" or ""Me and my friend"".";;
 """Word/Rule:
 kyu = you
 moy = multiple
@@ -26,30 +26,30 @@ moy = multiple
 Question:
 What does moykyu most likely mean?""";"""you (plural)
 ""
-""";;;
+""";" moykyu most likely means ""multiple you's"".";;
 """Word/Rule:
 dune = number
 gen = concept / -ness
 
 Question:
-What does dungen most likely mean?""";"""quantity / amount-ness""";;;
+What does dungen most likely mean?""";"""quantity / amount-ness""";" A dune, in this context, most likely means a concept or state of being a number. However, without further context, it's challenging to provide an accurate interpretation. The term ""dune"" is typically associated with sandy landforms, not numbers, so this usage might be metaphorical or non-standard.";;
 """lenu = art
 syu = to do / make
 
 Question:
 What does lenusyu most likely mean?""";"""to make art""
-""";;;
+""";" lenusyu most likely means ""to do art"" or ""to make art"".";;
 """bote = blue
 sun = similar / -like
 
 Question:
-What does botesun most likely mean?""";"""blue-like / bluish""";;;
+What does botesun most likely mean?""";"""blue-like / bluish"""; bluesimilar or blue-like;;
 """Word/Rule:
 pila = bird
 lase = fast
 
 Question:
-What does lase pila most likely mean?""";"""blue-like / bluish""";;;
+What does lase pila most likely mean?""";"""blue-like / bluish"""; Fast bird;;
 """Word/Rule:
 hagu = story
 goy = thing / object
@@ -58,10 +58,10 @@ Question:
 What does hagugoy most likely mean?
 
 Target Output:
-story-thing / book / tale object""";"""Story-thing / Storybook / book""";;;
+story-thing / book / tale object""";"""Story-thing / Storybook / book"""; story object;;
 """Word/Rule:
 swa = to be
 lase = fast
 
 Question:
-In swe i swa lase, what does lase modify?""";"""The verb “to be” — so “they are quickly”""";;;
+In swe i swa lase, what does lase modify?""";"""The verb “to be” — so “they are quickly”""";" In ""swe i swa lase,"" the word ""lase"" modifies ""swa.""";;

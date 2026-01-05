@@ -3,49 +3,49 @@ Prompt;Target Output;Actual Output;Bleu Score;chrF Score
 bade = strong
 byu = most
 Question:
-What does byubade most likely mean?""";"""Strongest""";;;
+What does byubade most likely mean?""";"""Strongest""";" Most likely, ""byubade"" means ""most strong.""";;
 """Word/Rule:
 pana = hand
 goy = thing
 Question:
-What does panagoy most likely mean?""";"""hand-thing / tool / glove""";;;
+What does panagoy most likely mean?""";"""hand-thing / tool / glove""";" Most likely, ""panagoy"" means ""hand thing.""";;
 """Word/Rule:
 toso = sound
 doso = device
 Question:
-What does tosodoso most likely mean?""";"""Speaker / phone""";;;
+What does tosodoso most likely mean?""";"""Speaker / phone""";" Based on the provided information, it's likely that ""tosodoso"" means ""sound of a device."" This is derived from the definitions of ""toso"" (sound) and ""doso"" (device).";;
 """Word/Rule:
 lano = bread
 tako = container
 Question:
-What does lanotako most likely mean?""";"""bread container / breadbox""";;;
+What does lanotako most likely mean?""";"""bread container / breadbox"""; bread container;;
 """Word/Rule:
 gyu = in front
 kwe = invert
 Question:
-What does kwegyu most likely mean?""";"""behind""";;;
+What does kwegyu most likely mean?""";"""behind""";" Most likely, kwegyu means ""invert in front.""";;
 """Word/Rule:
 pome = soft
 bey = -ly
 Question:
-What does pomebey most likely mean?""";"""softly""";;;
+What does pomebey most likely mean?""";"""softly"""; pomebey most likely means softly. (This is derived from the given rules that 'pome' means soft and 'bey' adds a suffix to form an adverb, typically meaning in a certain way.);;
 """Word/Rule:
 swa = to be
 sume = mature
 Question:
-In swe e sume, what part of speech is sume?""";"""Adjective (mature)""";;;
+In swe e sume, what part of speech is sume?""";"""Adjective (mature)"""; Noun;;
 """Word/Rule:
 mye = before
 hay = have
 Question:
-What does mye hay most likely mean?""";"""Had / already have""";;;
+What does mye hay most likely mean?""";"""Had / already have""";" mye hay most likely means ""before having""";;
 """Word/Rule:
 koy = far
 kwe = invert
 Question:
-What does kwekoy most likely mean?""";"""close / nearby""";;;
+What does kwekoy most likely mean?""";"""close / nearby"""; Invert far, so it's likely koyekwe (reversed order). However, without specific context, the exact meaning cannot be definitively determined.;;
 """Word/Rule:
 syo = life
 gen = -ness
 Question:
-What does syogen most likely mean?""";"""life-ness / vitality""";;;
+What does syogen most likely mean?""";"""life-ness / vitality"""; Life-ness, most likely referring to a state or quality of life.;;

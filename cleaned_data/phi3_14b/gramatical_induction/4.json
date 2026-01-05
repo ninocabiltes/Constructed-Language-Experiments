@@ -1,0 +1,94 @@
+[
+    {
+        "file": "4.csv",
+        "row": 2,
+        "prompt": "\"New Vocab:\ndemu (to collect)\n\nheko (gem)\n\nluka (rare)\n\nRules:\nteso = relative marker.\n\nNew subject introduced with a.\n\nAdjective follows e.\n\nObject marked with e.\n\nVerb marked with i.\n\nSentence Sample:\nheko teso a swe i demu e luka.\nQuestion:\nWhat is rare?\"",
+        "targets": [
+            "The gem that they collect is rare.",
+            "The gem they collect."
+        ],
+        "actual": "luka heko",
+        "raw_target": "\"The gem that they collect is rare. / The gem they collect.\"",
+        "raw_actual": "luka heko",
+        "bleu_score": 0.0,
+        "chrF_score": 5.27823240589198,
+        "chrF_plus_score": 3.9586743044189854,
+        "ter_test": 72.72727272727273,
+        "bert_score_p": 0.7851154804229736,
+        "bert_score_r": 0.8667295575141907,
+        "bert_score_f1": 0.8239063620567322
+    },
+    {
+        "file": "4.csv",
+        "row": 3,
+        "prompt": "\"New Vocab:\nsesu (to ensure)\n\nhelu (safety)\n\nmitu (to reach)\n\nRules:\ntelu = in order to.\n\nVerbs can stack.\n\ni before verb phrase.\n\nObject marked with e.\n\ntelu introduces goal.\n\nSentence Sample:\nswe i mitu e helu telu sesu.\nQuestion:\nWhy do they reach safety?\"",
+        "targets": [
+            "In order to ensure it.",
+            "In order to ensure."
+        ],
+        "actual": "They ensure to reach safety in order to ensure.",
+        "raw_target": "\"In order to ensure (it).\"",
+        "raw_actual": "            They ensure to reach safety in order to ensure.",
+        "bleu_score": 26.269098944241577,
+        "chrF_score": 68.8888410119829,
+        "chrF_plus_score": 67.6917964002973,
+        "ter_test": 111.11111111111111,
+        "bert_score_p": 0.8812314867973328,
+        "bert_score_r": 0.9183226823806763,
+        "bert_score_f1": 0.8993948698043823
+    },
+    {
+        "file": "4.csv",
+        "row": 4,
+        "prompt": "\"New Vocab:\nguse (excessive)\n\nsadi (to begin)\n\nRules:\nkwebaw = less (invert + more).\n\nbuki = than (comparison).\n\nAdjective follows e.\n\nkwe inverts root.\n\nComparison after buki.\n\nSentence Sample:\npin e kwebawguse buki san.\nQuestion:\nWhat does kwebawguse mean?\"",
+        "targets": [
+            "Less excessive."
+        ],
+        "actual": "guse (excessive)",
+        "raw_target": "\"Less excessive.\"",
+        "raw_actual": "            guse (excessive)",
+        "bleu_score": 15.97357760615681,
+        "chrF_score": 58.183589572262164,
+        "chrF_plus_score": 43.63769217919663,
+        "ter_test": 100.0,
+        "bert_score_p": 0.8594878911972046,
+        "bert_score_r": 0.9456977844238281,
+        "bert_score_f1": 0.9005342721939087
+    },
+    {
+        "file": "4.csv",
+        "row": 5,
+        "prompt": "\"New Vocab:\nkiso (seat)\n\ndoke (from)\n\npaci (to open)\n\nRules:\ndoke = from.\n\nboy marks preposition.\n\ni before verb.\n\nObject marked with e.\n\nLocation phrase after object.\n\nSentence Sample:\nbay i paci e kiso boydoke gan.\nQuestion:\nWhere is the seat opened from?\"",
+        "targets": [
+            "From the room."
+        ],
+        "actual": "From where is the seat opened?",
+        "raw_target": "\"From the room.\"",
+        "raw_actual": "            From where is the seat opened?",
+        "bleu_score": 7.809849842300641,
+        "chrF_score": 24.36729886426392,
+        "chrF_plus_score": 23.75545077840536,
+        "ter_test": 133.33333333333331,
+        "bert_score_p": 0.8402149677276611,
+        "bert_score_r": 0.9016419053077698,
+        "bert_score_f1": 0.8698453307151794
+    },
+    {
+        "file": "4.csv",
+        "row": 6,
+        "prompt": "\"New Vocab:\nmagu (sky)\n\nbaso (color)\n\nmope (purple)\n\nRules:\nhoy = possessive.\n\nteso = relative marker.\n\nAdjective follows e.\n\nPossessor after hoy.\n\nteso clause describes noun.\n\nSentence Sample:\nbaso hoy magu teso e mope.\nQuestion:\nTranslate to English.\"",
+        "targets": [
+            "The color of the sky that is purple."
+        ],
+        "actual": "The sky's color is purple.",
+        "raw_target": "\"The color of the sky that is purple.\"",
+        "raw_actual": "            The sky's color is purple.",
+        "bleu_score": 20.82186541080652,
+        "chrF_score": 46.51451395781661,
+        "chrF_plus_score": 45.723098144880794,
+        "ter_test": 62.5,
+        "bert_score_p": 0.9285764694213867,
+        "bert_score_r": 0.9207704663276672,
+        "bert_score_f1": 0.9246570467948914
+    }
+]

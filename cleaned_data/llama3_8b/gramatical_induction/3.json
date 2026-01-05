@@ -1,0 +1,94 @@
+[
+    {
+        "file": "3.csv",
+        "row": 2,
+        "prompt": "\"New Vocab:\ngati (to catch)\n\npika (bug)\n\nRules:\nmyu = conditional (“would”).\n\nmye = past marker.\n\nVerbs stack after i.\n\nObject marked with e.\n\nSentence Sample:\nbegu bay i myu mye gati e pika.\nQuestion:\nIs this sentence grammatical according to the rules above? Translate it to English.\"",
+        "targets": [
+            "If I had caught the bug.",
+            "Yes, it is grammatical.\nTranslation: If I would have caught the bug."
+        ],
+        "actual": "Would catch bug.",
+        "raw_target": "\"Yes, it is grammatical.\nTranslation: If I would have caught the bug. / If I had caught the bug.\"",
+        "raw_actual": "Would catch bug.",
+        "bleu_score": 15.090767577522726,
+        "chrF_score": 18.398351962093116,
+        "chrF_plus_score": 20.06608422697412,
+        "ter_test": 55.55555555555556,
+        "bert_score_p": 0.9213820695877075,
+        "bert_score_r": 0.8969736695289612,
+        "bert_score_f1": 0.9090140461921692
+    },
+    {
+        "file": "3.csv",
+        "row": 3,
+        "prompt": "\"New Vocab:\nsene (clean)\n\nkwe (invert prefix)\n\nRules:\ngen = abstract noun suffix (“-ness”).\n\nkwe inverts root before gen.\n\ne marks predicate noun.\n\nSentence Sample:\nswe e kwe senegen.\nQuestion:\nWhat does kwe senegen mean?\"",
+        "targets": [
+            "Uncleanliness",
+            "dirtiness"
+        ],
+        "actual": "Inverted sense of clean is unclean. So, kwe senegen means uncleanliness.",
+        "raw_target": "\"Uncleanliness/ dirtiness\"",
+        "raw_actual": "Inverted sense of clean is unclean. So, \"kwe senegen\" means uncleanliness.",
+        "bleu_score": 0.0,
+        "chrF_score": 46.622350041928065,
+        "chrF_plus_score": 39.962014321652624,
+        "ter_test": 1100.0,
+        "bert_score_p": 0.8036494255065918,
+        "bert_score_r": 0.850632905960083,
+        "bert_score_f1": 0.8264739513397217
+    },
+    {
+        "file": "3.csv",
+        "row": 4,
+        "prompt": "\"New Vocab:\nlato (liquid)\n\npodo (dirt)\n\nlaw (inside)\n\nRules:\nboy = preposition marker.\n\nlaw = inside.\n\nLocation phrase follows verb.\n\nboy can prefix location word.\n\nSentence Sample:\nswe i hay e lato boylaw podo.\nQuestion:\nIs this sentence grammatical? Where is the liquid?\"",
+        "targets": [
+            "Yes, it is grammatical.\nThe liquid is inside the dirt."
+        ],
+        "actual": "Inside the dirt.",
+        "raw_target": "\"Target Output:\nYes, it is grammatical.\nThe liquid is inside the dirt.\"",
+        "raw_actual": "Inside the dirt.",
+        "bleu_score": 6.26707538823693,
+        "chrF_score": 28.787900617555774,
+        "chrF_plus_score": 27.394280155559436,
+        "ter_test": 70.0,
+        "bert_score_p": 0.9144401550292969,
+        "bert_score_r": 0.8779378533363342,
+        "bert_score_f1": 0.8958173394203186
+    },
+    {
+        "file": "3.csv",
+        "row": 5,
+        "prompt": "\"New Vocab:\nsuki (to swim)\n\nliso (water)\n\nRules:\nCommands: omit subject, use i yoy.\n\nObject marked with e.\n\nVerb can be intransitive.\n\nSentence Sample:\ni yoy suki e liso!\nQuestion:\nWhat is this a command to do?\"",
+        "targets": [
+            "Swim in the water!"
+        ],
+        "actual": "To swim in the water!",
+        "raw_target": "\"Swim in the water!\"",
+        "raw_actual": "To swim in the water!",
+        "bleu_score": 50.81327481546147,
+        "chrF_score": 88.95696795445868,
+        "chrF_plus_score": 85.26979902398531,
+        "ter_test": 25.0,
+        "bert_score_p": 0.9399319887161255,
+        "bert_score_r": 0.9611114859580994,
+        "bert_score_f1": 0.9504038095474243
+    },
+    {
+        "file": "3.csv",
+        "row": 6,
+        "prompt": "\"New Vocab:\nbese (pretty)\n\nhasu (flower)\n\nRules:\nbyu = most (superlative).\n\nQuestion starts with kay.\n\nAdjective follows e.\n\nSentence Sample:\nkay a pin hasu byubese e?\nQuestion:\nIs this sentence grammatical? explain.\"",
+        "targets": [
+            "No it is not grammatical."
+        ],
+        "actual": "What a lovely flower is the most pretty!",
+        "raw_target": "\"No it is not grammatical.\"",
+        "raw_actual": "What a lovely flower is the most pretty!",
+        "bleu_score": 4.767707020457095,
+        "chrF_score": 10.779267956387088,
+        "chrF_plus_score": 9.979172727497442,
+        "ter_test": 140.0,
+        "bert_score_p": 0.8380309343338013,
+        "bert_score_r": 0.8756253123283386,
+        "bert_score_f1": 0.8564158082008362
+    }
+]

@@ -1,0 +1,186 @@
+[
+    {
+        "file": "3.csv",
+        "row": 2,
+        "prompt": "\"Word/Rule:\nmosey = interesting\ngen = -ness\nQuestion:\nWhat does moseygen most likely mean?\"",
+        "targets": [
+            "interestingness"
+        ],
+        "actual": "Interestingness",
+        "raw_target": "\"interestingness\"",
+        "raw_actual": "Interestingness",
+        "bleu_score": 0.0,
+        "chrF_score": 91.84565434565434,
+        "chrF_plus_score": 78.72484658198944,
+        "ter_test": 0.0,
+        "bert_score_p": 0.9715015888214111,
+        "bert_score_r": 0.9715015888214111,
+        "bert_score_f1": 0.9715015888214111
+    },
+    {
+        "file": "3.csv",
+        "row": 3,
+        "prompt": "\"Word/Rule:\npya = talk\nlase = fast\nQuestion:\nWhat does pyalase most likely mean?\"",
+        "targets": [
+            "fast talk",
+            "rap"
+        ],
+        "actual": "Talk Fast",
+        "raw_target": "\"fast talk / rap\"",
+        "raw_actual": "Talk Fast",
+        "bleu_score": 0.0,
+        "chrF_score": 27.579365079365076,
+        "chrF_plus_score": 20.684523809523807,
+        "ter_test": 66.66666666666666,
+        "bert_score_p": 0.8882951736450195,
+        "bert_score_r": 0.9341602325439453,
+        "bert_score_f1": 0.8980095386505127
+    },
+    {
+        "file": "3.csv",
+        "row": 4,
+        "prompt": "\"Word/Rule:\nday = give\nu = indirect object particle\nQuestion:\nIn bay i day u kyu e lano, what is the indirect object?\"",
+        "targets": [
+            "kyu",
+            "kyu you"
+        ],
+        "actual": "lano",
+        "raw_target": "\"kyu (you)\"",
+        "raw_actual": "lano",
+        "bleu_score": 0.0,
+        "chrF_score": 4.4642857142857135,
+        "chrF_plus_score": 3.571428571428571,
+        "ter_test": 66.66666666666666,
+        "bert_score_p": 0.8214297294616699,
+        "bert_score_r": 0.8426834344863892,
+        "bert_score_f1": 0.831920862197876
+    },
+    {
+        "file": "3.csv",
+        "row": 5,
+        "prompt": "\"Word/Rule:\nlaw = inside\nkwe = invert\nQuestion:\nWhat does kwelaw most likely mean?\"",
+        "targets": [
+            "outside"
+        ],
+        "actual": "inside invert",
+        "raw_target": "\"outside\"",
+        "raw_actual": "inside invert",
+        "bleu_score": 0.0,
+        "chrF_score": 26.496334878915718,
+        "chrF_plus_score": 22.711144181927757,
+        "ter_test": 200.0,
+        "bert_score_p": 0.8000116348266602,
+        "bert_score_r": 0.8952198028564453,
+        "bert_score_f1": 0.8449422121047974
+    },
+    {
+        "file": "3.csv",
+        "row": 6,
+        "prompt": "\"Word/Rule:\nsote = hot\nbey = -ly\nQuestion:\nWhat does sotebey most likely mean?\"",
+        "targets": [
+            "hotly"
+        ],
+        "actual": "Hotly",
+        "raw_target": "\"hotly\"",
+        "raw_actual": "Hotly",
+        "bleu_score": 0.0,
+        "chrF_score": 54.333333333333336,
+        "chrF_plus_score": 45.27777777777778,
+        "ter_test": 0.0,
+        "bert_score_p": 0.8153318762779236,
+        "bert_score_r": 0.9280463457107544,
+        "bert_score_f1": 0.8680455088615417
+    },
+    {
+        "file": "3.csv",
+        "row": 7,
+        "prompt": "\"Word/Rule:\ngwi = good\nbaw = more\nQuestion:\nWhat does bawgwi most likely mean?\"",
+        "targets": [
+            "better"
+        ],
+        "actual": "Goodmore",
+        "raw_target": "\"better\"",
+        "raw_actual": "Goodmore",
+        "bleu_score": 0.0,
+        "chrF_score": 5.208333333333333,
+        "chrF_plus_score": 4.4642857142857135,
+        "ter_test": 100.0,
+        "bert_score_p": 0.8200334310531616,
+        "bert_score_r": 0.92801833152771,
+        "bert_score_f1": 0.8706905245780945
+    },
+    {
+        "file": "3.csv",
+        "row": 8,
+        "prompt": "\"Word/Rule:\nsuka = sibling\nmoy = multiple\nQuestion:\nWhat does moysuka most likely mean?\"",
+        "targets": [
+            "siblings"
+        ],
+        "actual": "Sibling(s)",
+        "raw_target": "\"siblings\"",
+        "raw_actual": "Sibling(s)",
+        "bleu_score": 0.0,
+        "chrF_score": 57.38374937862524,
+        "chrF_plus_score": 49.18607089596448,
+        "ter_test": 100.0,
+        "bert_score_p": 0.7961609959602356,
+        "bert_score_r": 0.8904763460159302,
+        "bert_score_f1": 0.8406816720962524
+    },
+    {
+        "file": "3.csv",
+        "row": 9,
+        "prompt": "\"Word/Rule:\ndey = animal\nsun = -like\nQuestion:\nWhat does deysun most likely mean?\"",
+        "targets": [
+            "animal-like"
+        ],
+        "actual": "Animal-like",
+        "raw_target": "\"animal-like\"",
+        "raw_actual": "Animal-like",
+        "bleu_score": 0.0,
+        "chrF_score": 87.72426647426647,
+        "chrF_plus_score": 75.1922284065141,
+        "ter_test": 0.0,
+        "bert_score_p": 0.9908810257911682,
+        "bert_score_r": 0.9908810257911682,
+        "bert_score_f1": 0.9908810257911682
+    },
+    {
+        "file": "3.csv",
+        "row": 10,
+        "prompt": "\"Word/Rule:\nloy = see\ngen = -ness\nQuestion:\nWhat does loygen most likely mean?\"",
+        "targets": [
+            "sight",
+            "vision"
+        ],
+        "actual": "Sightfulness",
+        "raw_target": "\"sight / vision\"",
+        "raw_actual": "Sightfulness",
+        "bleu_score": 0.0,
+        "chrF_score": 42.177652870039175,
+        "chrF_plus_score": 35.14804405836598,
+        "ter_test": 100.0,
+        "bert_score_p": 0.8059333562850952,
+        "bert_score_r": 0.8927402496337891,
+        "bert_score_f1": 0.8471187949180603
+    },
+    {
+        "file": "3.csv",
+        "row": 11,
+        "prompt": "\"Word/Rule:\ntaku = cause / because\ngen = -ness\nQuestion:\nWhat does takugen most likely mean?\"",
+        "targets": [
+            "cause",
+            "origin-ness"
+        ],
+        "actual": "Cause-ness",
+        "raw_target": "\"cause / origin-ness\"",
+        "raw_actual": "Cause-ness",
+        "bleu_score": 0.0,
+        "chrF_score": 42.3667435981976,
+        "chrF_plus_score": 35.30561966516467,
+        "ter_test": 100.0,
+        "bert_score_p": 0.9972438812255859,
+        "bert_score_r": 0.9972438812255859,
+        "bert_score_f1": 0.9972438812255859
+    }
+]

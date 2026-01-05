@@ -1,0 +1,94 @@
+[
+    {
+        "file": "3.csv",
+        "row": 2,
+        "prompt": "\"New Vocab:\ngati (to catch)\n\npika (bug)\n\nRules:\nmyu = conditional (“would”).\n\nmye = past marker.\n\nVerbs stack after i.\n\nObject marked with e.\n\nSentence Sample:\nbegu bay i myu mye gati e pika.\nQuestion:\nIs this sentence grammatical according to the rules above? Translate it to English.\"",
+        "targets": [
+            "If I had caught the bug.",
+            "Yes, it is grammatical.\nTranslation: If I would have caught the bug."
+        ],
+        "actual": "The translation to English is: Would have caught a bug.",
+        "raw_target": "\"Yes, it is grammatical.\nTranslation: If I would have caught the bug. / If I had caught the bug.\"",
+        "raw_actual": " Yes, the sentence is grammatical according to the provided rules. The translation to English is: \"Would have caught a bug.\"",
+        "bleu_score": 7.595456438315031,
+        "chrF_score": 43.82672762535677,
+        "chrF_plus_score": 39.568711757155754,
+        "ter_test": 88.88888888888889,
+        "bert_score_p": 0.8838843107223511,
+        "bert_score_r": 0.8987371325492859,
+        "bert_score_f1": 0.8851783871650696
+    },
+    {
+        "file": "3.csv",
+        "row": 3,
+        "prompt": "\"New Vocab:\nsene (clean)\n\nkwe (invert prefix)\n\nRules:\ngen = abstract noun suffix (“-ness”).\n\nkwe inverts root before gen.\n\ne marks predicate noun.\n\nSentence Sample:\nswe e kwe senegen.\nQuestion:\nWhat does kwe senegen mean?\"",
+        "targets": [
+            "Uncleanliness",
+            "dirtiness"
+        ],
+        "actual": "cleanliness",
+        "raw_target": "\"Uncleanliness/ dirtiness\"",
+        "raw_actual": " cleanliness",
+        "bleu_score": 0.0,
+        "chrF_score": 83.7011619115136,
+        "chrF_plus_score": 71.74385306701163,
+        "ter_test": 100.0,
+        "bert_score_p": 0.9527748823165894,
+        "bert_score_r": 0.8788650631904602,
+        "bert_score_f1": 0.9081667065620422
+    },
+    {
+        "file": "3.csv",
+        "row": 4,
+        "prompt": "\"New Vocab:\nlato (liquid)\n\npodo (dirt)\n\nlaw (inside)\n\nRules:\nboy = preposition marker.\n\nlaw = inside.\n\nLocation phrase follows verb.\n\nboy can prefix location word.\n\nSentence Sample:\nswe i hay e lato boylaw podo.\nQuestion:\nIs this sentence grammatical? Where is the liquid?\"",
+        "targets": [
+            "Yes, it is grammatical.\nThe liquid is inside the dirt."
+        ],
+        "actual": "The liquid is inside the dirt.",
+        "raw_target": "\"Target Output:\nYes, it is grammatical.\nThe liquid is inside the dirt.\"",
+        "raw_actual": " Yes, the sentence is grammatical. The liquid is inside the dirt.",
+        "bleu_score": 42.43728456769501,
+        "chrF_score": 58.367258943490384,
+        "chrF_plus_score": 58.137505474207614,
+        "ter_test": 40.0,
+        "bert_score_p": 0.9453891515731812,
+        "bert_score_r": 0.9163048267364502,
+        "bert_score_f1": 0.9306197762489319
+    },
+    {
+        "file": "3.csv",
+        "row": 5,
+        "prompt": "\"New Vocab:\nsuki (to swim)\n\nliso (water)\n\nRules:\nCommands: omit subject, use i yoy.\n\nObject marked with e.\n\nVerb can be intransitive.\n\nSentence Sample:\ni yoy suki e liso!\nQuestion:\nWhat is this a command to do?\"",
+        "targets": [
+            "Swim in the water!"
+        ],
+        "actual": "Swim in the water!",
+        "raw_target": "\"Swim in the water!\"",
+        "raw_actual": " Swim in the water!",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 0.9999997615814209,
+        "bert_score_r": 0.9999997615814209,
+        "bert_score_f1": 0.9999997615814209
+    },
+    {
+        "file": "3.csv",
+        "row": 6,
+        "prompt": "\"New Vocab:\nbese (pretty)\n\nhasu (flower)\n\nRules:\nbyu = most (superlative).\n\nQuestion starts with kay.\n\nAdjective follows e.\n\nSentence Sample:\nkay a pin hasu byubese e?\nQuestion:\nIs this sentence grammatical? explain.\"",
+        "targets": [
+            "No it is not grammatical."
+        ],
+        "actual": "The translation would be: Is this the most pretty flower? where 'a' is an article, 'pin' is a determiner or demonstrative, and 'e' is the question marker in this context.",
+        "raw_target": "\"No it is not grammatical.\"",
+        "raw_actual": " Yes, the sentence is grammatical. The translation would be: \"Is this the most pretty flower?\" where 'a' is an article, 'pin' is a determiner or demonstrative, and 'e' is the question marker in this context.",
+        "bleu_score": 1.2557690800697192,
+        "chrF_score": 10.46545070266429,
+        "chrF_plus_score": 9.867351516698104,
+        "ter_test": 580.0,
+        "bert_score_p": 0.8033727407455444,
+        "bert_score_r": 0.8687297105789185,
+        "bert_score_f1": 0.8347739577293396
+    }
+]

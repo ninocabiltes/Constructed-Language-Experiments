@@ -1,0 +1,93 @@
+[
+    {
+        "file": "2.csv",
+        "row": 2,
+        "prompt": "\"Rule: dani = like, lano = bread, tay = many/very.\nDasopya → English\nSentence:\nswe i dani e tay lano\"",
+        "targets": [
+            "They like a lot of bread."
+        ],
+        "actual": "I like very many bread",
+        "raw_target": "\"They like a lot of bread.\"",
+        "raw_actual": "I like very many bread",
+        "bleu_score": 8.515289178380433,
+        "chrF_score": 25.291997158141783,
+        "chrF_plus_score": 22.779950820100485,
+        "ter_test": 83.33333333333334,
+        "bert_score_p": 0.9214226007461548,
+        "bert_score_r": 0.9304905533790588,
+        "bert_score_f1": 0.925934374332428
+    },
+    {
+        "file": "2.csv",
+        "row": 3,
+        "prompt": "\"Rule: Adjectives follow *e* for “to be.” lase = fast, daw = person.\nEnglish → Dasopya\nSentence:\nI am a fast person.\"",
+        "targets": [
+            "bay e lase daw"
+        ],
+        "actual": "daw lase e",
+        "raw_target": "\"bay e lase daw\"",
+        "raw_actual": "daw lase e",
+        "bleu_score": 28.43556390432464,
+        "chrF_score": 29.898209725177388,
+        "chrF_plus_score": 32.29659139054587,
+        "ter_test": 75.0,
+        "bert_score_p": 0.9030795097351074,
+        "bert_score_r": 0.8993729948997498,
+        "bert_score_f1": 0.9012224078178406
+    },
+    {
+        "file": "2.csv",
+        "row": 4,
+        "prompt": "\"Rule: dyu = future marker before verb. kami = buy, kupa = fruit.\nDasopya → English\nSentence:\nbay i dyu kami e kupa\"",
+        "targets": [
+            "I will buy fruit."
+        ],
+        "actual": "I will buy fruits.",
+        "raw_target": "\"I will buy fruit.\"",
+        "raw_actual": "I will buy fruits.",
+        "bleu_score": 42.7287006396234,
+        "chrF_score": 90.6927050625757,
+        "chrF_plus_score": 84.28519528549343,
+        "ter_test": 25.0,
+        "bert_score_p": 0.9955481290817261,
+        "bert_score_r": 0.9955481290817261,
+        "bert_score_f1": 0.9955481290817261
+    },
+    {
+        "file": "2.csv",
+        "row": 5,
+        "prompt": "\"Rule: Subject can be a noun; pila = bird, loy = see, sapa = fish.\nEnglish → Dasopya\nSentence:\nThe bird sees the fish.\"",
+        "targets": [
+            "pila i loy e sapa"
+        ],
+        "actual": "Pila loy sapa.",
+        "raw_target": "\"pila i loy e sapa\"",
+        "raw_actual": "Pila loy sapa.",
+        "bleu_score": 14.794015674776452,
+        "chrF_score": 30.78160571219811,
+        "chrF_plus_score": 28.30634738359985,
+        "ter_test": 60.0,
+        "bert_score_p": 0.8384736180305481,
+        "bert_score_r": 0.8224962949752808,
+        "bert_score_f1": 0.8304080367088318
+    },
+    {
+        "file": "2.csv",
+        "row": 6,
+        "prompt": "\"Rule: may = now, placed at start; subject *a* not needed if subject first.\nDasopya → English\nSentence:\nmay a bay i plu\"",
+        "targets": [
+            "Now I am going.",
+            "Now I go"
+        ],
+        "actual": "now a bay I am plu",
+        "raw_target": "\"Now I go / Now I am going.\"",
+        "raw_actual": "now a bay I am plu",
+        "bleu_score": 16.233395773754946,
+        "chrF_score": 14.295057460525085,
+        "chrF_plus_score": 18.51582236238019,
+        "ter_test": 85.71428571428571,
+        "bert_score_p": 0.8480455279350281,
+        "bert_score_r": 0.9089500904083252,
+        "bert_score_f1": 0.8774421811103821
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "file": "3.csv",
+        "row": 2,
+        "prompt": "\"Rule: teso = relative clause marker (“that/which”). gwi = good.\nDasopya → English\nSentence:\nbay i dani e kopo teso e gwi\"",
+        "targets": [
+            "I like books that are good."
+        ],
+        "actual": "The people of Dani are the best.",
+        "raw_target": "\"I like books that are good.\"",
+        "raw_actual": "\"The people of Dani are the best.\"",
+        "bleu_score": 6.567274736060396,
+        "chrF_score": 15.588874918871465,
+        "chrF_plus_score": 15.164490504750635,
+        "ter_test": 100.0,
+        "bert_score_p": 0.8757219910621643,
+        "bert_score_r": 0.8881120085716248,
+        "bert_score_f1": 0.8818734884262085
+    },
+    {
+        "file": "3.csv",
+        "row": 3,
+        "prompt": "\"Rule: mabo = eat/food, law = inside, kuto = school.\nEnglish → Dasopya\nSentence:\nThey eat in school.\"",
+        "targets": [
+            "swe i mabo law kuto"
+        ],
+        "actual": "Dasopya mabo kuto law.",
+        "raw_target": "\"swe i mabo law kuto\"",
+        "raw_actual": "Dasopya mabo kuto law.",
+        "bleu_score": 14.058533129758727,
+        "chrF_score": 33.94781398166036,
+        "chrF_plus_score": 33.027522018451485,
+        "ter_test": 80.0,
+        "bert_score_p": 0.868477463722229,
+        "bert_score_r": 0.8865238428115845,
+        "bert_score_f1": 0.8774078488349915
+    },
+    {
+        "file": "3.csv",
+        "row": 4,
+        "prompt": "\"Rule: maymasu = now-morning (this morning), dago = store, law = inside.\nDasopya → English\nSentence:\nmaymasu a baydin e law dago\"",
+        "targets": [
+            "This morning I am at the store."
+        ],
+        "actual": "This morning at the store's interior",
+        "raw_target": "\"This morning I am at the store.\"",
+        "raw_actual": "This morning at the store's interior",
+        "bleu_score": 16.449759298465814,
+        "chrF_score": 66.81936541995923,
+        "chrF_plus_score": 60.9225386265681,
+        "ter_test": 57.14285714285714,
+        "bert_score_p": 0.8902890086174011,
+        "bert_score_r": 0.9078606367111206,
+        "bert_score_f1": 0.8989890217781067
+    },
+    {
+        "file": "3.csv",
+        "row": 5,
+        "prompt": "\"Rule: bote = blue, *e* for adjectives.\nEnglish → Dasopya\nSentence:\nThe fish is blue.\"",
+        "targets": [
+            "sapa e bote"
+        ],
+        "actual": "Dasopye\n\n\n(Note: Since the rule provided does not include a direct translation mechanism or how to form plurals and articles in Dasopya, this answer assumes that 'fish' translates directly as it appears, with an adjective formed by appending *e* for blue.)",
+        "raw_target": "\"sapa e bote\"",
+        "raw_actual": "\nDasopye\n\n\n(Note: Since the rule provided does not include a direct translation mechanism or how to form plurals and articles in \"Dasopya,\" this answer assumes that 'fish' translates directly as it appears, with an adjective formed by appending *e* for blue.)",
+        "bleu_score": 0.7445292335166879,
+        "chrF_score": 4.7108247441613775,
+        "chrF_plus_score": 3.533118558121033,
+        "ter_test": 1366.6666666666665,
+        "bert_score_p": 0.7792707681655884,
+        "bert_score_r": 0.7977946400642395,
+        "bert_score_f1": 0.7884238362312317
+    },
+    {
+        "file": "3.csv",
+        "row": 6,
+        "prompt": "\"Rule: kay = question marker, dani = like, lenu = art.\nDasopya → English\nSentence:\nkay a kyu i dani e lenu?\"",
+        "targets": [
+            "Do you like art?"
+        ],
+        "actual": "Is this picture nice?",
+        "raw_target": "\"Do you like art?\"",
+        "raw_actual": "\"Is this picture nice?\"",
+        "bleu_score": 10.682175159905853,
+        "chrF_score": 7.142857142857144,
+        "chrF_plus_score": 7.8899082568807355,
+        "ter_test": 100.0,
+        "bert_score_p": 0.8872836232185364,
+        "bert_score_r": 0.8881808519363403,
+        "bert_score_f1": 0.8877320289611816
+    }
+]

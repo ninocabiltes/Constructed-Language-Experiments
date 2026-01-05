@@ -1,0 +1,60 @@
+[
+  {
+    "file": "5.csv",
+    "row": 2,
+    "prompt": "\"New Vocab:\nlati (to borrow)\n\nmelo (money)\n\nsehu (hundred)\n\nu (indirect object)\n\nRules:\nmyu = conditional.\n\nmye = past.\n\nu = indirect object.\n\nNumber compounds: sehu = 100.\n\nObject marked with e.\n\nVerb stacking allowed.\n\nSentence Sample:\nbegu bay i myu mye lati u kyu e melo sehu.\nQuestion:\nTranslate to English.\"",
+    "targets": [
+      "If I had borrowed 100 units of money from you.",
+      "If I would have borrowed 100 money from you."
+    ],
+    "actual": "I would borrow for him if I had a hundred dollars.",
+    "raw_target": "\"If I would have borrowed 100 money from you. / If I had borrowed 100 units of money from you.\"",
+    "raw_actual": "I would borrow for him if I had a hundred dollars."
+  },
+  {
+    "file": "5.csv",
+    "row": 3,
+    "prompt": "\"New Vocab:\nsume (mature)\n\nkuto (school)\n\ndaw (person)\n\ntwi (reorder prefix)\n\nRules:\ntwi reorders adjective-noun compounding.\n\nDefault: left-to-right compounding.\n\ntwi swaps interpretation.\n\nNouns can compound.\n\ne marks predicate.\n\nNo i for “to be”.\n\nSentence Sample:\nsume twikutodaw.\nQuestion:\nWhat does this mean vs. sumekutodaw?\"",
+    "targets": [
+      "Adult student vs. college student."
+    ],
+    "actual": "sume kuto daw means a mature person from school.\nsume twikuto daw means a person from school who is mature.",
+    "raw_target": "\"Adult student (adult + school-person) vs. college student (adult-school + person).\"",
+    "raw_actual": "sume kuto daw means a mature person from school.\nsume twikuto daw means a person from school who is mature."
+  },
+  {
+    "file": "5.csv",
+    "row": 4,
+    "prompt": "\"New Vocab:\ndegu (war)\n\nhido (city)\n\nkwepay (below)\n\nboy (preposition marker)\n\nRules:\nboy = preposition marker.\n\nkwepay = below (inverted pay).\n\nteso = relative marker.\n\nLocation phrase after verb.\n\ne marks object.\n\ni marks verb.\n\nSentence Sample:\ndegu teso e hido i hay boykwepay baso.\nQuestion:\nWhere is the war located?\"",
+    "targets": [
+      "Below the city."
+    ],
+    "actual": "The war is located below the city.",
+    "raw_target": "\"Below the city.\"",
+    "raw_actual": "The war is located below the city."
+  },
+  {
+    "file": "5.csv",
+    "row": 5,
+    "prompt": "\"New Vocab:\nsole (happy)\n\nkwe (invert)\n\nbyu (most)\n\ngen (-ness)\n\nRules:\nkwebyu = least (invert + most).\n\ngen = abstract noun.\n\ne marks predicate.\n\nkwe inverts root.\n\nbyu superlative.\n\nCompound: kwebyugeni.\n\nSentence Sample:\nswe e kwebyusolegen.\nQuestion:\nWhat does kwebyusolegen mean?\"",
+    "targets": [
+      "The least happiness",
+      "unhappiness minimal happiness.",
+      "unhappiness."
+    ],
+    "actual": "least happy-ness",
+    "raw_target": "\"The least happiness / unhappiness (minimal happiness).\"",
+    "raw_actual": "least happy-ness"
+  },
+  {
+    "file": "5.csv",
+    "row": 6,
+    "prompt": "\"New Vocab:\nhesa (shark)\n\nludo (to protect)\n\nseya (person title)\n\ntelu (in order to)\n\nRules:\ntelu = in order to.\n\nbegu = if.\n\nmyu = conditional.\n\nu = indirect object.\n\nObject e.\n\nVerb stacking.\n\ni before verb phrase.\n\nSentence Sample:\nbay i ludo u seya e hesa telu begu bay i myu hay e helu.\nQuestion:\nTranslate to English.\"",
+    "targets": [
+      "I protect the person from the shark so that I would have safety."
+    ],
+    "actual": "I protect the person in order to if I conditionally hate him.",
+    "raw_target": "\"I protect the person from the shark so that I would have safety.\"",
+    "raw_actual": "I protect the person in order to if I conditionally hate him."
+  }
+]

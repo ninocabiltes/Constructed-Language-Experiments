@@ -1,0 +1,94 @@
+[
+    {
+        "file": "1.csv",
+        "row": 2,
+        "prompt": "\"Rule: Nouns can be compounded; mabo = food, goy = thing.\nDasopya → English\nSentence:\nbay i boti e mabogoy\"",
+        "targets": [
+            "I want food."
+        ],
+        "actual": "Bay I bought a food-thing.",
+        "raw_target": "\"I want food.\"\n\"",
+        "raw_actual": "Bay I bought a food-thing.",
+        "bleu_score": 9.652434877402245,
+        "chrF_score": 21.483075812173897,
+        "chrF_plus_score": 21.970134627510564,
+        "ter_test": 133.33333333333331,
+        "bert_score_p": 0.9019728302955627,
+        "bert_score_r": 0.9340434074401855,
+        "bert_score_f1": 0.917728066444397
+    },
+    {
+        "file": "1.csv",
+        "row": 3,
+        "prompt": "\"Rule: Word order: Subject + i + verb + e + object. loy = see, pila = bird.\nEnglish → Dasopya\nSentence:\nI see a bird.\"",
+        "targets": [
+            "bay i loy e pila"
+        ],
+        "actual": "Dasopya loy pila le.",
+        "raw_target": "\"bay i loy e pila\"\n\"",
+        "raw_actual": "\nDasopya loy pila le.",
+        "bleu_score": 12.70331870386537,
+        "chrF_score": 25.981073031342554,
+        "chrF_plus_score": 24.58941046057349,
+        "ter_test": 80.0,
+        "bert_score_p": 0.8445107936859131,
+        "bert_score_r": 0.8678030967712402,
+        "bert_score_f1": 0.8559985160827637
+    },
+    {
+        "file": "1.csv",
+        "row": 4,
+        "prompt": "\"Rule: hoy = possessive marker (“of”).\nDasopya → English\nSentence:\nkyu e domay hoy bay\"",
+        "targets": [
+            "You are my friend.",
+            "You are the friend of me"
+        ],
+        "actual": "The dog's house of kyu.",
+        "raw_target": "\"You are the friend of me / You are my friend.\"\n\"",
+        "raw_actual": "\"The dog's house of kyu.\"",
+        "bleu_score": 9.652434877402245,
+        "chrF_score": 10.721247563352826,
+        "chrF_plus_score": 10.124269005847953,
+        "ter_test": 100.0,
+        "bert_score_p": 0.8468994498252869,
+        "bert_score_r": 0.8753760457038879,
+        "bert_score_f1": 0.8609023094177246
+    },
+    {
+        "file": "1.csv",
+        "row": 5,
+        "prompt": "\"Rule: Adjectives follow *e* without *i* for “to be” statements. lase = fast.\nEnglish → Dasopya\nSentence:\nThey are fast.\"",
+        "targets": [
+            "swe e lase"
+        ],
+        "actual": "Dasopye leze.",
+        "raw_target": "\"swe e lase\"\n\"",
+        "raw_actual": "\nDasopye leze.",
+        "bleu_score": 0.0,
+        "chrF_score": 15.638481449525452,
+        "chrF_plus_score": 11.728861087144088,
+        "ter_test": 100.0,
+        "bert_score_p": 0.8471505641937256,
+        "bert_score_r": 0.8510748744010925,
+        "bert_score_f1": 0.8491081595420837
+    },
+    {
+        "file": "1.csv",
+        "row": 6,
+        "prompt": "\"Rule: Questions start with kay; tey = can; pya = talk; bey = -ly.\nDasopya → English\nSentence:\nkay a kyu i tey pya e bey?\"\n\"",
+        "targets": [
+            "Can you speak fluently?",
+            "Can you speak related-ly?"
+        ],
+        "actual": "Can you speak like this?",
+        "raw_target": "\"Can you speak related-ly? / Can you speak fluently?\"",
+        "raw_actual": "Can you speak like this?",
+        "bleu_score": 32.46679154750989,
+        "chrF_score": 51.40673374613003,
+        "chrF_plus_score": 54.1957770758846,
+        "ter_test": 50.0,
+        "bert_score_p": 0.9334487318992615,
+        "bert_score_r": 0.9327521920204163,
+        "bert_score_f1": 0.9317269325256348
+    }
+]

@@ -1,0 +1,92 @@
+[
+    {
+        "file": "3.csv",
+        "row": 2,
+        "prompt": "\"Rule: teso = relative clause marker (“that/which”). gwi = good.\nDasopya → English\nSentence:\nbay i dani e kopo teso e gwi\"",
+        "targets": [
+            "I like books that are good."
+        ],
+        "actual": "The sentence translates to This is the book that is good.",
+        "raw_target": "\"I like books that are good.\"",
+        "raw_actual": "The sentence translates to \"This is the book that is good.\"",
+        "bleu_score": 7.495553473355842,
+        "chrF_score": 30.966982957600553,
+        "chrF_plus_score": 29.76133862124814,
+        "ter_test": 150.0,
+        "bert_score_p": 0.8786958456039429,
+        "bert_score_r": 0.9146376252174377,
+        "bert_score_f1": 0.8963065147399902
+    },
+    {
+        "file": "3.csv",
+        "row": 3,
+        "prompt": "\"Rule: mabo = eat/food, law = inside, kuto = school.\nEnglish → Dasopya\nSentence:\nThey eat in school.\"",
+        "targets": [
+            "swe i mabo law kuto"
+        ],
+        "actual": "Dasopies mabo kuton.",
+        "raw_target": "\"swe i mabo law kuto\"",
+        "raw_actual": "Dasopies mabo kuton.",
+        "bleu_score": 12.44023474812678,
+        "chrF_score": 27.218167759039698,
+        "chrF_plus_score": 23.088260785946197,
+        "ter_test": 80.0,
+        "bert_score_p": 0.8688750863075256,
+        "bert_score_r": 0.8745217323303223,
+        "bert_score_f1": 0.8716893196105957
+    },
+    {
+        "file": "3.csv",
+        "row": 4,
+        "prompt": "\"Rule: maymasu = now-morning (this morning), dago = store, law = inside.\nDasopya → English\nSentence:\nmaymasu a baydin e law dago\"",
+        "targets": [
+            "This morning I am at the store."
+        ],
+        "actual": "This morning I went to the store inside.",
+        "raw_target": "\"This morning I am at the store.\"",
+        "raw_actual": "This morning I went to the store inside.",
+        "bleu_score": 23.356898886410004,
+        "chrF_score": 64.10266373368094,
+        "chrF_plus_score": 62.496612726307255,
+        "ter_test": 57.14285714285714,
+        "bert_score_p": 0.9522371888160706,
+        "bert_score_r": 0.9680466055870056,
+        "bert_score_f1": 0.9600768089294434
+    },
+    {
+        "file": "3.csv",
+        "row": 5,
+        "prompt": "\"Rule: bote = blue, *e* for adjectives.\nEnglish → Dasopya\nSentence:\nThe fish is blue.\"",
+        "targets": [
+            "sapa e bote"
+        ],
+        "actual": "Dasopie bote.",
+        "raw_target": "\"sapa e bote\"",
+        "raw_actual": "Dasopie bote.",
+        "bleu_score": 27.516060407455225,
+        "chrF_score": 36.26863810794486,
+        "chrF_plus_score": 31.445868885989377,
+        "ter_test": 100.0,
+        "bert_score_p": 0.8554718494415283,
+        "bert_score_r": 0.8429198861122131,
+        "bert_score_f1": 0.8491495251655579
+    },
+    {
+        "file": "3.csv",
+        "row": 6,
+        "prompt": "\"Rule: kay = question marker, dani = like, lenu = art.\nDasopya → English\nSentence:\nkay a kyu i dani e lenu?\"",
+        "targets": [
+            "Do you like art?"
+        ],
+        "actual": "Is this painting similar to that one?",
+        "raw_target": "\"Do you like art?\"",
+        "raw_actual": "Is this painting similar to that one?",
+        "bleu_score": 5.522397783539471,
+        "chrF_score": 12.317387311345119,
+        "chrF_plus_score": 11.542382147311194,
+        "ter_test": 175.0,
+        "bert_score_p": 0.8737829327583313,
+        "bert_score_r": 0.907272458076477,
+        "bert_score_f1": 0.8902127742767334
+    }
+]

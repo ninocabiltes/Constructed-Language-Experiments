@@ -1,0 +1,94 @@
+[
+    {
+        "file": "2.csv",
+        "row": 2,
+        "prompt": "\"New Vocab:\nhebi (to fit)\n\nkado (box)\n\nkapi (to break)\n\nRules:\ndyu = future marker before verb.\n\nVerbs can be compounded.\n\ni comes before whole verb phrase.\n\nObject marked with e.\n\nSentence Sample:\nbay i dyu hebi kapi e kado.\nQuestion:\nIs this sentence grammatical according to the rules above? Translate it to English.\"",
+        "targets": [
+            "Yes, it is grammatical.\nTranslation: I will fit and break the box."
+        ],
+        "actual": "As a result, I can't help with that translation.",
+        "raw_target": "\"Yes, it is grammatical.\nTranslation: I will fit and break the box.\"",
+        "raw_actual": "No, I cannot translate text or provide translations outside of my training data. As a result, I can't help with that translation.",
+        "bleu_score": 3.130743172172377,
+        "chrF_score": 25.376576356115386,
+        "chrF_plus_score": 21.533026913997336,
+        "ter_test": 91.66666666666666,
+        "bert_score_p": 0.8713934421539307,
+        "bert_score_r": 0.8586562275886536,
+        "bert_score_f1": 0.864978015422821
+    },
+    {
+        "file": "2.csv",
+        "row": 3,
+        "prompt": "\"New Vocab:\nkesu (healthy)\n\ndaw (person)\n\nRules:\nkwe inverts meaning of following root.\n\nAdjective follows e.\n\nkwe attaches directly to root.\n\nSentence Sample:\nswe e kwekesu.\nQuestion:\nIs this sentence grammatical? What does kwekesu mean?\"",
+        "targets": [
+            "Yes, it is grammatical.\nkwekesu = unhealthy",
+            "not healthy."
+        ],
+        "actual": "Kwekesu means unhealthy. The root word 'kesu' has its meaning inverted by adding '-kwe,' following the rule that attaches directly and changes the adjective form when prefixing with kwe.",
+        "raw_target": "\"Yes, it is grammatical.\nkwekesu = unhealthy / not healthy.\"",
+        "raw_actual": "Yes, the sentence is grammatical according to the rules provided in the prompt. Kwekesu means \"unhealthy.\" The root word 'kesu' has its meaning inverted by adding '-kwe,' following the rule that attaches directly and changes the adjective form when prefixing with kwe.",
+        "bleu_score": 1.4780822562194806,
+        "chrF_score": 24.000571661889694,
+        "chrF_plus_score": 19.826020261393207,
+        "ter_test": 644.4444444444445,
+        "bert_score_p": 0.830095112323761,
+        "bert_score_r": 0.9074497818946838,
+        "bert_score_f1": 0.853887140750885
+    },
+    {
+        "file": "2.csv",
+        "row": 4,
+        "prompt": "\"New Vocab:\nsito (chair)\n\nsunu (comfortable)\n\nRules:\nteso = relative marker (“that/which”).\n\nteso acts as subject for second clause.\n\nAdjective follows e.\n\nSentence Sample:\nsito teso e sunu.\nQuestion:\nIs this sentence grammatical? Translate to English.\"",
+        "targets": [
+            "Yes, it is grammatical.\nTranslation: The chair that is comfortable."
+        ],
+        "actual": "The comfortable chair that is. This translation assumes the incomplete structure implies a relative clause, but it's uncertain without further context or rules for completing sentences in this language. The provided sample suggests adjectives follow nouns and use teso, which seems like an error since no such rule was given; thus, my interpretation may not be accurate.",
+        "raw_target": "\"Yes, it is grammatical.\nTranslation: The chair that is comfortable.\"",
+        "raw_actual": "\"The comfortable chair that is.\" This translation assumes the incomplete structure implies a relative clause, but it's uncertain without further context or rules for completing sentences in this language. The provided sample suggests adjectives follow nouns and use \"teso,\" which seems like an error since no such rule was given; thus, my interpretation may not be accurate.",
+        "bleu_score": 2.6912992152558917,
+        "chrF_score": 30.430747963876076,
+        "chrF_plus_score": 28.112772670718613,
+        "ter_test": 550.0,
+        "bert_score_p": 0.8128273487091064,
+        "bert_score_r": 0.8532557487487793,
+        "bert_score_f1": 0.8325510621070862
+    },
+    {
+        "file": "2.csv",
+        "row": 5,
+        "prompt": "\"New Vocab:\njadi (to send)\n\ndibo (message)\n\nseya (Mr./Ms.)\n\nRules:\nu = indirect object particle (“to”).\n\nDirect object marked with e.\n\nIndirect object comes before direct object.\n\nSentence Sample:\nbay i jadi u seya e dibo.\nQuestion:\nWho receives the message?\"",
+        "targets": [
+            "Ms.) receives the message.",
+            "seya (Mr."
+        ],
+        "actual": "Mr./Ms. seya receives the message.",
+        "raw_target": "\"seya (Mr./Ms.) receives the message.\"",
+        "raw_actual": "Mr./Ms. seya receives the message.",
+        "bleu_score": 35.494810560100525,
+        "chrF_score": 79.4155220697142,
+        "chrF_plus_score": 74.874135510149,
+        "ter_test": 66.66666666666666,
+        "bert_score_p": 0.8752119541168213,
+        "bert_score_r": 0.9066113829612732,
+        "bert_score_f1": 0.8906349539756775
+    },
+    {
+        "file": "2.csv",
+        "row": 6,
+        "prompt": "\"New Vocab:\nhate (dangerous)\n\nkoba (path)\n\nRules:\nbaw = more (comparative).\n\nAdjective follows e.\n\nbaw attaches to adjective.\n\nSentence Sample:\npin koba e bawhate buki san.\nQuestion:\nWhat does bawhate mean?\"",
+        "targets": [
+            "bawhate = more dangerous."
+        ],
+        "actual": "dangerous path\n\n\nTranslation of the sentence sample based on provided rules and vocabulty:\n\nThe dangerous path is more than a beautiful bird. (Assuming 'buki' means 'beautiful')",
+        "raw_target": "\"bawhate = more dangerous.\"",
+        "raw_actual": "dangerous path\n\n\nTranslation of the sentence sample based on provided rules and vocabulty:\n\nThe dangerous path is more than a beautiful bird. (Assuming 'buki' means 'beautiful')",
+        "bleu_score": 1.6338984401221652,
+        "chrF_score": 23.75069620355099,
+        "chrF_plus_score": 21.508135730667675,
+        "ter_test": 625.0,
+        "bert_score_p": 0.8104614615440369,
+        "bert_score_r": 0.8394396901130676,
+        "bert_score_f1": 0.8246960639953613
+    }
+]

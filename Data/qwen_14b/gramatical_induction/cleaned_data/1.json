@@ -1,0 +1,61 @@
+[
+  {
+    "file": "1.csv",
+    "row": 2,
+    "prompt": "\"New Vocab:\npaki (to find)\n\nmisu (secret)\n\nbino (key)\n\nRules:\nSubject-Verb-Object word order.\n\nUse particle i before verb, e before object.\n\nSentence Sample:\nswe i paki e bino. (They find the key.)\nQuestion:\nTranslate to English.\"",
+    "targets": [
+      "They find the key."
+    ],
+    "actual": "They find the key.",
+    "raw_target": "\"They find the key.\"",
+    "raw_actual": "They find the key."
+  },
+  {
+    "file": "1.csv",
+    "row": 3,
+    "prompt": "\"New Vocab:\nlake (red)\n\nkado (box)\n\nRules:\nAdjectives follow e without i for “to be” statements.\n\nNo article (“a/the”) needed.\n\nSentence Sample:\nkado e lake.\nQuestion:\nWhat does this mean in English?\"",
+    "targets": [
+      "The box is red."
+    ],
+    "actual": "The box is red.",
+    "raw_target": "\"The box is red.\"",
+    "raw_actual": "The box is red."
+  },
+  {
+    "file": "1.csv",
+    "row": 4,
+    "prompt": "\"New Vocab:\nseba (snake)\n\ngala (tail)\n\nRules:\nhoy = possessive marker (“of”).\n\nPossessor comes after hoy.\n\nSentence Sample:\ngala hoy seba.\nQuestion:\nTranslate to English.\"",
+    "targets": [
+      "The snake’s tail",
+      "tail of the snake."
+    ],
+    "actual": "tail of snake.",
+    "raw_target": "\"The snake’s tail / tail of the snake.\"",
+    "raw_actual": "tail of snake."
+  },
+  {
+    "file": "1.csv",
+    "row": 5,
+    "prompt": "\"New Vocab:\nsutu (order)\n\ndoyi (to follow)\n\nRules:\nQuestions start with kay.\n\nSubject marked with a if not first.\n\nSentence Sample:\nkay a swe i doyi e sutu?\nQuestion:\nWhat is this asking?\"",
+    "targets": [
+      "Do they follow the order?"
+    ],
+    "actual": "a swe i doyi e sutu?",
+    "raw_target": "\"Do they follow the order?\"",
+    "raw_actual": "a swe i doyi e sutu?"
+  },
+  {
+    "file": "1.csv",
+    "row": 6,
+    "prompt": "\"New Vocab:\nhaso (village)\n\ndaw (person)\n\nRules:\nmoy = multiple/plural prefix.\n\nAttach directly to noun.\n\nSentence Sample:\nmoydaw i plu e law haso.\nQuestion:\nWhat does moydaw mean?\"",
+    "targets": [
+      "Many people",
+      "people",
+      "people plural.",
+      "people."
+    ],
+    "actual": "multiple people",
+    "raw_target": "\"(Many) people / people (plural).\"",
+    "raw_actual": "multiple people"
+  }
+]

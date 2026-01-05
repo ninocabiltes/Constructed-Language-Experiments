@@ -1,0 +1,95 @@
+[
+    {
+        "file": "1.csv",
+        "row": 2,
+        "prompt": "\"Translate to English Sentence: e teno.\"",
+        "targets": [
+            "It is snowing.",
+            "There is snow."
+        ],
+        "actual": "e teno.",
+        "raw_target": "\"There is snow. / It is snowing.\"",
+        "raw_actual": "e teno.",
+        "bleu_score": 19.716118825581447,
+        "chrF_score": 9.417963507091812,
+        "chrF_plus_score": 10.396381045115223,
+        "ter_test": 100.0,
+        "bert_score_p": 0.8671046495437622,
+        "bert_score_r": 0.8827193975448608,
+        "bert_score_f1": 0.8748423457145691
+    },
+    {
+        "file": "1.csv",
+        "row": 3,
+        "prompt": "\"Translate to English: bay i loy e pila teso i bali.\"",
+        "targets": [
+            "I watch a bird that flies."
+        ],
+        "actual": "bay i loy e pila teso i bali",
+        "raw_target": "\"I watch a bird that flies.\"",
+        "raw_actual": "bay i loy e pila teso i bali",
+        "bleu_score": 0.0,
+        "chrF_score": 10.436507936507937,
+        "chrF_plus_score": 7.8273809523809526,
+        "ter_test": 116.66666666666667,
+        "bert_score_p": 0.7874772548675537,
+        "bert_score_r": 0.8501098155975342,
+        "bert_score_f1": 0.8175957798957825
+    },
+    {
+        "file": "1.csv",
+        "row": 4,
+        "prompt": "\"Translate to English: sapye.\"",
+        "targets": [
+            "Cool.",
+            "I’m cool."
+        ],
+        "actual": "sae",
+        "raw_target": "\"Cool. / I’m cool.\"",
+        "raw_actual": "sae",
+        "bleu_score": 0.0,
+        "chrF_score": 0.0,
+        "chrF_plus_score": 0.0,
+        "ter_test": 66.66666666666666,
+        "bert_score_p": 0.8396409749984741,
+        "bert_score_r": 0.9721372127532959,
+        "bert_score_f1": 0.9010443091392517
+    },
+    {
+        "file": "1.csv",
+        "row": 5,
+        "prompt": "\"Translate to English: swe hugwa i mye pindinbuli.\"",
+        "targets": [
+            "He and his dog arrived here.",
+            "He arrived here."
+        ],
+        "actual": "tongue",
+        "raw_target": "\"He (and his dog) arrived here.\"",
+        "raw_actual": "tongue",
+        "bleu_score": 0.0,
+        "chrF_score": 3.4013605442176873,
+        "chrF_plus_score": 2.9154518950437316,
+        "ter_test": 66.66666666666666,
+        "bert_score_p": 0.866753101348877,
+        "bert_score_r": 0.8666280508041382,
+        "bert_score_f1": 0.8666905760765076
+    },
+    {
+        "file": "1.csv",
+        "row": 6,
+        "prompt": "\"Translate to English: pila i bali.\"",
+        "targets": [
+            "A bird flies."
+        ],
+        "actual": "pilas",
+        "raw_target": "\"A bird flies.\"",
+        "raw_actual": "pilas",
+        "bleu_score": 0.0,
+        "chrF_score": 6.1224489795918355,
+        "chrF_plus_score": 5.10204081632653,
+        "ter_test": 100.0,
+        "bert_score_p": 0.7976281642913818,
+        "bert_score_r": 0.8565051555633545,
+        "bert_score_f1": 0.8260188698768616
+    }
+]

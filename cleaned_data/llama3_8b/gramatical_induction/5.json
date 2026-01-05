@@ -1,0 +1,95 @@
+[
+    {
+        "file": "5.csv",
+        "row": 2,
+        "prompt": "\"New Vocab:\nlati (to borrow)\n\nmelo (money)\n\nsehu (hundred)\n\nu (indirect object)\n\nRules:\nmyu = conditional.\n\nmye = past.\n\nu = indirect object.\n\nNumber compounds: sehu = 100.\n\nObject marked with e.\n\nVerb stacking allowed.\n\nSentence Sample:\nbegu bay i myu mye lati u kyu e melo sehu.\nQuestion:\nTranslate to English.\"",
+        "targets": [
+            "If I had borrowed 100 units of money from you.",
+            "If I would have borrowed 100 money from you."
+        ],
+        "actual": "I will borrow the hundred dollars if I had borrowed it in the past.",
+        "raw_target": "\"If I would have borrowed 100 money from you. / If I had borrowed 100 units of money from you.\"",
+        "raw_actual": "I will borrow the hundred dollars if I had borrowed it in the past.",
+        "bleu_score": 10.511846841633776,
+        "chrF_score": 34.19108959712933,
+        "chrF_plus_score": 32.20153909204385,
+        "ter_test": 126.3157894736842,
+        "bert_score_p": 0.9093283414840698,
+        "bert_score_r": 0.907435417175293,
+        "bert_score_f1": 0.908380925655365
+    },
+    {
+        "file": "5.csv",
+        "row": 3,
+        "prompt": "\"New Vocab:\nsume (mature)\n\nkuto (school)\n\ndaw (person)\n\ntwi (reorder prefix)\n\nRules:\ntwi reorders adjective-noun compounding.\n\nDefault: left-to-right compounding.\n\ntwi swaps interpretation.\n\nNouns can compound.\n\ne marks predicate.\n\nNo i for “to be”.\n\nSentence Sample:\nsume twikutodaw.\nQuestion:\nWhat does this mean vs. sumekutodaw?\"",
+        "targets": [
+            "Adult student vs. college student."
+        ],
+        "actual": "Mature school person vs. Person mature at school.",
+        "raw_target": "\"Adult student (adult + school-person) vs. college student (adult-school + person).\"",
+        "raw_actual": "Mature school person vs. Person mature at school.",
+        "bleu_score": 9.287528999566801,
+        "chrF_score": 15.066296608738766,
+        "chrF_plus_score": 18.129272928685634,
+        "ter_test": 140.0,
+        "bert_score_p": 0.8796408772468567,
+        "bert_score_r": 0.9170010089874268,
+        "bert_score_f1": 0.8979325294494629
+    },
+    {
+        "file": "5.csv",
+        "row": 4,
+        "prompt": "\"New Vocab:\ndegu (war)\n\nhido (city)\n\nkwepay (below)\n\nboy (preposition marker)\n\nRules:\nboy = preposition marker.\n\nkwepay = below (inverted pay).\n\nteso = relative marker.\n\nLocation phrase after verb.\n\ne marks object.\n\ni marks verb.\n\nSentence Sample:\ndegu teso e hido i hay boykwepay baso.\nQuestion:\nWhere is the war located?\"",
+        "targets": [
+            "Below the city."
+        ],
+        "actual": "Below the city.",
+        "raw_target": "\"Below the city.\"",
+        "raw_actual": "Below the city.",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 0.9999998807907104,
+        "bert_score_r": 0.9999998807907104,
+        "bert_score_f1": 0.9999998807907104
+    },
+    {
+        "file": "5.csv",
+        "row": 5,
+        "prompt": "\"New Vocab:\nsole (happy)\n\nkwe (invert)\n\nbyu (most)\n\ngen (-ness)\n\nRules:\nkwebyu = least (invert + most).\n\ngen = abstract noun.\n\ne marks predicate.\n\nkwe inverts root.\n\nbyu superlative.\n\nCompound: kwebyugeni.\n\nSentence Sample:\nswe e kwebyusolegen.\nQuestion:\nWhat does kwebyusolegen mean?\"",
+        "targets": [
+            "The least happiness",
+            "unhappiness minimal happiness.",
+            "unhappiness."
+        ],
+        "actual": "Happiest state of being.",
+        "raw_target": "\"The least happiness / unhappiness (minimal happiness).\"",
+        "raw_actual": "Happiest state of being.",
+        "bleu_score": 10.682175159905853,
+        "chrF_score": 21.7554294727498,
+        "chrF_plus_score": 21.211119731568033,
+        "ter_test": 171.42857142857142,
+        "bert_score_p": 0.8443019390106201,
+        "bert_score_r": 0.8870351314544678,
+        "bert_score_f1": 0.8586708903312683
+    },
+    {
+        "file": "5.csv",
+        "row": 6,
+        "prompt": "\"New Vocab:\nhesa (shark)\n\nludo (to protect)\n\nseya (person title)\n\ntelu (in order to)\n\nRules:\ntelu = in order to.\n\nbegu = if.\n\nmyu = conditional.\n\nu = indirect object.\n\nObject e.\n\nVerb stacking.\n\ni before verb phrase.\n\nSentence Sample:\nbay i ludo u seya e hesa telu begu bay i myu hay e helu.\nQuestion:\nTranslate to English.\"",
+        "targets": [
+            "I protect the person from the shark so that I would have safety."
+        ],
+        "actual": "In order to protect the person, if I have a shark in order to make hay on the sea.",
+        "raw_target": "\"I protect the person from the shark so that I would have safety.\"",
+        "raw_actual": "In order to protect the person, if I have a shark in order to make hay on the sea.",
+        "bleu_score": 8.638804535733371,
+        "chrF_score": 42.722282712909184,
+        "chrF_plus_score": 40.31818567661113,
+        "ter_test": 123.07692307692308,
+        "bert_score_p": 0.8873334527015686,
+        "bert_score_r": 0.9050876498222351,
+        "bert_score_f1": 0.8961225748062134
+    }
+]

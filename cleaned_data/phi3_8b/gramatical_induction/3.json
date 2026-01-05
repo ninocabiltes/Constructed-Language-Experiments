@@ -1,0 +1,94 @@
+[
+    {
+        "file": "3.csv",
+        "row": 2,
+        "prompt": "\"New Vocab:\ngati (to catch)\n\npika (bug)\n\nRules:\nmyu = conditional (“would”).\n\nmye = past marker.\n\nVerbs stack after i.\n\nObject marked with e.\n\nSentence Sample:\nbegu bay i myu mye gati e pika.\nQuestion:\nIs this sentence grammatical according to the rules above? Translate it to English.\"",
+        "targets": [
+            "If I had caught the bug.",
+            "Yes, it is grammatical.\nTranslation: If I would have caught the bug."
+        ],
+        "actual": "However, please note that this interpretation might not be entirely accurate due to limited information available for constructing an exact grammar rule set or vocabulary usage within a specific cultural or linguistic framework in real-world scenarios.",
+        "raw_target": "\"Yes, it is grammatical.\nTranslation: If I would have caught the bug. / If I had caught the bug.\"",
+        "raw_actual": "Yes, \"Begu Bay I would catch a bug\" is grammatical in accordance with the provided language rules and translates to its respective meaning as per my understanding of contextual translation based on given examples. However, please note that this interpretation might not be entirely accurate due to limited information available for constructing an exact grammar rule set or vocabulary usage within a specific cultural or linguistic framework in real-world scenarios.",
+        "bleu_score": 1.1524538390587937,
+        "chrF_score": 20.23936009249374,
+        "chrF_plus_score": 16.472230516618485,
+        "ter_test": 400.0,
+        "bert_score_p": 0.831318736076355,
+        "bert_score_r": 0.8675951361656189,
+        "bert_score_f1": 0.8389520049095154
+    },
+    {
+        "file": "3.csv",
+        "row": 3,
+        "prompt": "\"New Vocab:\nsene (clean)\n\nkwe (invert prefix)\n\nRules:\ngen = abstract noun suffix (“-ness”).\n\nkwe inverts root before gen.\n\ne marks predicate noun.\n\nSentence Sample:\nswe e kwe senegen.\nQuestion:\nWhat does kwe senegen mean?\"",
+        "targets": [
+            "Uncleanliness",
+            "dirtiness"
+        ],
+        "actual": "Inverted clean abstractness.",
+        "raw_target": "\"Uncleanliness/ dirtiness\"",
+        "raw_actual": "Inverted clean abstractness.",
+        "bleu_score": 0.0,
+        "chrF_score": 30.229565288987047,
+        "chrF_plus_score": 25.9110559619889,
+        "ter_test": 300.0,
+        "bert_score_p": 0.8579080104827881,
+        "bert_score_r": 0.8249483108520508,
+        "bert_score_f1": 0.8407645225524902
+    },
+    {
+        "file": "3.csv",
+        "row": 4,
+        "prompt": "\"New Vocab:\nlato (liquid)\n\npodo (dirt)\n\nlaw (inside)\n\nRules:\nboy = preposition marker.\n\nlaw = inside.\n\nLocation phrase follows verb.\n\nboy can prefix location word.\n\nSentence Sample:\nswe i hay e lato boylaw podo.\nQuestion:\nIs this sentence grammatical? Where is the liquid?\"",
+        "targets": [
+            "Yes, it is grammatical.\nThe liquid is inside the dirt."
+        ],
+        "actual": "The location of the liquid follows the action word which seems to be implied by context. However, without explicit information about what each part represents (like subject or object), it's hard to determine exactly where in a physical sense this sentence would place the liquid within an environment as we don't have equivalent words for 'I', 'am', and other common English parts of speech that provide clearer syntactic structure.",
+        "raw_target": "\"Target Output:\nYes, it is grammatical.\nThe liquid is inside the dirt.\"",
+        "raw_actual": "Yes, it's a grammatically correct sentence in this constructed language where \"lato\" means liquid and comes after the verb as per rule #3; hence 'e lato'. The location of the liquid follows the action word which seems to be implied by context. However, without explicit information about what each part represents (like subject or object), it's hard to determine exactly where in a physical sense this sentence would place the liquid within an environment as we don't have equivalent words for 'I', 'am', and other common English parts of speech that provide clearer syntactic structure.",
+        "bleu_score": 0.732982310966735,
+        "chrF_score": 17.34402652788755,
+        "chrF_plus_score": 16.003078066718317,
+        "ter_test": 670.0,
+        "bert_score_p": 0.8195561766624451,
+        "bert_score_r": 0.8865184187889099,
+        "bert_score_f1": 0.8517231941223145
+    },
+    {
+        "file": "3.csv",
+        "row": 5,
+        "prompt": "\"New Vocab:\nsuki (to swim)\n\nliso (water)\n\nRules:\nCommands: omit subject, use i yoy.\n\nObject marked with e.\n\nVerb can be intransitive.\n\nSentence Sample:\ni yoy suki e liso!\nQuestion:\nWhat is this a command to do?\"",
+        "targets": [
+            "Swim in the water!"
+        ],
+        "actual": "Swim in the water!",
+        "raw_target": "\"Swim in the water!\"",
+        "raw_actual": "Swim in the water!",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 0.9999997615814209,
+        "bert_score_r": 0.9999997615814209,
+        "bert_score_f1": 0.9999997615814209
+    },
+    {
+        "file": "3.csv",
+        "row": 6,
+        "prompt": "\"New Vocab:\nbese (pretty)\n\nhasu (flower)\n\nRules:\nbyu = most (superlative).\n\nQuestion starts with kay.\n\nAdjective follows e.\n\nSentence Sample:\nkay a pin hasu byubese e?\nQuestion:\nIs this sentence grammatical? explain.\"",
+        "targets": [
+            "No it is not grammatical."
+        ],
+        "actual": "It translates to Is this pretty flower? in English. The structure follows an adjective (beautiful) after 'e' as per rule one, with 'bese' being used for beautiful or pretty which fits into our new vocabulary.",
+        "raw_target": "\"No it is not grammatical.\"",
+        "raw_actual": "Yes, the sentence is grammatically correct according to the provided rules and vocabulary. It translates to \"Is this pretty flower?\" in English. The structure follows an adjective (beautiful) after 'e' as per rule one, with 'bese' being used for beautiful or pretty which fits into our new vocabulary.",
+        "bleu_score": 0.8954307276600084,
+        "chrF_score": 8.449733241686303,
+        "chrF_plus_score": 7.290300995018346,
+        "ter_test": 680.0,
+        "bert_score_p": 0.8074111342430115,
+        "bert_score_r": 0.8731833100318909,
+        "bert_score_f1": 0.8390101790428162
+    }
+]

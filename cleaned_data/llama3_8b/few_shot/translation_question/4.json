@@ -1,0 +1,92 @@
+[
+    {
+        "file": "4.csv",
+        "row": 2,
+        "prompt": "\"Rule: pin = this, kopo = book, taygwi = very good.\nDasopya → English\nSentence:\npin kopo e taygwi\"",
+        "targets": [
+            "This book is very good."
+        ],
+        "actual": "This is very good.",
+        "raw_target": "\"This book is very good.\"",
+        "raw_actual": "This is very good.",
+        "bleu_score": 57.89300674674101,
+        "chrF_score": 63.31935566544045,
+        "chrF_plus_score": 66.08926734305403,
+        "ter_test": 20.0,
+        "bert_score_p": 0.9654783010482788,
+        "bert_score_r": 0.9523351788520813,
+        "bert_score_f1": 0.9588616490364075
+    },
+    {
+        "file": "4.csv",
+        "row": 3,
+        "prompt": "\"Rule: boti = want, tey = can, plu = go. Verb phrases stack.\nEnglish → Dasopya\nSentence:\nI want to be able to go.\"",
+        "targets": [
+            "bay i boti tey plu"
+        ],
+        "actual": "Dasoplu",
+        "raw_target": "\"bay i boti tey plu\"",
+        "raw_actual": "Dasoplu",
+        "bleu_score": 0.0,
+        "chrF_score": 11.064079760173945,
+        "chrF_plus_score": 9.483496937291955,
+        "ter_test": 100.0,
+        "bert_score_p": 0.7550873756408691,
+        "bert_score_r": 0.760622501373291,
+        "bert_score_f1": 0.757844865322113
+    },
+    {
+        "file": "4.csv",
+        "row": 4,
+        "prompt": "\"Rule: bey = -ly, pya = talk, lase = fast.\nDasopya → English\nSentence:\nkyu i pya lasebey\"",
+        "targets": [
+            "You talk quickly."
+        ],
+        "actual": "How fast do I talk?",
+        "raw_target": "\"You talk quickly.\"",
+        "raw_actual": "How fast do I talk?",
+        "bleu_score": 8.116697886877475,
+        "chrF_score": 13.079975579975581,
+        "chrF_plus_score": 12.712302280264822,
+        "ter_test": 166.66666666666669,
+        "bert_score_p": 0.8878189325332642,
+        "bert_score_r": 0.9420473575592041,
+        "bert_score_f1": 0.9141296148300171
+    },
+    {
+        "file": "4.csv",
+        "row": 5,
+        "prompt": "\"Rule: swe = they, milu = love, komya = family.\nEnglish → Dasopya\nSentence:\nThey love their family.\"",
+        "targets": [
+            "swe i milu e swe komya"
+        ],
+        "actual": "Dasopya",
+        "raw_target": "\"swe i milu e swe komya\"",
+        "raw_actual": "Dasopya",
+        "bleu_score": 0.0,
+        "chrF_score": 5.635604632372744,
+        "chrF_plus_score": 4.830518256319495,
+        "ter_test": 100.0,
+        "bert_score_p": 0.7380785346031189,
+        "bert_score_r": 0.7620295286178589,
+        "bert_score_f1": 0.7498628497123718
+    },
+    {
+        "file": "4.csv",
+        "row": 6,
+        "prompt": "\"Rule: *u* = indirect object particle, day = give, lano = bread.\nDasopya → English\nSentence:\nbay i day u kyu e lano\"",
+        "targets": [
+            "I give bread to you."
+        ],
+        "actual": "You give me that bread.",
+        "raw_target": "\"I give bread to you.\"",
+        "raw_actual": "You give me that bread.",
+        "bleu_score": 10.682175159905853,
+        "chrF_score": 32.30737560685738,
+        "chrF_plus_score": 30.510065333324444,
+        "ter_test": 80.0,
+        "bert_score_p": 0.9147394895553589,
+        "bert_score_r": 0.9189931154251099,
+        "bert_score_f1": 0.916861355304718
+    }
+]

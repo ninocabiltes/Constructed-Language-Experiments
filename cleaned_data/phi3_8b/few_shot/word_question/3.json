@@ -1,0 +1,186 @@
+[
+    {
+        "file": "3.csv",
+        "row": 2,
+        "prompt": "\"Word/Rule:\nmosey = interesting\ngen = -ness\nQuestion:\nWhat does moseygen most likely mean?\"",
+        "targets": [
+            "interestingness"
+        ],
+        "actual": "Interestingness",
+        "raw_target": "\"interestingness\"",
+        "raw_actual": "Interestingness",
+        "bleu_score": 0.0,
+        "chrF_score": 91.84565434565434,
+        "chrF_plus_score": 78.72484658198944,
+        "ter_test": 0.0,
+        "bert_score_p": 0.9715014696121216,
+        "bert_score_r": 0.9715014696121216,
+        "bert_score_f1": 0.9715014696121216
+    },
+    {
+        "file": "3.csv",
+        "row": 3,
+        "prompt": "\"Word/Rule:\npya = talk\nlase = fast\nQuestion:\nWhat does pyalase most likely mean?\"",
+        "targets": [
+            "fast talk",
+            "rap"
+        ],
+        "actual": "Talk quickly",
+        "raw_target": "\"fast talk / rap\"",
+        "raw_actual": "Talk quickly",
+        "bleu_score": 0.0,
+        "chrF_score": 12.727824606895219,
+        "chrF_plus_score": 9.545868455171416,
+        "ter_test": 133.33333333333331,
+        "bert_score_p": 0.9014513492584229,
+        "bert_score_r": 0.9165840148925781,
+        "bert_score_f1": 0.891074001789093
+    },
+    {
+        "file": "3.csv",
+        "row": 4,
+        "prompt": "\"Word/Rule:\nday = give\nu = indirect object particle\nQuestion:\nIn bay i day u kyu e lano, what is the indirect object?\"",
+        "targets": [
+            "kyu",
+            "kyu you"
+        ],
+        "actual": "In bay i day us kyu elanow (bayi di gide ukelyelon), us serves as the indirect object. However, this translation does not make sense in English due to a lack of context and potential errors within the prompt itself. The original language or rule set is unknown based on provided information alone.",
+        "raw_target": "\"kyu (you)\"",
+        "raw_actual": "In bay i day us kyu elanow (bayi di gide ukelyelon), \"us\" serves as the indirect object. However, this translation does not make sense in English due to a lack of context and potential errors within the prompt itself. The original language or rule set is unknown based on provided information alone.",
+        "bleu_score": 0.6149917424924614,
+        "chrF_score": 3.9474037735133387,
+        "chrF_plus_score": 5.0036241466815365,
+        "ter_test": 3400.0,
+        "bert_score_p": 0.7827168703079224,
+        "bert_score_r": 0.8416578769683838,
+        "bert_score_f1": 0.8111180067062378
+    },
+    {
+        "file": "3.csv",
+        "row": 5,
+        "prompt": "\"Word/Rule:\nlaw = inside\nkwe = invert\nQuestion:\nWhat does kwelaw most likely mean?\"",
+        "targets": [
+            "outside"
+        ],
+        "actual": "Inverted law",
+        "raw_target": "\"outside\"",
+        "raw_actual": "Inverted law",
+        "bleu_score": 0.0,
+        "chrF_score": 6.410256410256408,
+        "chrF_plus_score": 5.4945054945054945,
+        "ter_test": 200.0,
+        "bert_score_p": 0.7877517938613892,
+        "bert_score_r": 0.8581874966621399,
+        "bert_score_f1": 0.8214625120162964
+    },
+    {
+        "file": "3.csv",
+        "row": 6,
+        "prompt": "\"Word/Rule:\nsote = hot\nbey = -ly\nQuestion:\nWhat does sotebey most likely mean?\"",
+        "targets": [
+            "hotly"
+        ],
+        "actual": "hotly",
+        "raw_target": "\"hotly\"",
+        "raw_actual": "hotly",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 0.9999998211860657,
+        "bert_score_r": 0.9999998211860657,
+        "bert_score_f1": 0.9999998211860657
+    },
+    {
+        "file": "3.csv",
+        "row": 7,
+        "prompt": "\"Word/Rule:\ngwi = good\nbaw = more\nQuestion:\nWhat does bawgwi most likely mean?\"",
+        "targets": [
+            "better"
+        ],
+        "actual": "Good more than good (implying something very positive)",
+        "raw_target": "\"better\"",
+        "raw_actual": "Good more than good (implying something very positive)",
+        "bleu_score": 0.0,
+        "chrF_score": 8.40385618385854,
+        "chrF_plus_score": 7.203305300450176,
+        "ter_test": 800.0,
+        "bert_score_p": 0.7804337739944458,
+        "bert_score_r": 0.8637487888336182,
+        "bert_score_f1": 0.8199803829193115
+    },
+    {
+        "file": "3.csv",
+        "row": 8,
+        "prompt": "\"Word/Rule:\nsuka = sibling\nmoy = multiple\nQuestion:\nWhat does moysuka most likely mean?\"",
+        "targets": [
+            "siblings"
+        ],
+        "actual": "Multiple siblings",
+        "raw_target": "\"siblings\"",
+        "raw_actual": "\nMultiple siblings",
+        "bleu_score": 49.99999999999999,
+        "chrF_score": 76.74880456578744,
+        "chrF_plus_score": 77.81405221363849,
+        "ter_test": 100.0,
+        "bert_score_p": 0.8562777042388916,
+        "bert_score_r": 0.9224709272384644,
+        "bert_score_f1": 0.8881427049636841
+    },
+    {
+        "file": "3.csv",
+        "row": 9,
+        "prompt": "\"Word/Rule:\ndey = animal\nsun = -like\nQuestion:\nWhat does deysun most likely mean?\"",
+        "targets": [
+            "animal-like"
+        ],
+        "actual": "Animal-like",
+        "raw_target": "\"animal-like\"",
+        "raw_actual": "Animal-like",
+        "bleu_score": 0.0,
+        "chrF_score": 87.72426647426647,
+        "chrF_plus_score": 75.1922284065141,
+        "ter_test": 0.0,
+        "bert_score_p": 0.9908810257911682,
+        "bert_score_r": 0.9908810257911682,
+        "bert_score_f1": 0.9908810257911682
+    },
+    {
+        "file": "3.csv",
+        "row": 10,
+        "prompt": "\"Word/Rule:\nloy = see\ngen = -ness\nQuestion:\nWhat does loygen most likely mean?\"",
+        "targets": [
+            "sight",
+            "vision"
+        ],
+        "actual": "Loyalty (or loyal-ness)",
+        "raw_target": "\"sight / vision\"",
+        "raw_actual": "Loyalty (or loyal-ness)",
+        "bleu_score": 0.0,
+        "chrF_score": 5.555555555555556,
+        "chrF_plus_score": 4.761904761904761,
+        "ter_test": 300.0,
+        "bert_score_p": 0.7979012727737427,
+        "bert_score_r": 0.8618326187133789,
+        "bert_score_f1": 0.8286356925964355
+    },
+    {
+        "file": "3.csv",
+        "row": 11,
+        "prompt": "\"Word/Rule:\ntaku = cause / because\ngen = -ness\nQuestion:\nWhat does takugen most likely mean?\"",
+        "targets": [
+            "cause",
+            "origin-ness"
+        ],
+        "actual": "The concept of causality due to a certain quality or state, often referred as the reason for something existing in that manner. However, without further context from this language's grammar and vocabulty rules beyond these examples, providing an exact translation is challenging. It could be interpreted along similar lines: the cause-ness of or causality due to.",
+        "raw_target": "\"cause / origin-ness\"",
+        "raw_actual": "The concept of causality due to a certain quality or state, often referred as the reason for something existing in that manner. However, without further context from this language's grammar and vocabulty rules beyond these examples, providing an exact translation is challenging. It could be interpreted along similar lines: \"the cause-ness of\" or \"causality due to\".",
+        "bleu_score": 0.0,
+        "chrF_score": 6.014106929223831,
+        "chrF_plus_score": 5.154948796477569,
+        "ter_test": 5600.0,
+        "bert_score_p": 0.787498950958252,
+        "bert_score_r": 0.8569962978363037,
+        "bert_score_f1": 0.8207790851593018
+    }
+]

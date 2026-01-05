@@ -1,0 +1,59 @@
+[
+  {
+    "file": "4.csv",
+    "row": 2,
+    "prompt": "\"New Vocab:\ndemu (to collect)\n\nheko (gem)\n\nluka (rare)\n\nRules:\nteso = relative marker.\n\nNew subject introduced with a.\n\nAdjective follows e.\n\nObject marked with e.\n\nVerb marked with i.\n\nSentence Sample:\nheko teso a swe i demu e luka.\nQuestion:\nWhat is rare?\"",
+    "targets": [
+      "The gem that they collect is rare.",
+      "The gem they collect."
+    ],
+    "actual": "luka",
+    "raw_target": "\"The gem that they collect is rare. / The gem they collect.\"",
+    "raw_actual": "luka"
+  },
+  {
+    "file": "4.csv",
+    "row": 3,
+    "prompt": "\"New Vocab:\nsesu (to ensure)\n\nhelu (safety)\n\nmitu (to reach)\n\nRules:\ntelu = in order to.\n\nVerbs can stack.\n\ni before verb phrase.\n\nObject marked with e.\n\ntelu introduces goal.\n\nSentence Sample:\nswe i mitu e helu telu sesu.\nQuestion:\nWhy do they reach safety?\"",
+    "targets": [
+      "In order to ensure it.",
+      "In order to ensure."
+    ],
+    "actual": "swe i sesu e helu telu mitu.",
+    "raw_target": "\"In order to ensure (it).\"",
+    "raw_actual": "swe i sesu e helu telu mitu."
+  },
+  {
+    "file": "4.csv",
+    "row": 4,
+    "prompt": "\"New Vocab:\nguse (excessive)\n\nsadi (to begin)\n\nRules:\nkwebaw = less (invert + more).\n\nbuki = than (comparison).\n\nAdjective follows e.\n\nkwe inverts root.\n\nComparison after buki.\n\nSentence Sample:\npin e kwebawguse buki san.\nQuestion:\nWhat does kwebawguse mean?\"",
+    "targets": [
+      "Less excessive."
+    ],
+    "actual": "less excessive",
+    "raw_target": "\"Less excessive.\"",
+    "raw_actual": "less excessive"
+  },
+  {
+    "file": "4.csv",
+    "row": 5,
+    "prompt": "\"New Vocab:\nkiso (seat)\n\ndoke (from)\n\npaci (to open)\n\nRules:\ndoke = from.\n\nboy marks preposition.\n\ni before verb.\n\nObject marked with e.\n\nLocation phrase after object.\n\nSentence Sample:\nbay i paci e kiso boydoke gan.\nQuestion:\nWhere is the seat opened from?\"",
+    "targets": [
+      "From the room."
+    ],
+    "actual": "The seat is opened from gan.",
+    "raw_target": "\"From the room.\"",
+    "raw_actual": "The seat is opened from gan."
+  },
+  {
+    "file": "4.csv",
+    "row": 6,
+    "prompt": "\"New Vocab:\nmagu (sky)\n\nbaso (color)\n\nmope (purple)\n\nRules:\nhoy = possessive.\n\nteso = relative marker.\n\nAdjective follows e.\n\nPossessor after hoy.\n\nteso clause describes noun.\n\nSentence Sample:\nbaso hoy magu teso e mope.\nQuestion:\nTranslate to English.\"",
+    "targets": [
+      "The color of the sky that is purple."
+    ],
+    "actual": "the color of my sky is purple.",
+    "raw_target": "\"The color of the sky that is purple.\"",
+    "raw_actual": "the color of my sky is purple."
+  }
+]

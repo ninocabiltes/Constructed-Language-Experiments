@@ -1,0 +1,59 @@
+[
+  {
+    "file": "2.csv",
+    "row": 2,
+    "prompt": "\"New Vocab:\nhebi (to fit)\n\nkado (box)\n\nkapi (to break)\n\nRules:\ndyu = future marker before verb.\n\nVerbs can be compounded.\n\ni comes before whole verb phrase.\n\nObject marked with e.\n\nSentence Sample:\nbay i dyu hebi kapi e kado.\nQuestion:\nIs this sentence grammatical according to the rules above? Translate it to English.\"",
+    "targets": [
+      "Yes, it is grammatical.\nTranslation: I will fit and break the box."
+    ],
+    "actual": "I will fit and break the box.",
+    "raw_target": "\"Yes, it is grammatical.\nTranslation: I will fit and break the box.\"",
+    "raw_actual": "The sentence is grammatical according to the rules provided. Translation: \"I will fit and break the box.\""
+  },
+  {
+    "file": "2.csv",
+    "row": 3,
+    "prompt": "\"New Vocab:\nkesu (healthy)\n\ndaw (person)\n\nRules:\nkwe inverts meaning of following root.\n\nAdjective follows e.\n\nkwe attaches directly to root.\n\nSentence Sample:\nswe e kwekesu.\nQuestion:\nIs this sentence grammatical? What does kwekesu mean?\"",
+    "targets": [
+      "Yes, it is grammatical.\nkwekesu = unhealthy",
+      "not healthy."
+    ],
+    "actual": "kwekesu means unhealthy.",
+    "raw_target": "\"Yes, it is grammatical.\nkwekesu = unhealthy / not healthy.\"",
+    "raw_actual": "Yes, the sentence is grammatical. kwekesu means unhealthy."
+  },
+  {
+    "file": "2.csv",
+    "row": 4,
+    "prompt": "\"New Vocab:\nsito (chair)\n\nsunu (comfortable)\n\nRules:\nteso = relative marker (“that/which”).\n\nteso acts as subject for second clause.\n\nAdjective follows e.\n\nSentence Sample:\nsito teso e sunu.\nQuestion:\nIs this sentence grammatical? Translate to English.\"",
+    "targets": [
+      "Yes, it is grammatical.\nTranslation: The chair that is comfortable."
+    ],
+    "actual": "The chair which is comfortable.",
+    "raw_target": "\"Yes, it is grammatical.\nTranslation: The chair that is comfortable.\"",
+    "raw_actual": "The chair which is comfortable."
+  },
+  {
+    "file": "2.csv",
+    "row": 5,
+    "prompt": "\"New Vocab:\njadi (to send)\n\ndibo (message)\n\nseya (Mr./Ms.)\n\nRules:\nu = indirect object particle (“to”).\n\nDirect object marked with e.\n\nIndirect object comes before direct object.\n\nSentence Sample:\nbay i jadi u seya e dibo.\nQuestion:\nWho receives the message?\"",
+    "targets": [
+      "Ms.) receives the message.",
+      "seya (Mr."
+    ],
+    "actual": "seya",
+    "raw_target": "\"seya (Mr./Ms.) receives the message.\"",
+    "raw_actual": "seya"
+  },
+  {
+    "file": "2.csv",
+    "row": 6,
+    "prompt": "\"New Vocab:\nhate (dangerous)\n\nkoba (path)\n\nRules:\nbaw = more (comparative).\n\nAdjective follows e.\n\nbaw attaches to adjective.\n\nSentence Sample:\npin koba e bawhate buki san.\nQuestion:\nWhat does bawhate mean?\"",
+    "targets": [
+      "bawhate = more dangerous."
+    ],
+    "actual": "more dangerous",
+    "raw_target": "\"bawhate = more dangerous.\"",
+    "raw_actual": "more dangerous"
+  }
+]

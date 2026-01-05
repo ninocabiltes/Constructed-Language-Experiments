@@ -1,0 +1,94 @@
+[
+    {
+        "file": "3.csv",
+        "row": 2,
+        "prompt": "\"New Vocab:\ngati (to catch)\n\npika (bug)\n\nRules:\nmyu = conditional (“would”).\n\nmye = past marker.\n\nVerbs stack after i.\n\nObject marked with e.\n\nSentence Sample:\nbegu bay i myu mye gati e pika.\nQuestion:\nIs this sentence grammatical according to the rules above? Translate it to English.\"",
+        "targets": [
+            "If I had caught the bug.",
+            "Yes, it is grammatical.\nTranslation: If I would have caught the bug."
+        ],
+        "actual": "The translation in English would be I would have caught a bug.",
+        "raw_target": "\"Yes, it is grammatical.\nTranslation: If I would have caught the bug. / If I had caught the bug.\"",
+        "raw_actual": "            Yes, the sentence is grammatical according to the rules provided. The translation in English would be \"I would have caught a bug.\"",
+        "bleu_score": 18.258251497328285,
+        "chrF_score": 46.170752682306215,
+        "chrF_plus_score": 42.980072924363775,
+        "ter_test": 77.77777777777779,
+        "bert_score_p": 0.8846760392189026,
+        "bert_score_r": 0.9060234427452087,
+        "bert_score_f1": 0.8825815916061401
+    },
+    {
+        "file": "3.csv",
+        "row": 3,
+        "prompt": "\"New Vocab:\nsene (clean)\n\nkwe (invert prefix)\n\nRules:\ngen = abstract noun suffix (“-ness”).\n\nkwe inverts root before gen.\n\ne marks predicate noun.\n\nSentence Sample:\nswe e kwe senegen.\nQuestion:\nWhat does kwe senegen mean?\"",
+        "targets": [
+            "Uncleanliness",
+            "dirtiness"
+        ],
+        "actual": "Inverted cleanliness.",
+        "raw_target": "\"Uncleanliness/ dirtiness\"",
+        "raw_actual": "            Inverted cleanliness.",
+        "bleu_score": 0.0,
+        "chrF_score": 72.04299865233465,
+        "chrF_plus_score": 61.75114170200112,
+        "ter_test": 200.0,
+        "bert_score_p": 0.8709996938705444,
+        "bert_score_r": 0.8653579950332642,
+        "bert_score_f1": 0.8657655715942383
+    },
+    {
+        "file": "3.csv",
+        "row": 4,
+        "prompt": "\"New Vocab:\nlato (liquid)\n\npodo (dirt)\n\nlaw (inside)\n\nRules:\nboy = preposition marker.\n\nlaw = inside.\n\nLocation phrase follows verb.\n\nboy can prefix location word.\n\nSentence Sample:\nswe i hay e lato boylaw podo.\nQuestion:\nIs this sentence grammatical? Where is the liquid?\"",
+        "targets": [
+            "Yes, it is grammatical.\nThe liquid is inside the dirt."
+        ],
+        "actual": "The location of the liquid (lato) is inside (law), as indicated by the preposition marker 'boy' preceding it and followed by 'podo', which means dirt, but since we are looking for the location of lato, we focus on lato boylaw.",
+        "raw_target": "\"Target Output:\nYes, it is grammatical.\nThe liquid is inside the dirt.\"",
+        "raw_actual": "            Yes, the sentence \"swe i hay e lato boylaw podo\" is grammatical according to the rules provided in the prompt. The location of the liquid (lato) is inside (law), as indicated by the preposition marker 'boy' preceding it and followed by 'podo', which means dirt, but since we are looking for the location of lato, we focus on \"lato boylaw\".",
+        "bleu_score": 2.168776900007474,
+        "chrF_score": 27.3372843058073,
+        "chrF_plus_score": 26.88068958249578,
+        "ter_test": 350.0,
+        "bert_score_p": 0.8232054710388184,
+        "bert_score_r": 0.9041743278503418,
+        "bert_score_f1": 0.8617922067642212
+    },
+    {
+        "file": "3.csv",
+        "row": 5,
+        "prompt": "\"New Vocab:\nsuki (to swim)\n\nliso (water)\n\nRules:\nCommands: omit subject, use i yoy.\n\nObject marked with e.\n\nVerb can be intransitive.\n\nSentence Sample:\ni yoy suki e liso!\nQuestion:\nWhat is this a command to do?\"",
+        "targets": [
+            "Swim in the water!"
+        ],
+        "actual": "Swim in the water!",
+        "raw_target": "\"Swim in the water!\"",
+        "raw_actual": "            Swim in the water!",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 0.9999997615814209,
+        "bert_score_r": 0.9999997615814209,
+        "bert_score_f1": 0.9999997615814209
+    },
+    {
+        "file": "3.csv",
+        "row": 6,
+        "prompt": "\"New Vocab:\nbese (pretty)\n\nhasu (flower)\n\nRules:\nbyu = most (superlative).\n\nQuestion starts with kay.\n\nAdjective follows e.\n\nSentence Sample:\nkay a pin hasu byubese e?\nQuestion:\nIs this sentence grammatical? explain.\"",
+        "targets": [
+            "No it is not grammatical."
+        ],
+        "actual": "The structure of the sentence kay a pin hasu byubese e? follows the rule that questions start with 'kay' and adjectives follow 'e'. Here, 'a pin hasu' means 'the most beautiful flower', so the sentence translates to Is this the most beautiful flower?.",
+        "raw_target": "\"No it is not grammatical.\"",
+        "raw_actual": "            Yes, the sentence is grammatical according to the rules provided in the prompt. The structure of the sentence \"kay a pin hasu byubese e?\" follows the rule that questions start with 'kay' and adjectives follow 'e'. Here, 'a pin hasu' means 'the most beautiful flower', so the sentence translates to \"Is this the most beautiful flower?\".",
+        "bleu_score": 0.7445292335166879,
+        "chrF_score": 7.429911146781147,
+        "chrF_plus_score": 6.398131035474833,
+        "ter_test": 840.0,
+        "bert_score_p": 0.7876564264297485,
+        "bert_score_r": 0.8690198659896851,
+        "bert_score_f1": 0.8263401389122009
+    }
+]

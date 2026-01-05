@@ -1,0 +1,189 @@
+[
+    {
+        "file": "1.csv",
+        "row": 2,
+        "prompt": "\"Word/Rule:\nmya = parent\nbey = related / -ly\n\nQuestion:\nWhat does myabey most likely mean?\"\n\"",
+        "targets": [
+            "parent-related",
+            "parental"
+        ],
+        "actual": "Parentally",
+        "raw_target": "\"parental / parent-related\"",
+        "raw_actual": "Parentally",
+        "bleu_score": 0.0,
+        "chrF_score": 74.06063572173902,
+        "chrF_plus_score": 63.48054490434774,
+        "ter_test": 100.0,
+        "bert_score_p": 0.8236434459686279,
+        "bert_score_r": 0.9215812683105469,
+        "bert_score_f1": 0.8628159165382385
+    },
+    {
+        "file": "1.csv",
+        "row": 3,
+        "prompt": "\"Word/Rule:\nbya = male\nmya = parent\n\nQuestion:\nWhat does byamya most likely mean?\"",
+        "targets": [
+            "father"
+        ],
+        "actual": "father",
+        "raw_target": "\"father\"",
+        "raw_actual": "father",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 1.0000001192092896,
+        "bert_score_r": 1.0000001192092896,
+        "bert_score_f1": 1.0000001192092896
+    },
+    {
+        "file": "1.csv",
+        "row": 4,
+        "prompt": "\"Word/Rule:\ndomay = friend\nbay = I / me\n\nQuestion:\nWhat does bay domay most likely mean?\"",
+        "targets": [
+            "my friend"
+        ],
+        "actual": "I am your friend.",
+        "raw_target": "\"my friend\"\n\"",
+        "raw_actual": "I am your friend.",
+        "bleu_score": 10.682175159905853,
+        "chrF_score": 54.6945053852293,
+        "chrF_plus_score": 45.870813506366325,
+        "ter_test": 200.0,
+        "bert_score_p": 0.8887077569961548,
+        "bert_score_r": 0.890056848526001,
+        "bert_score_f1": 0.8893817663192749
+    },
+    {
+        "file": "1.csv",
+        "row": 5,
+        "prompt": "\"Word/Rule:\nkyu = you\nmoy = multiple\n\nQuestion:\nWhat does moykyu most likely mean?\"",
+        "targets": [
+            "you",
+            "you plural"
+        ],
+        "actual": "You",
+        "raw_target": "\"you (plural)\n\"\n\"",
+        "raw_actual": "You",
+        "bleu_score": 0.0,
+        "chrF_score": 38.888888888888886,
+        "chrF_plus_score": 29.166666666666664,
+        "ter_test": 0.0,
+        "bert_score_p": 0.9996536374092102,
+        "bert_score_r": 0.9996536374092102,
+        "bert_score_f1": 0.9996536374092102
+    },
+    {
+        "file": "1.csv",
+        "row": 6,
+        "prompt": "\"Word/Rule:\ndune = number\ngen = concept / -ness\n\nQuestion:\nWhat does dungen most likely mean?\"",
+        "targets": [
+            "amount-ness",
+            "quantity"
+        ],
+        "actual": "Concept-ness",
+        "raw_target": "\"quantity / amount-ness\"",
+        "raw_actual": "Concept-ness",
+        "bleu_score": 0.0,
+        "chrF_score": 40.739128108266826,
+        "chrF_plus_score": 34.91925266422871,
+        "ter_test": 100.0,
+        "bert_score_p": 0.999029815196991,
+        "bert_score_r": 0.999029815196991,
+        "bert_score_f1": 0.999029815196991
+    },
+    {
+        "file": "1.csv",
+        "row": 7,
+        "prompt": "\"lenu = art\nsyu = to do / make\n\nQuestion:\nWhat does lenusyu most likely mean?\"",
+        "targets": [
+            "to make art"
+        ],
+        "actual": "Art to do/make",
+        "raw_target": "\"to make art\"\n\"",
+        "raw_actual": "Art to do/make",
+        "bleu_score": 12.70331870386537,
+        "chrF_score": 30.49737944919385,
+        "chrF_plus_score": 27.10565276455898,
+        "ter_test": 66.66666666666666,
+        "bert_score_p": 0.8641605377197266,
+        "bert_score_r": 0.9000644683837891,
+        "bert_score_f1": 0.8817471861839294
+    },
+    {
+        "file": "1.csv",
+        "row": 8,
+        "prompt": "\"bote = blue\nsun = similar / -like\n\nQuestion:\nWhat does botesun most likely mean?\"",
+        "targets": [
+            "blue-like",
+            "bluish"
+        ],
+        "actual": "bluelike",
+        "raw_target": "\"blue-like / bluish\"",
+        "raw_actual": "bluelike",
+        "bleu_score": 0.0,
+        "chrF_score": 43.52604613180947,
+        "chrF_plus_score": 37.308039541550976,
+        "ter_test": 100.0,
+        "bert_score_p": 0.8008038997650146,
+        "bert_score_r": 0.8947507739067078,
+        "bert_score_f1": 0.8397393822669983
+    },
+    {
+        "file": "1.csv",
+        "row": 9,
+        "prompt": "\"Word/Rule:\npila = bird\nlase = fast\n\nQuestion:\nWhat does lase pila most likely mean?\"",
+        "targets": [
+            "blue-like",
+            "bluish"
+        ],
+        "actual": "Fast bird",
+        "raw_target": "\"blue-like / bluish\"",
+        "raw_actual": "Fast bird",
+        "bleu_score": 0.0,
+        "chrF_score": 7.8125,
+        "chrF_plus_score": 6.696428571428571,
+        "ter_test": 200.0,
+        "bert_score_p": 0.8747348189353943,
+        "bert_score_r": 0.887597382068634,
+        "bert_score_f1": 0.8811191320419312
+    },
+    {
+        "file": "1.csv",
+        "row": 10,
+        "prompt": "\"Word/Rule:\nhagu = story\ngoy = thing / object\n\nQuestion:\nWhat does hagugoy most likely mean?\n\nTarget Output:\nstory-thing / book / tale object\"",
+        "targets": [
+            "Story-thing",
+            "Storybook",
+            "book"
+        ],
+        "actual": "story-thing / book / tale object",
+        "raw_target": "\"Story-thing / Storybook / book\"",
+        "raw_actual": "story-thing / book / tale object",
+        "bleu_score": 8.116697886877475,
+        "chrF_score": 63.58814863788883,
+        "chrF_plus_score": 54.50412740390471,
+        "ter_test": 500.0,
+        "bert_score_p": 0.844184398651123,
+        "bert_score_r": 0.9349374771118164,
+        "bert_score_f1": 0.8872462511062622
+    },
+    {
+        "file": "1.csv",
+        "row": 11,
+        "prompt": "\"Word/Rule:\nswa = to be\nlase = fast\n\nQuestion:\nIn swe i swa lase, what does lase modify?\"",
+        "targets": [
+            "The verb “to be” — so “they are quickly”"
+        ],
+        "actual": "to be fast",
+        "raw_target": "\"The verb “to be” — so “they are quickly”\"",
+        "raw_actual": "to be fast",
+        "bleu_score": 0.0,
+        "chrF_score": 8.214847416239774,
+        "chrF_plus_score": 6.16113556217983,
+        "ter_test": 100.0,
+        "bert_score_p": 0.8721836805343628,
+        "bert_score_r": 0.800089955329895,
+        "bert_score_f1": 0.8345827460289001
+    }
+]

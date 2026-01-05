@@ -1,0 +1,189 @@
+[
+    {
+        "file": "2.csv",
+        "row": 2,
+        "prompt": "\"Word/Rule:\nsun = similar / -like\ndaw = person\nQuestion:\nWhat does sundaw most likely mean?\"",
+        "targets": [
+            "humanoid",
+            "person-like"
+        ],
+        "actual": "similar to a person",
+        "raw_target": "\"person-like / humanoid\"",
+        "raw_actual": "similar to a person",
+        "bleu_score": 0.0,
+        "chrF_score": 37.4918894278435,
+        "chrF_plus_score": 32.13590522386586,
+        "ter_test": 400.0,
+        "bert_score_p": 0.8561655282974243,
+        "bert_score_r": 0.8890784978866577,
+        "bert_score_f1": 0.8551175594329834
+    },
+    {
+        "file": "2.csv",
+        "row": 3,
+        "prompt": "\"Word/Rule:\ntay = many / very\ndaw = person\nQuestion:\nWhat does tay daw most likely mean?\"",
+        "targets": [
+            "many people"
+        ],
+        "actual": "Many people",
+        "raw_target": "\"many people\"",
+        "raw_actual": "Many people",
+        "bleu_score": 49.99999999999999,
+        "chrF_score": 85.90608465608466,
+        "chrF_plus_score": 70.6795634920635,
+        "ter_test": 0.0,
+        "bert_score_p": 0.9991499781608582,
+        "bert_score_r": 0.9991499781608582,
+        "bert_score_f1": 0.9991499781608582
+    },
+    {
+        "file": "2.csv",
+        "row": 4,
+        "prompt": "\"Word/Rule:\nhomu = calm\nkwe = invert prefix\nsegu = music\nQuestion:\nWhat does kwehomusegu most likely mean?\"",
+        "targets": [
+            "chaotic music",
+            "rock music"
+        ],
+        "actual": "Musiccal",
+        "raw_target": "\"chaotic music/ rock music\"",
+        "raw_actual": "Musiccal",
+        "bleu_score": 0.0,
+        "chrF_score": 23.657080810525194,
+        "chrF_plus_score": 20.27749783759302,
+        "ter_test": 100.0,
+        "bert_score_p": 0.8013159036636353,
+        "bert_score_r": 0.8847246766090393,
+        "bert_score_f1": 0.8409571647644043
+    },
+    {
+        "file": "2.csv",
+        "row": 5,
+        "prompt": "\"Word/Rule:\nbegu = if\nmyu = would\nQuestion:\nIn begu bay i myu plu, what tense is plu?\"",
+        "targets": [
+            "Conditional future",
+            "would go"
+        ],
+        "actual": "plu = future",
+        "raw_target": "\"Conditional future / would go\"",
+        "raw_actual": "plu = future",
+        "bleu_score": 27.516060407455225,
+        "chrF_score": 26.52953577322589,
+        "chrF_plus_score": 26.182449002492227,
+        "ter_test": 100.0,
+        "bert_score_p": 0.8046817779541016,
+        "bert_score_r": 0.8393915891647339,
+        "bert_score_f1": 0.8216702938079834
+    },
+    {
+        "file": "2.csv",
+        "row": 6,
+        "prompt": "\"Word/Rule:\ntamye = fun\nbey = -ly\nQuestion:\nWhat does tamyebey most likely mean?\"",
+        "targets": [
+            "funnily",
+            "in a fun way"
+        ],
+        "actual": "Tamyebey most likely means funny.",
+        "raw_target": "\"funnily / in a fun way\"",
+        "raw_actual": "Tamyebey most likely means \"funny\".",
+        "bleu_score": 0.0,
+        "chrF_score": 22.283937794753758,
+        "chrF_plus_score": 19.100518109788933,
+        "ter_test": 200.0,
+        "bert_score_p": 0.8321971893310547,
+        "bert_score_r": 0.8557886481285095,
+        "bert_score_f1": 0.843828022480011
+    },
+    {
+        "file": "2.csv",
+        "row": 7,
+        "prompt": "\"Word/Rule:\nmye = before / already\nplu = to go\nQuestion:\nWhat does mye plu most likely mean?\"",
+        "targets": [
+            "already go",
+            "went"
+        ],
+        "actual": "before going",
+        "raw_target": "\"went / already go\n\"\n\"",
+        "raw_actual": "before going",
+        "bleu_score": 0.0,
+        "chrF_score": 11.06068390706171,
+        "chrF_plus_score": 8.295512930296283,
+        "ter_test": 133.33333333333331,
+        "bert_score_p": 0.9335579872131348,
+        "bert_score_r": 0.9335579872131348,
+        "bert_score_f1": 0.9335579872131348
+    },
+    {
+        "file": "2.csv",
+        "row": 8,
+        "prompt": "\"Word/Rule:\npomo = egg\nsun = -like\nQuestion:\nWhat does pomosun most likely mean?\"",
+        "targets": [
+            "egg-like"
+        ],
+        "actual": "Pomosun most likely means egg-like.",
+        "raw_target": "\"egg-like\"",
+        "raw_actual": "Pomosun most likely means \"egg-like.\"",
+        "bleu_score": 8.116697886877475,
+        "chrF_score": 53.98799428372627,
+        "chrF_plus_score": 53.44444544077186,
+        "ter_test": 500.0,
+        "bert_score_p": 0.8003935217857361,
+        "bert_score_r": 0.8449743986129761,
+        "bert_score_f1": 0.8220800161361694
+    },
+    {
+        "file": "2.csv",
+        "row": 9,
+        "prompt": "\"Word/Rule:\npay = up / above\nkwe = invert prefix\nQuestion:\nWhat does kwepay most likely mean?\"",
+        "targets": [
+            "below",
+            "under"
+        ],
+        "actual": "upabove",
+        "raw_target": "\"below / under\"",
+        "raw_actual": "upabove",
+        "bleu_score": 0.0,
+        "chrF_score": 11.11111111111111,
+        "chrF_plus_score": 9.259259259259258,
+        "ter_test": 100.0,
+        "bert_score_p": 0.8545466661453247,
+        "bert_score_r": 0.9249251484870911,
+        "bert_score_f1": 0.8883441090583801
+    },
+    {
+        "file": "2.csv",
+        "row": 10,
+        "prompt": "\"Word/Rule:\ngwi = good\nkwe = invert\nQuestion:\nWhat does kwegwi most likely mean?\"",
+        "targets": [
+            "bad"
+        ],
+        "actual": "good invert",
+        "raw_target": "\"bad\"",
+        "raw_actual": "good invert",
+        "bleu_score": 0.0,
+        "chrF_score": 7.575757575757576,
+        "chrF_plus_score": 5.681818181818181,
+        "ter_test": 200.0,
+        "bert_score_p": 0.8088237047195435,
+        "bert_score_r": 0.9094993472099304,
+        "bert_score_f1": 0.8562122583389282
+    },
+    {
+        "file": "2.csv",
+        "row": 11,
+        "prompt": "\"Word/Rule:\nmoy = multiple\nbay = me\nQuestion:\nWhat does moybay most likely mean?\"",
+        "targets": [
+            "us",
+            "we"
+        ],
+        "actual": "multiple me",
+        "raw_target": "\"we / us\"",
+        "raw_actual": "multiple me",
+        "bleu_score": 0.0,
+        "chrF_score": 13.88888888888889,
+        "chrF_plus_score": 9.25925925925926,
+        "ter_test": 200.0,
+        "bert_score_p": 0.8852701187133789,
+        "bert_score_r": 0.9083899259567261,
+        "bert_score_f1": 0.8965969085693359
+    }
+]

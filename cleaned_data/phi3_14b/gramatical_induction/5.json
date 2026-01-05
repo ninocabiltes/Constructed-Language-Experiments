@@ -1,0 +1,95 @@
+[
+    {
+        "file": "5.csv",
+        "row": 2,
+        "prompt": "\"New Vocab:\nlati (to borrow)\n\nmelo (money)\n\nsehu (hundred)\n\nu (indirect object)\n\nRules:\nmyu = conditional.\n\nmye = past.\n\nu = indirect object.\n\nNumber compounds: sehu = 100.\n\nObject marked with e.\n\nVerb stacking allowed.\n\nSentence Sample:\nbegu bay i myu mye lati u kyu e melo sehu.\nQuestion:\nTranslate to English.\"",
+        "targets": [
+            "If I had borrowed 100 units of money from you.",
+            "If I would have borrowed 100 money from you."
+        ],
+        "actual": "If I had borrowed money from you, it would have been a hundred dollars.",
+        "raw_target": "\"If I would have borrowed 100 money from you. / If I had borrowed 100 units of money from you.\"",
+        "raw_actual": "            If I had borrowed money from you, it would have been a hundred dollars.",
+        "bleu_score": 25.33654946448646,
+        "chrF_score": 61.39903297540533,
+        "chrF_plus_score": 60.99774311397182,
+        "ter_test": 94.73684210526315,
+        "bert_score_p": 0.9279566407203674,
+        "bert_score_r": 0.9465829730033875,
+        "bert_score_f1": 0.9371772408485413
+    },
+    {
+        "file": "5.csv",
+        "row": 3,
+        "prompt": "\"New Vocab:\nsume (mature)\n\nkuto (school)\n\ndaw (person)\n\ntwi (reorder prefix)\n\nRules:\ntwi reorders adjective-noun compounding.\n\nDefault: left-to-right compounding.\n\ntwi swaps interpretation.\n\nNouns can compound.\n\ne marks predicate.\n\nNo i for “to be”.\n\nSentence Sample:\nsume twikutodaw.\nQuestion:\nWhat does this mean vs. sumekutodaw?\"",
+        "targets": [
+            "Adult student vs. college student."
+        ],
+        "actual": "Sumekutodaw means mature person with the adjective-noun compounding in default left-to-right order, while sume twikutodaw implies a reordering of the words due to 'twi', which could mean person mature or school mature, depending on whether interpretation is swapped.",
+        "raw_target": "\"Adult student (adult + school-person) vs. college student (adult-school + person).\"",
+        "raw_actual": "            Sumekutodaw means \"mature person\" with the adjective-noun compounding in default left-to-right order, while sume twikutodaw implies a reordering of the words due to 'twi', which could mean \"person mature\" or \"school mature\", depending on whether interpretation is swapped.",
+        "bleu_score": 0.8733042428534794,
+        "chrF_score": 10.081373361451925,
+        "chrF_plus_score": 8.465380962212999,
+        "ter_test": 760.0,
+        "bert_score_p": 0.7908486723899841,
+        "bert_score_r": 0.8805564641952515,
+        "bert_score_f1": 0.8332952260971069
+    },
+    {
+        "file": "5.csv",
+        "row": 4,
+        "prompt": "\"New Vocab:\ndegu (war)\n\nhido (city)\n\nkwepay (below)\n\nboy (preposition marker)\n\nRules:\nboy = preposition marker.\n\nkwepay = below (inverted pay).\n\nteso = relative marker.\n\nLocation phrase after verb.\n\ne marks object.\n\ni marks verb.\n\nSentence Sample:\ndegu teso e hido i hay boykwepay baso.\nQuestion:\nWhere is the war located?\"",
+        "targets": [
+            "Below the city."
+        ],
+        "actual": "degu teso e hido i hay kwepay.",
+        "raw_target": "\"Below the city.\"",
+        "raw_actual": "            degu teso e hido i hay kwepay.",
+        "bleu_score": 5.522397783539471,
+        "chrF_score": 11.042448894451397,
+        "chrF_plus_score": 10.888501742160278,
+        "ter_test": 233.33333333333334,
+        "bert_score_p": 0.7918269634246826,
+        "bert_score_r": 0.896044909954071,
+        "bert_score_f1": 0.8407184481620789
+    },
+    {
+        "file": "5.csv",
+        "row": 5,
+        "prompt": "\"New Vocab:\nsole (happy)\n\nkwe (invert)\n\nbyu (most)\n\ngen (-ness)\n\nRules:\nkwebyu = least (invert + most).\n\ngen = abstract noun.\n\ne marks predicate.\n\nkwe inverts root.\n\nbyu superlative.\n\nCompound: kwebyugeni.\n\nSentence Sample:\nswe e kwebyusolegen.\nQuestion:\nWhat does kwebyusolegen mean?\"",
+        "targets": [
+            "The least happiness",
+            "unhappiness minimal happiness.",
+            "unhappiness."
+        ],
+        "actual": "Kwebyusolegen means least happiness.",
+        "raw_target": "\"The least happiness / unhappiness (minimal happiness).\"",
+        "raw_actual": "Kwebyusolegen means \"least happiness.\"",
+        "bleu_score": 28.117066259517458,
+        "chrF_score": 65.52350878029723,
+        "chrF_plus_score": 61.78235024410025,
+        "ter_test": 128.57142857142856,
+        "bert_score_p": 0.8161313533782959,
+        "bert_score_r": 0.9098219275474548,
+        "bert_score_f1": 0.8563331365585327
+    },
+    {
+        "file": "5.csv",
+        "row": 6,
+        "prompt": "\"New Vocab:\nhesa (shark)\n\nludo (to protect)\n\nseya (person title)\n\ntelu (in order to)\n\nRules:\ntelu = in order to.\n\nbegu = if.\n\nmyu = conditional.\n\nu = indirect object.\n\nObject e.\n\nVerb stacking.\n\ni before verb phrase.\n\nSentence Sample:\nbay i ludo u seya e hesa telu begu bay i myu hay e helu.\nQuestion:\nTranslate to English.\"",
+        "targets": [
+            "I protect the person from the shark so that I would have safety."
+        ],
+        "actual": "If a person title protects in order to prevent the shark, then if it is conditional that they will eat fish.",
+        "raw_target": "\"I protect the person from the shark so that I would have safety.\"",
+        "raw_actual": "            If a person title protects in order to prevent the shark, then if it is conditional that they will eat fish.",
+        "bleu_score": 4.141141330484801,
+        "chrF_score": 35.49224508784952,
+        "chrF_plus_score": 31.420724615962104,
+        "ter_test": 146.15384615384613,
+        "bert_score_p": 0.8745133280754089,
+        "bert_score_r": 0.8852277398109436,
+        "bert_score_f1": 0.8798379302024841
+    }
+]

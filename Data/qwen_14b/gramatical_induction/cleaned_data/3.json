@@ -1,0 +1,59 @@
+[
+  {
+    "file": "3.csv",
+    "row": 2,
+    "prompt": "\"New Vocab:\ngati (to catch)\n\npika (bug)\n\nRules:\nmyu = conditional (“would”).\n\nmye = past marker.\n\nVerbs stack after i.\n\nObject marked with e.\n\nSentence Sample:\nbegu bay i myu mye gati e pika.\nQuestion:\nIs this sentence grammatical according to the rules above? Translate it to English.\"",
+    "targets": [
+      "If I had caught the bug.",
+      "Yes, it is grammatical.\nTranslation: If I would have caught the bug."
+    ],
+    "actual": "I would have caught a bug.",
+    "raw_target": "\"Yes, it is grammatical.\nTranslation: If I would have caught the bug. / If I had caught the bug.\"",
+    "raw_actual": "The sentence is grammatical according to the rules provided. Translation: \"I would have caught a bug.\""
+  },
+  {
+    "file": "3.csv",
+    "row": 3,
+    "prompt": "\"New Vocab:\nsene (clean)\n\nkwe (invert prefix)\n\nRules:\ngen = abstract noun suffix (“-ness”).\n\nkwe inverts root before gen.\n\ne marks predicate noun.\n\nSentence Sample:\nswe e kwe senegen.\nQuestion:\nWhat does kwe senegen mean?\"",
+    "targets": [
+      "Uncleanliness",
+      "dirtiness"
+    ],
+    "actual": "dirty ness",
+    "raw_target": "\"Uncleanliness/ dirtiness\"",
+    "raw_actual": "dirty ness"
+  },
+  {
+    "file": "3.csv",
+    "row": 4,
+    "prompt": "\"New Vocab:\nlato (liquid)\n\npodo (dirt)\n\nlaw (inside)\n\nRules:\nboy = preposition marker.\n\nlaw = inside.\n\nLocation phrase follows verb.\n\nboy can prefix location word.\n\nSentence Sample:\nswe i hay e lato boylaw podo.\nQuestion:\nIs this sentence grammatical? Where is the liquid?\"",
+    "targets": [
+      "Yes, it is grammatical.\nThe liquid is inside the dirt."
+    ],
+    "actual": "grammatical\n\nthe liquid is inside the dirt",
+    "raw_target": "\"Target Output:\nYes, it is grammatical.\nThe liquid is inside the dirt.\"",
+    "raw_actual": "grammatical\n\nthe liquid is inside the dirt"
+  },
+  {
+    "file": "3.csv",
+    "row": 5,
+    "prompt": "\"New Vocab:\nsuki (to swim)\n\nliso (water)\n\nRules:\nCommands: omit subject, use i yoy.\n\nObject marked with e.\n\nVerb can be intransitive.\n\nSentence Sample:\ni yoy suki e liso!\nQuestion:\nWhat is this a command to do?\"",
+    "targets": [
+      "Swim in the water!"
+    ],
+    "actual": "to swim in the water",
+    "raw_target": "\"Swim in the water!\"",
+    "raw_actual": "to swim in the water"
+  },
+  {
+    "file": "3.csv",
+    "row": 6,
+    "prompt": "\"New Vocab:\nbese (pretty)\n\nhasu (flower)\n\nRules:\nbyu = most (superlative).\n\nQuestion starts with kay.\n\nAdjective follows e.\n\nSentence Sample:\nkay a pin hasu byubese e?\nQuestion:\nIs this sentence grammatical? explain.\"",
+    "targets": [
+      "No it is not grammatical."
+    ],
+    "actual": "kay a pin hasu byubese e?",
+    "raw_target": "\"No it is not grammatical.\"",
+    "raw_actual": "kay a pin hasu byubese e?"
+  }
+]

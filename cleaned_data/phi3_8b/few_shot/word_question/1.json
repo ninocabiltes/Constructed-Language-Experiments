@@ -1,0 +1,189 @@
+[
+    {
+        "file": "1.csv",
+        "row": 2,
+        "prompt": "\"Word/Rule:\nmya = parent\nbey = related / -ly\n\nQuestion:\nWhat does myabey most likely mean?\"\n\"",
+        "targets": [
+            "parent-related",
+            "parental"
+        ],
+        "actual": "Parent-related or not",
+        "raw_target": "\"parental / parent-related\"",
+        "raw_actual": "Parent-related or not",
+        "bleu_score": 0.0,
+        "chrF_score": 83.72635904811115,
+        "chrF_plus_score": 71.76545061266668,
+        "ter_test": 200.0,
+        "bert_score_p": 0.8801113367080688,
+        "bert_score_r": 0.9489743709564209,
+        "bert_score_f1": 0.9132465720176697
+    },
+    {
+        "file": "1.csv",
+        "row": 3,
+        "prompt": "\"Word/Rule:\nbya = male\nmya = parent\n\nQuestion:\nWhat does byamya most likely mean?\"",
+        "targets": [
+            "father"
+        ],
+        "actual": "Male parent",
+        "raw_target": "\"father\"",
+        "raw_actual": "Male parent",
+        "bleu_score": 0.0,
+        "chrF_score": 9.803921568627452,
+        "chrF_plus_score": 8.403361344537815,
+        "ter_test": 200.0,
+        "bert_score_p": 0.8622549772262573,
+        "bert_score_r": 0.9152524471282959,
+        "bert_score_f1": 0.8879636526107788
+    },
+    {
+        "file": "1.csv",
+        "row": 4,
+        "prompt": "\"Word/Rule:\ndomay = friend\nbay = I / me\n\nQuestion:\nWhat does bay domay most likely mean?\"",
+        "targets": [
+            "my friend"
+        ],
+        "actual": "I am a friend.",
+        "raw_target": "\"my friend\"\n\"",
+        "raw_actual": "I am a friend.",
+        "bleu_score": 10.682175159905853,
+        "chrF_score": 55.57517320700496,
+        "chrF_plus_score": 46.70367334464471,
+        "ter_test": 200.0,
+        "bert_score_p": 0.9284525513648987,
+        "bert_score_r": 0.9130586385726929,
+        "bert_score_f1": 0.9206912517547607
+    },
+    {
+        "file": "1.csv",
+        "row": 5,
+        "prompt": "\"Word/Rule:\nkyu = you\nmoy = multiple\n\nQuestion:\nWhat does moykyu most likely mean?\"",
+        "targets": [
+            "you",
+            "you plural"
+        ],
+        "actual": "Multiple yous",
+        "raw_target": "\"you (plural)\n\"\n\"",
+        "raw_actual": "\nMultiple yous",
+        "bleu_score": 0.0,
+        "chrF_score": 51.86170212765958,
+        "chrF_plus_score": 38.89627659574468,
+        "ter_test": 133.33333333333331,
+        "bert_score_p": 0.827846348285675,
+        "bert_score_r": 0.8934751749038696,
+        "bert_score_f1": 0.8481156229972839
+    },
+    {
+        "file": "1.csv",
+        "row": 6,
+        "prompt": "\"Word/Rule:\ndune = number\ngen = concept / -ness\n\nQuestion:\nWhat does dungen most likely mean?\"",
+        "targets": [
+            "amount-ness",
+            "quantity"
+        ],
+        "actual": "number-ness",
+        "raw_target": "\"quantity / amount-ness\"",
+        "raw_actual": "number-ness",
+        "bleu_score": 0.0,
+        "chrF_score": 30.89105339105339,
+        "chrF_plus_score": 26.47804576376005,
+        "ter_test": 100.0,
+        "bert_score_p": 0.9977535605430603,
+        "bert_score_r": 0.9977535605430603,
+        "bert_score_f1": 0.9977535605430603
+    },
+    {
+        "file": "1.csv",
+        "row": 7,
+        "prompt": "\"lenu = art\nsyu = to do / make\n\nQuestion:\nWhat does lenusyu most likely mean?\"",
+        "targets": [
+            "to make art"
+        ],
+        "actual": "To create/make art\n\n\nTranslation of lenusyu based on the provided rules and analogy from English words would be to create or produce art. The term combines 'lu' (art) with '-syu,' which is analogous to 'do' in its function within a verb. Therefore, it suggests an action related to producing something of value—in this case, the valuable thing being referred to as 'art.'",
+        "raw_target": "\"to make art\"\n\"",
+        "raw_actual": "To create/make art\n\n\nTranslation of \"lenusyu\" based on the provided rules and analogy from English words would be \"to create or produce art.\" The term combines 'lu' (art) with '-syu,' which is analogous to 'do' in its function within a verb. Therefore, it suggests an action related to producing something of value—in this case, the valuable thing being referred to as 'art.'",
+        "bleu_score": 1.0794970520621934,
+        "chrF_score": 7.734823453344719,
+        "chrF_plus_score": 7.347151304990342,
+        "ter_test": 2000.0,
+        "bert_score_p": 0.7810099720954895,
+        "bert_score_r": 0.9004455804824829,
+        "bert_score_f1": 0.8364859223365784
+    },
+    {
+        "file": "1.csv",
+        "row": 8,
+        "prompt": "\"bote = blue\nsun = similar / -like\n\nQuestion:\nWhat does botesun most likely mean?\"",
+        "targets": [
+            "blue-like",
+            "bluish"
+        ],
+        "actual": "Botesun likely means the color or light quality resembling both 'blue' and another similar hue.",
+        "raw_target": "\"blue-like / bluish\"",
+        "raw_actual": "A shade of light, resembling or akin to both \"blue\" and the concept denoted by \"similar/like.\" Since no direct definition for 'bote' is provided beyond its association with blue, we can infer that it refers to something within this spectrum. The term does not have an established meaning in English based on our current knowledge; thus, I am providing a speculative translation:\n\n\"Botesun likely means the color or light quality resembling both 'blue' and another similar hue.\"",
+        "bleu_score": 0.0,
+        "chrF_score": 14.955964300913523,
+        "chrF_plus_score": 12.819397972211593,
+        "ter_test": 1500.0,
+        "bert_score_p": 0.7971739172935486,
+        "bert_score_r": 0.8749439120292664,
+        "bert_score_f1": 0.8342503905296326
+    },
+    {
+        "file": "1.csv",
+        "row": 9,
+        "prompt": "\"Word/Rule:\npila = bird\nlase = fast\n\nQuestion:\nWhat does lase pila most likely mean?\"",
+        "targets": [
+            "blue-like",
+            "bluish"
+        ],
+        "actual": "fast bird",
+        "raw_target": "\"blue-like / bluish\"",
+        "raw_actual": "fast bird",
+        "bleu_score": 0.0,
+        "chrF_score": 7.8125,
+        "chrF_plus_score": 6.696428571428571,
+        "ter_test": 200.0,
+        "bert_score_p": 0.8749986290931702,
+        "bert_score_r": 0.8877691030502319,
+        "bert_score_f1": 0.881337583065033
+    },
+    {
+        "file": "1.csv",
+        "row": 10,
+        "prompt": "\"Word/Rule:\nhagu = story\ngoy = thing / object\n\nQuestion:\nWhat does hagugoy most likely mean?\n\nTarget Output:\nstory-thing / book / tale object\"",
+        "targets": [
+            "Story-thing",
+            "Storybook",
+            "book"
+        ],
+        "actual": "haguguyok",
+        "raw_target": "\"Story-thing / Storybook / book\"",
+        "raw_actual": "haguguyok",
+        "bleu_score": 0.0,
+        "chrF_score": 16.276041666666664,
+        "chrF_plus_score": 13.020833333333332,
+        "ter_test": 100.0,
+        "bert_score_p": 0.7954682111740112,
+        "bert_score_r": 0.8870254158973694,
+        "bert_score_f1": 0.8191843032836914
+    },
+    {
+        "file": "1.csv",
+        "row": 11,
+        "prompt": "\"Word/Rule:\nswa = to be\nlase = fast\n\nQuestion:\nIn swe i swa lase, what does lase modify?\"",
+        "targets": [
+            "The verb “to be” — so “they are quickly”"
+        ],
+        "actual": "In si we swa lase, the word 'lase' modifies a noun. However, without additional context or examples of how adjectives are used in this language to describe specific objects, it is impossible to determine exactly which noun 'lase' refers to based on the information provided alone.",
+        "raw_target": "\"The verb “to be” — so “they are quickly”\"",
+        "raw_actual": "In \"si we swa lase,\" the word 'lase' modifies a noun. However, without additional context or examples of how adjectives are used in this language to describe specific objects, it is impossible to determine exactly which noun 'lase' refers to based on the information provided alone.",
+        "bleu_score": 0.7144315612998046,
+        "chrF_score": 9.959831572321002,
+        "chrF_plus_score": 8.180495651883271,
+        "ter_test": 488.8888888888889,
+        "bert_score_p": 0.8163338899612427,
+        "bert_score_r": 0.8312989473342896,
+        "bert_score_f1": 0.8237484097480774
+    }
+]

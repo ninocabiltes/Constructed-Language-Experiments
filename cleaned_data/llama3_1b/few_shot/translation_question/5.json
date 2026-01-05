@@ -1,0 +1,92 @@
+[
+    {
+        "file": "5.csv",
+        "row": 2,
+        "prompt": "\"Rule: goy = thing, hay = have, homu = calm, hagu = story.\nDasopya → English\nSentence:\ngoy i hay e homu hagu\"",
+        "targets": [
+            "The thing has a calm story."
+        ],
+        "actual": "tomb",
+        "raw_target": "\"The thing has a calm story.\"",
+        "raw_actual": "tomb",
+        "bleu_score": 0.0,
+        "chrF_score": 5.515293084171857,
+        "chrF_plus_score": 4.412234467337486,
+        "ter_test": 100.0,
+        "bert_score_p": 0.842015266418457,
+        "bert_score_r": 0.8326678276062012,
+        "bert_score_f1": 0.8373154401779175
+    },
+    {
+        "file": "5.csv",
+        "row": 3,
+        "prompt": "\"Rule: bote = blue, *e* for adjectives, swe = they.\nEnglish → Dasopya\nSentence:\nThey are blue.\"",
+        "targets": [
+            "swe e bote"
+        ],
+        "actual": "Dasopya",
+        "raw_target": "\"swe e bote\"",
+        "raw_actual": "Dasopya",
+        "bleu_score": 0.0,
+        "chrF_score": 4.273504273504273,
+        "chrF_plus_score": 3.6630036630036624,
+        "ter_test": 100.0,
+        "bert_score_p": 0.7193706631660461,
+        "bert_score_r": 0.7982590198516846,
+        "bert_score_f1": 0.7567645311355591
+    },
+    {
+        "file": "5.csv",
+        "row": 4,
+        "prompt": "\"Rule: lon = when, masu = morning, *a* subject marker if subject not first.\nDasopya → English\nSentence:\nlon e masu, a bay i plu\"",
+        "targets": [
+            "When it is morning, I go."
+        ],
+        "actual": "masu lon",
+        "raw_target": "\"When it is morning, I go.\"",
+        "raw_actual": "masu lon",
+        "bleu_score": 0.0,
+        "chrF_score": 3.8314176245210727,
+        "chrF_plus_score": 2.8735632183908044,
+        "ter_test": 100.0,
+        "bert_score_p": 0.7724836468696594,
+        "bert_score_r": 0.8386467695236206,
+        "bert_score_f1": 0.8042066693305969
+    },
+    {
+        "file": "5.csv",
+        "row": 5,
+        "prompt": "\"Rule: kwe = invert, gwi = good, baw = more.\nEnglish → Dasopya\nSentence:\nworse\"",
+        "targets": [
+            "kwebawgwi"
+        ],
+        "actual": "kwe = invert\ngwi = good\nbaw = more\nworse = invert",
+        "raw_target": "\"kwebawgwi\"",
+        "raw_actual": "kwe = invert\ngwi = good\nbaw = more\nworse = invert",
+        "bleu_score": 0.0,
+        "chrF_score": 21.31667704120823,
+        "chrF_plus_score": 18.271437463892763,
+        "ter_test": 1200.0,
+        "bert_score_p": 0.7908538579940796,
+        "bert_score_r": 0.8483784794807434,
+        "bert_score_f1": 0.8186067938804626
+    },
+    {
+        "file": "5.csv",
+        "row": 6,
+        "prompt": "\"Rule: sya = and, tamye = fun, yoy command marker.\nDasopya → English\nSentence:\ni yoy plu sya i yoy hay e tamye!\"",
+        "targets": [
+            "Go and have fun!"
+        ],
+        "actual": "tamye",
+        "raw_target": "\"Go and have fun!\"",
+        "raw_actual": "tamye",
+        "bleu_score": 0.0,
+        "chrF_score": 3.508771929824562,
+        "chrF_plus_score": 2.9239766081871346,
+        "ter_test": 100.0,
+        "bert_score_p": 0.7819696664810181,
+        "bert_score_r": 0.8248579502105713,
+        "bert_score_f1": 0.8028414249420166
+    }
+]

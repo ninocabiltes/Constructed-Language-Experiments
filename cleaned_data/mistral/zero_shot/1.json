@@ -1,0 +1,95 @@
+[
+    {
+        "file": "1.csv",
+        "row": 2,
+        "prompt": "\"Translate to English Sentence: e teno.\"",
+        "targets": [
+            "It is snowing.",
+            "There is snow."
+        ],
+        "actual": "have (I)",
+        "raw_target": "\"There is snow. / It is snowing.\"",
+        "raw_actual": " have (I)",
+        "bleu_score": 0.0,
+        "chrF_score": 3.03030303030303,
+        "chrF_plus_score": 2.2727272727272725,
+        "ter_test": 100.0,
+        "bert_score_p": 0.8508852124214172,
+        "bert_score_r": 0.8656270503997803,
+        "bert_score_f1": 0.8581928610801697
+    },
+    {
+        "file": "1.csv",
+        "row": 3,
+        "prompt": "\"Translate to English: bay i loy e pila teso i bali.\"",
+        "targets": [
+            "I watch a bird that flies."
+        ],
+        "actual": "people play tennis in Bali.",
+        "raw_target": "\"I watch a bird that flies.\"",
+        "raw_actual": " people play tennis in Bali.",
+        "bleu_score": 6.870636427700047,
+        "chrF_score": 7.826341583048969,
+        "chrF_plus_score": 7.7217817576345755,
+        "ter_test": 100.0,
+        "bert_score_p": 0.8692886829376221,
+        "bert_score_r": 0.8732572793960571,
+        "bert_score_f1": 0.8712684512138367
+    },
+    {
+        "file": "1.csv",
+        "row": 4,
+        "prompt": "\"Translate to English: sapye.\"",
+        "targets": [
+            "Cool.",
+            "I’m cool."
+        ],
+        "actual": "person",
+        "raw_target": "\"Cool. / I’m cool.\"",
+        "raw_actual": " person",
+        "bleu_score": 0.0,
+        "chrF_score": 3.846153846153846,
+        "chrF_plus_score": 3.2051282051282057,
+        "ter_test": 66.66666666666666,
+        "bert_score_p": 0.9320204257965088,
+        "bert_score_r": 0.9659746885299683,
+        "bert_score_f1": 0.9486938118934631
+    },
+    {
+        "file": "1.csv",
+        "row": 5,
+        "prompt": "\"Translate to English: swe hugwa i mye pindinbuli.\"",
+        "targets": [
+            "He and his dog arrived here.",
+            "He arrived here."
+        ],
+        "actual": "hugwa is embracing, so swe hugwa translates to I am embracing. i is first person singular pronoun in this context. mye is a verb tense that indicates ongoing or continuous action, and pindinbuli is the subject of the sentence, but it's not a known word in English, so it can't be directly translated. However, based on the context of the sentence, it could possibly mean me, making the translation I am embracing me. But without more context or information about the language, this is just an educated guess.",
+        "raw_target": "\"He (and his dog) arrived here.\"",
+        "raw_actual": " hugwa is embracing, so \"swe hugwa\" translates to \"I am embracing\". \"i\" is first person singular pronoun in this context. \"mye\" is a verb tense that indicates ongoing or continuous action, and \"pindinbuli\" is the subject of the sentence, but it's not a known word in English, so it can't be directly translated. However, based on the context of the sentence, it could possibly mean \"me\", making the translation \"I am embracing me\". But without more context or information about the language, this is just an educated guess.",
+        "bleu_score": 0.4225876924527687,
+        "chrF_score": 6.53049212937561,
+        "chrF_plus_score": 5.875010485618592,
+        "ter_test": 1933.3333333333333,
+        "bert_score_p": 0.7927356958389282,
+        "bert_score_r": 0.8812974095344543,
+        "bert_score_f1": 0.8339188694953918
+    },
+    {
+        "file": "1.csv",
+        "row": 6,
+        "prompt": "\"Translate to English: pila i bali.\"",
+        "targets": [
+            "A bird flies."
+        ],
+        "actual": "boxes in balcony",
+        "raw_target": "\"A bird flies.\"",
+        "raw_actual": " boxes in balcony",
+        "bleu_score": 0.0,
+        "chrF_score": 8.756341488232815,
+        "chrF_plus_score": 6.567256116174611,
+        "ter_test": 100.0,
+        "bert_score_p": 0.8375875949859619,
+        "bert_score_r": 0.8747639060020447,
+        "bert_score_f1": 0.8557721972465515
+    }
+]

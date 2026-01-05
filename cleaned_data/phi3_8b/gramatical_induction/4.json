@@ -1,0 +1,94 @@
+[
+    {
+        "file": "4.csv",
+        "row": 2,
+        "prompt": "\"New Vocab:\ndemu (to collect)\n\nheko (gem)\n\nluka (rare)\n\nRules:\nteso = relative marker.\n\nNew subject introduced with a.\n\nAdjective follows e.\n\nObject marked with e.\n\nVerb marked with i.\n\nSentence Sample:\nheko teso a swe i demu e luka.\nQuestion:\nWhat is rare?\"",
+        "targets": [
+            "The gem that they collect is rare.",
+            "The gem they collect."
+        ],
+        "actual": "The relative gem of the rare stone has been collected.",
+        "raw_target": "\"The gem that they collect is rare. / The gem they collect.\"",
+        "raw_actual": "luka heko teso a swe i demu.\n\nTranslation: The relative gem of the rare stone has been collected.",
+        "bleu_score": 5.300156689756297,
+        "chrF_score": 37.59557934396373,
+        "chrF_plus_score": 34.05911346486601,
+        "ter_test": 145.45454545454547,
+        "bert_score_p": 0.8837816119194031,
+        "bert_score_r": 0.9127083420753479,
+        "bert_score_f1": 0.8923080563545227
+    },
+    {
+        "file": "4.csv",
+        "row": 3,
+        "prompt": "\"New Vocab:\nsesu (to ensure)\n\nhelu (safety)\n\nmitu (to reach)\n\nRules:\ntelu = in order to.\n\nVerbs can stack.\n\ni before verb phrase.\n\nObject marked with e.\n\ntelu introduces goal.\n\nSentence Sample:\nswe i mitu e helu telu sesu.\nQuestion:\nWhy do they reach safety?\"",
+        "targets": [
+            "In order to ensure it.",
+            "In order to ensure."
+        ],
+        "actual": "To ensure reaching in order to achieve safety, ensuring it is done for the purpose of security.",
+        "raw_target": "\"In order to ensure (it).\"",
+        "raw_actual": "To ensure reaching in order to achieve safety, ensuring it is done for the purpose of security.",
+        "bleu_score": 5.0912128230977505,
+        "chrF_score": 37.706171711506755,
+        "chrF_plus_score": 37.09439993852822,
+        "ter_test": 311.11111111111114,
+        "bert_score_p": 0.8641566634178162,
+        "bert_score_r": 0.9156873226165771,
+        "bert_score_f1": 0.8891134262084961
+    },
+    {
+        "file": "4.csv",
+        "row": 4,
+        "prompt": "\"New Vocab:\nguse (excessive)\n\nsadi (to begin)\n\nRules:\nkwebaw = less (invert + more).\n\nbuki = than (comparison).\n\nAdjective follows e.\n\nkwe inverts root.\n\nComparison after buki.\n\nSentence Sample:\npin e kwebawguse buki san.\nQuestion:\nWhat does kwebawguse mean?\"",
+        "targets": [
+            "Less excessive."
+        ],
+        "actual": "Excessive than",
+        "raw_target": "\"Less excessive.\"",
+        "raw_actual": "Excessive than",
+        "bleu_score": 0.0,
+        "chrF_score": 47.45303739885731,
+        "chrF_plus_score": 35.58977804914298,
+        "ter_test": 100.0,
+        "bert_score_p": 0.9014244675636292,
+        "bert_score_r": 0.9469341039657593,
+        "bert_score_f1": 0.9236190319061279
+    },
+    {
+        "file": "4.csv",
+        "row": 5,
+        "prompt": "\"New Vocab:\nkiso (seat)\n\ndoke (from)\n\npaci (to open)\n\nRules:\ndoke = from.\n\nboy marks preposition.\n\ni before verb.\n\nObject marked with e.\n\nLocation phrase after object.\n\nSentence Sample:\nbay i paci e kiso boydoke gan.\nQuestion:\nWhere is the seat opened from?\"",
+        "targets": [
+            "From the room."
+        ],
+        "actual": "From bay, in a place called KisoBoy.",
+        "raw_target": "\"From the room.\"",
+        "raw_actual": "From bay, in a place called KisoBoy.",
+        "bleu_score": 5.669791110976001,
+        "chrF_score": 15.758295476324765,
+        "chrF_plus_score": 16.837330700076883,
+        "ter_test": 200.0,
+        "bert_score_p": 0.8297884464263916,
+        "bert_score_r": 0.8846754431724548,
+        "bert_score_f1": 0.8563533425331116
+    },
+    {
+        "file": "4.csv",
+        "row": 6,
+        "prompt": "\"New Vocab:\nmagu (sky)\n\nbaso (color)\n\nmope (purple)\n\nRules:\nhoy = possessive.\n\nteso = relative marker.\n\nAdjective follows e.\n\nPossessor after hoy.\n\nteso clause describes noun.\n\nSentence Sample:\nbaso hoy magu teso e mope.\nQuestion:\nTranslate to English.\"",
+        "targets": [
+            "The color of the sky that is purple."
+        ],
+        "actual": "The sky is purple.",
+        "raw_target": "\"The color of the sky that is purple.\"",
+        "raw_actual": "\"The sky is purple.\"",
+        "bleu_score": 20.300727612812874,
+        "chrF_score": 39.1285266135189,
+        "chrF_plus_score": 40.45347843445342,
+        "ter_test": 50.0,
+        "bert_score_p": 0.9335634708404541,
+        "bert_score_r": 0.9001083970069885,
+        "bert_score_f1": 0.9165307879447937
+    }
+]

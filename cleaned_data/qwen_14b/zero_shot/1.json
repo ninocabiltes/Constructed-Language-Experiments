@@ -1,0 +1,95 @@
+[
+    {
+        "file": "1.csv",
+        "row": 2,
+        "prompt": "\"Translate to English Sentence: e teno.\"",
+        "targets": [
+            "It is snowing.",
+            "There is snow."
+        ],
+        "actual": "I have it.",
+        "raw_target": "\"There is snow. / It is snowing.\"",
+        "raw_actual": "I have it.",
+        "bleu_score": 15.97357760615681,
+        "chrF_score": 7.586705202312139,
+        "chrF_plus_score": 8.86199974509304,
+        "ter_test": 100.0,
+        "bert_score_p": 0.9226966500282288,
+        "bert_score_r": 0.9055304527282715,
+        "bert_score_f1": 0.9140329957008362
+    },
+    {
+        "file": "1.csv",
+        "row": 3,
+        "prompt": "\"Translate to English: bay i loy e pila teso i bali.\"",
+        "targets": [
+            "I watch a bird that flies."
+        ],
+        "actual": "the money loaned was in large bills.",
+        "raw_target": "\"I watch a bird that flies.\"",
+        "raw_actual": "the money loaned was in large bills.",
+        "bleu_score": 5.522397783539471,
+        "chrF_score": 14.02311919651317,
+        "chrF_plus_score": 12.268088358709988,
+        "ter_test": 116.66666666666667,
+        "bert_score_p": 0.8515865206718445,
+        "bert_score_r": 0.8484032154083252,
+        "bert_score_f1": 0.8499918580055237
+    },
+    {
+        "file": "1.csv",
+        "row": 4,
+        "prompt": "\"Translate to English: sapye.\"",
+        "targets": [
+            "Cool.",
+            "I’m cool."
+        ],
+        "actual": "sleep",
+        "raw_target": "\"Cool. / I’m cool.\"",
+        "raw_actual": "sleep",
+        "bleu_score": 0.0,
+        "chrF_score": 4.0,
+        "chrF_plus_score": 3.3333333333333335,
+        "ter_test": 66.66666666666666,
+        "bert_score_p": 0.8753082752227783,
+        "bert_score_r": 0.9376167058944702,
+        "bert_score_f1": 0.9053917527198792
+    },
+    {
+        "file": "1.csv",
+        "row": 5,
+        "prompt": "\"Translate to English: swe hugwa i mye pindinbuli.\"",
+        "targets": [
+            "He and his dog arrived here.",
+            "He arrived here."
+        ],
+        "actual": "I don't have enough context to translate this phrase accurately as it appears to be in a language not specified and without further details, I cannot provide an exact translation. However, adhering strictly to the instruction given:\n\nswe hugwa i mye pindinbuli",
+        "raw_target": "\"He (and his dog) arrived here.\"",
+        "raw_actual": "I don't have enough context to translate this phrase accurately as it appears to be in a language not specified and without further details, I cannot provide an exact translation. However, adhering strictly to the instruction given:\n\nswe hugwa i mye pindinbuli",
+        "bleu_score": 0.9451258377819046,
+        "chrF_score": 11.95974765518814,
+        "chrF_plus_score": 10.705951561031494,
+        "ter_test": 911.1111111111111,
+        "bert_score_p": 0.803420901298523,
+        "bert_score_r": 0.8948403596878052,
+        "bert_score_f1": 0.8445718288421631
+    },
+    {
+        "file": "1.csv",
+        "row": 6,
+        "prompt": "\"Translate to English: pila i bali.\"",
+        "targets": [
+            "A bird flies."
+        ],
+        "actual": "pile up the rice",
+        "raw_target": "\"A bird flies.\"",
+        "raw_actual": "pile up the rice",
+        "bleu_score": 0.0,
+        "chrF_score": 7.309941520467836,
+        "chrF_plus_score": 5.482456140350877,
+        "ter_test": 133.33333333333331,
+        "bert_score_p": 0.821468710899353,
+        "bert_score_r": 0.8699246644973755,
+        "bert_score_f1": 0.8450025916099548
+    }
+]

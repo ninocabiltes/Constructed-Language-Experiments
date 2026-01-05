@@ -1,0 +1,95 @@
+[
+    {
+        "file": "1.csv",
+        "row": 2,
+        "prompt": "\"Translate to English Sentence: e teno.\"",
+        "targets": [
+            "It is snowing.",
+            "There is snow."
+        ],
+        "actual": "I have it.",
+        "raw_target": "\"There is snow. / It is snowing.\"",
+        "raw_actual": "    I have it.",
+        "bleu_score": 15.97357760615681,
+        "chrF_score": 7.586705202312139,
+        "chrF_plus_score": 8.86199974509304,
+        "ter_test": 100.0,
+        "bert_score_p": 0.9226966500282288,
+        "bert_score_r": 0.9055304527282715,
+        "bert_score_f1": 0.9140329957008362
+    },
+    {
+        "file": "1.csv",
+        "row": 3,
+        "prompt": "\"Translate to English: bay i loy e pila teso i bali.\"",
+        "targets": [
+            "I watch a bird that flies."
+        ],
+        "actual": "Beautiful sea and white sand beaches in Bali.",
+        "raw_target": "\"I watch a bird that flies.\"",
+        "raw_actual": "    Beautiful sea and white sand beaches in Bali.",
+        "bleu_score": 4.767707020457095,
+        "chrF_score": 14.432025396585443,
+        "chrF_plus_score": 12.550097293399176,
+        "ter_test": 133.33333333333331,
+        "bert_score_p": 0.817907452583313,
+        "bert_score_r": 0.8497904539108276,
+        "bert_score_f1": 0.8335441946983337
+    },
+    {
+        "file": "1.csv",
+        "row": 4,
+        "prompt": "\"Translate to English: sapye.\"",
+        "targets": [
+            "Cool.",
+            "I’m cool."
+        ],
+        "actual": "Sapye (English) - A term used in Myanmar for an elderly person who has lived a long life and holds wisdom, respected by younger generations. It's often associated with spirituality or traditional knowledge passed down through the ages. The word itself is not directly translatable but can be understood as 'wise old man/woman'.",
+        "raw_target": "\"Cool. / I’m cool.\"",
+        "raw_actual": "\n    Sapye (English) - A term used in Myanmar for an elderly person who has lived a long life and holds wisdom, respected by younger generations. It's often associated with spirituality or traditional knowledge passed down through the ages. The word itself is not directly translatable but can be understood as 'wise old man/woman'.",
+        "bleu_score": 0.5943123208853887,
+        "chrF_score": 2.4526432834756613,
+        "chrF_plus_score": 2.7416112162913833,
+        "ter_test": 3533.3333333333335,
+        "bert_score_p": 0.799175500869751,
+        "bert_score_r": 0.9177212715148926,
+        "bert_score_f1": 0.8522781729698181
+    },
+    {
+        "file": "1.csv",
+        "row": 5,
+        "prompt": "\"Translate to English: swe hugwa i mye pindinbuli.\"",
+        "targets": [
+            "He and his dog arrived here.",
+            "He arrived here."
+        ],
+        "actual": "I love your poetry.",
+        "raw_target": "\"He (and his dog) arrived here.\"",
+        "raw_actual": "    I love your poetry.",
+        "bleu_score": 10.682175159905853,
+        "chrF_score": 8.188242248374443,
+        "chrF_plus_score": 9.120110673135233,
+        "ter_test": 88.88888888888889,
+        "bert_score_p": 0.890195369720459,
+        "bert_score_r": 0.9008064270019531,
+        "bert_score_f1": 0.8954694867134094
+    },
+    {
+        "file": "1.csv",
+        "row": 6,
+        "prompt": "\"Translate to English: pila i bali.\"",
+        "targets": [
+            "A bird flies."
+        ],
+        "actual": "balls and beaches\n\n\n(Note that this answer assumes 'pila' refers to a spherical object, which in context could mean balls, while 'bali' might refer to the beach or holiday destination known as Bali.)",
+        "raw_target": "\"A bird flies.\"",
+        "raw_actual": "\n    balls and beaches\n\n\n(Note that this answer assumes 'pila' refers to a spherical object, which in context could mean \"balls,\" while 'bali' might refer to the beach or holiday destination known as Bali.)",
+        "bleu_score": 0.969094302009921,
+        "chrF_score": 4.8051239727583015,
+        "chrF_plus_score": 3.6038429795687263,
+        "ter_test": 1066.6666666666665,
+        "bert_score_p": 0.8062496185302734,
+        "bert_score_r": 0.8723865747451782,
+        "bert_score_f1": 0.8380151987075806
+    }
+]

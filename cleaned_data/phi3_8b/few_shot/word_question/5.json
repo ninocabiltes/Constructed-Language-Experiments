@@ -1,0 +1,189 @@
+[
+    {
+        "file": "5.csv",
+        "row": 2,
+        "prompt": "\"Word/Rule:\nsapye = excellent\ntay = very\nQuestion:\nWhat does tay sapye most likely mean?\"",
+        "targets": [
+            "awesome",
+            "very excellent"
+        ],
+        "actual": "Very excellent",
+        "raw_target": "\"very excellent / awesome\"",
+        "raw_actual": "Very excellent",
+        "bleu_score": 49.99999999999999,
+        "chrF_score": 90.21205646205644,
+        "chrF_plus_score": 73.90904234654234,
+        "ter_test": 0.0,
+        "bert_score_p": 0.9991819858551025,
+        "bert_score_r": 0.9991819858551025,
+        "bert_score_f1": 0.9991819858551025
+    },
+    {
+        "file": "5.csv",
+        "row": 3,
+        "prompt": "\"Word/Rule:\nlesu = straight\ngen = -ness\nQuestion:\nWhat does lesugen most likely mean?\"",
+        "targets": [
+            "straightness"
+        ],
+        "actual": "straight-ness",
+        "raw_target": "\"straightness\"",
+        "raw_actual": "straight-ness",
+        "bleu_score": 0.0,
+        "chrF_score": 70.29372162308857,
+        "chrF_plus_score": 60.251761391218764,
+        "ter_test": 100.0,
+        "bert_score_p": 0.8857671618461609,
+        "bert_score_r": 0.9387593269348145,
+        "bert_score_f1": 0.9114936590194702
+    },
+    {
+        "file": "5.csv",
+        "row": 4,
+        "prompt": "\"Word/Rule:\nhagu = story\nsun = -like\nQuestion:\nWhat does hagusun most likely mean?\"",
+        "targets": [
+            "fictional",
+            "story-like"
+        ],
+        "actual": "A story like sun",
+        "raw_target": "\"story-like / fictional\"",
+        "raw_actual": "A story like sun",
+        "bleu_score": 0.0,
+        "chrF_score": 45.11182909533951,
+        "chrF_plus_score": 38.667282081719584,
+        "ter_test": 400.0,
+        "bert_score_p": 0.8366153240203857,
+        "bert_score_r": 0.8624101281166077,
+        "bert_score_f1": 0.8487070798873901
+    },
+    {
+        "file": "5.csv",
+        "row": 5,
+        "prompt": "\"Word/Rule:\nkya = what\ndaw = person\nQuestion:\nWhat does kyadaw most likely mean?\"",
+        "targets": [
+            "Who"
+        ],
+        "actual": "Person who asks what",
+        "raw_target": "\"Who\"",
+        "raw_actual": "Person who asks \"what\"",
+        "bleu_score": 0.0,
+        "chrF_score": 18.56060606060606,
+        "chrF_plus_score": 13.920454545454545,
+        "ter_test": 300.0,
+        "bert_score_p": 0.7906635999679565,
+        "bert_score_r": 0.874595582485199,
+        "bert_score_f1": 0.8305144906044006
+    },
+    {
+        "file": "5.csv",
+        "row": 6,
+        "prompt": "\"Word/Rule:\nbegu = if\ntey = can\nQuestion:\nIn begu bay i tey, what does tey mean?\"",
+        "targets": [
+            "be able",
+            "can"
+        ],
+        "actual": "In begu bay I can, it means I am able to go in the beach.",
+        "raw_target": "\"can / be able\"",
+        "raw_actual": "In begu bay I can, it means \"I am able to go in the beach.\"",
+        "bleu_score": 2.719665272174911,
+        "chrF_score": 20.32344217576539,
+        "chrF_plus_score": 20.885413427169034,
+        "ter_test": 933.3333333333334,
+        "bert_score_p": 0.8392651677131653,
+        "bert_score_r": 0.8710428476333618,
+        "bert_score_f1": 0.8548588156700134
+    },
+    {
+        "file": "5.csv",
+        "row": 7,
+        "prompt": "\"Word/Rule:\nboy = preposition marker\nlaw = inside\nQuestion:\nWhat does boylaw clarify?\"",
+        "targets": [
+            "That law is used as a preposition",
+            "That law is used as a preposition “inside”"
+        ],
+        "actual": "A person under legal age within a specific jurisdiction or context, as indicated by their association with the term law in this instance.",
+        "raw_target": "\"That law is used as a preposition (“inside”)\"",
+        "raw_actual": "A person under legal age within a specific jurisdiction or context, as indicated by their association with the term \"law\" in this instance.",
+        "bleu_score": 1.9822566267103439,
+        "chrF_score": 18.187250370704554,
+        "chrF_plus_score": 16.932463128760837,
+        "ter_test": 293.3333333333333,
+        "bert_score_p": 0.8306463360786438,
+        "bert_score_r": 0.8551673889160156,
+        "bert_score_f1": 0.8427285552024841
+    },
+    {
+        "file": "5.csv",
+        "row": 8,
+        "prompt": "\"Word/Rule:\nkwetaw = same\ngwi = good\nQuestion:\nWhat does kwetaw gwi most likely mean?\"",
+        "targets": [
+            "equally good",
+            "same good"
+        ],
+        "actual": "Same good",
+        "raw_target": "\"equally good / same good\"",
+        "raw_actual": "Same good",
+        "bleu_score": 49.99999999999999,
+        "chrF_score": 79.70238095238096,
+        "chrF_plus_score": 66.02678571428572,
+        "ter_test": 0.0,
+        "bert_score_p": 0.9988070726394653,
+        "bert_score_r": 0.9988070726394653,
+        "bert_score_f1": 0.9988070726394653
+    },
+    {
+        "file": "5.csv",
+        "row": 9,
+        "prompt": "\"Word/Rule:\ntelu = to / in order to\nmabosyu = to make food\nQuestion:\nWhat does telu mabosyu most likely mean?\"",
+        "targets": [
+            "in order to make food"
+        ],
+        "actual": "To make food for the sake of something or someone.",
+        "raw_target": "\"in order to make food\"",
+        "raw_actual": "To make food for the sake of something or someone.",
+        "bleu_score": 7.495553473355842,
+        "chrF_score": 40.95847708816444,
+        "chrF_plus_score": 37.17836167146956,
+        "ter_test": 180.0,
+        "bert_score_p": 0.8802582621574402,
+        "bert_score_r": 0.8902654051780701,
+        "bert_score_f1": 0.8852335214614868
+    },
+    {
+        "file": "5.csv",
+        "row": 10,
+        "prompt": "\"Word/Rule:\nyoy = hey/command marker\nplu = go\nQuestion:\nWhat does i yoy plu mean?\"",
+        "targets": [
+            "Go!",
+            "Go! command"
+        ],
+        "actual": "Hey, Go!",
+        "raw_target": "\"Go! (command)\"",
+        "raw_actual": "Hey, Go!",
+        "bleu_score": 31.947155212313625,
+        "chrF_score": 70.23643949930458,
+        "chrF_plus_score": 73.69038311180609,
+        "ter_test": 66.66666666666666,
+        "bert_score_p": 0.8552932739257812,
+        "bert_score_r": 0.9505284428596497,
+        "bert_score_f1": 0.9003996253013611
+    },
+    {
+        "file": "5.csv",
+        "row": 11,
+        "prompt": "\"Word/Rule:\ntitu = precise\nbey = -ly\nQuestion:\nWhat does titu bey most likely mean?\"",
+        "targets": [
+            "exactly",
+            "precisely"
+        ],
+        "actual": "Precise-ly",
+        "raw_target": "\"precisely / exactly\"",
+        "raw_actual": "Precise-ly",
+        "bleu_score": 0.0,
+        "chrF_score": 54.40126455973565,
+        "chrF_plus_score": 46.62965533691627,
+        "ter_test": 100.0,
+        "bert_score_p": 0.7512982487678528,
+        "bert_score_r": 0.8788904547691345,
+        "bert_score_f1": 0.8101010918617249
+    }
+]

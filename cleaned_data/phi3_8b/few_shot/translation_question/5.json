@@ -1,0 +1,92 @@
+[
+    {
+        "file": "5.csv",
+        "row": 2,
+        "prompt": "\"Rule: goy = thing, hay = have, homu = calm, hagu = story.\nDasopya → English\nSentence:\ngoy i hay e homu hagu\"",
+        "targets": [
+            "The thing has a calm story."
+        ],
+        "actual": "The dasapyans have a calming story.",
+        "raw_target": "\"The thing has a calm story.\"",
+        "raw_actual": "The dasapyans have a calming story.",
+        "bleu_score": 15.619699684601283,
+        "chrF_score": 41.134929796259165,
+        "chrF_plus_score": 40.21840186402051,
+        "ter_test": 50.0,
+        "bert_score_p": 0.8925665616989136,
+        "bert_score_r": 0.931738018989563,
+        "bert_score_f1": 0.9117317795753479
+    },
+    {
+        "file": "5.csv",
+        "row": 3,
+        "prompt": "\"Rule: bote = blue, *e* for adjectives, swe = they.\nEnglish → Dasopya\nSentence:\nThey are blue.\"",
+        "targets": [
+            "swe e bote"
+        ],
+        "actual": "Swe e-bote.",
+        "raw_target": "\"swe e bote\"",
+        "raw_actual": "\nSwe e-bote.",
+        "bleu_score": 0.0,
+        "chrF_score": 36.05701648390377,
+        "chrF_plus_score": 27.042762362927835,
+        "ter_test": 66.66666666666666,
+        "bert_score_p": 0.8939928412437439,
+        "bert_score_r": 0.8624200224876404,
+        "bert_score_f1": 0.8779226541519165
+    },
+    {
+        "file": "5.csv",
+        "row": 4,
+        "prompt": "\"Rule: lon = when, masu = morning, *a* subject marker if subject not first.\nDasopya → English\nSentence:\nlon e masu, a bay i plu\"",
+        "targets": [
+            "When it is morning, I go."
+        ],
+        "actual": "When in the morning, at this beautiful beach.",
+        "raw_target": "\"When it is morning, I go.\"",
+        "raw_actual": "When in the morning, at this beautiful beach.",
+        "bleu_score": 9.980099403873663,
+        "chrF_score": 41.15868507650125,
+        "chrF_plus_score": 38.78973679604765,
+        "ter_test": 100.0,
+        "bert_score_p": 0.8871540427207947,
+        "bert_score_r": 0.8812505602836609,
+        "bert_score_f1": 0.8841924071311951
+    },
+    {
+        "file": "5.csv",
+        "row": 5,
+        "prompt": "\"Rule: kwe = invert, gwi = good, baw = more.\nEnglish → Dasopya\nSentence:\nworse\"",
+        "targets": [
+            "kwebawgwi"
+        ],
+        "actual": "Dasapywa (invert of good + more) - Worse in the sense that it is not as good and has lesser quality or quantity than something else. It implies a negative comparison, similar to how 'worse' functions in English when comparing two things where one lacks certain qualities present in another.",
+        "raw_target": "\"kwebawgwi\"",
+        "raw_actual": "\nDasapywa (invert of \"good\" + \"more\") - Worse in the sense that it is not as good and has lesser quality or quantity than something else. It implies a negative comparison, similar to how 'worse' functions in English when comparing two things where one lacks certain qualities present in another.",
+        "bleu_score": 0.0,
+        "chrF_score": 2.406738868832732,
+        "chrF_plus_score": 2.0629190304280556,
+        "ter_test": 5000.0,
+        "bert_score_p": 0.7787541747093201,
+        "bert_score_r": 0.797825276851654,
+        "bert_score_f1": 0.7881743907928467
+    },
+    {
+        "file": "5.csv",
+        "row": 6,
+        "prompt": "\"Rule: sya = and, tamye = fun, yoy command marker.\nDasopya → English\nSentence:\ni yoy plu sya i yoy hay e tamye!\"",
+        "targets": [
+            "Go and have fun!"
+        ],
+        "actual": "I love you too! Fun to see that connection between 'and' and liking someone, which is similar to saying 'I like.'",
+        "raw_target": "\"Go and have fun!\"",
+        "raw_actual": "I love you too! Fun to see the connection between \"sya\" meaning \"and,\" and using it in a sentence about loving someone, which is similar to saying \"I like.\" The term \"tamye\" translates as \"fun,\" so when combined with \"i yoy plu sya i yoy hay e tamye!\" we can understand the sentiment expressed.\n\nTranslation: I love you too! Fun to see that connection between 'and' and liking someone, which is similar to saying 'I like.'",
+        "bleu_score": 1.7911710595643588,
+        "chrF_score": 9.919529317380329,
+        "chrF_plus_score": 10.214015214737735,
+        "ter_test": 500.0,
+        "bert_score_p": 0.8290277123451233,
+        "bert_score_r": 0.8516944050788879,
+        "bert_score_f1": 0.8402082324028015
+    }
+]

@@ -1,0 +1,189 @@
+[
+    {
+        "file": "2.csv",
+        "row": 2,
+        "prompt": "\"Word/Rule:\nsun = similar / -like\ndaw = person\nQuestion:\nWhat does sundaw most likely mean?\"",
+        "targets": [
+            "humanoid",
+            "person-like"
+        ],
+        "actual": "Sun-person",
+        "raw_target": "\"person-like / humanoid\"",
+        "raw_actual": "Sun-person",
+        "bleu_score": 0.0,
+        "chrF_score": 42.77207932700822,
+        "chrF_plus_score": 36.66178228029276,
+        "ter_test": 100.0,
+        "bert_score_p": 0.888919472694397,
+        "bert_score_r": 0.9159426093101501,
+        "bert_score_f1": 0.8853610754013062
+    },
+    {
+        "file": "2.csv",
+        "row": 3,
+        "prompt": "\"Word/Rule:\ntay = many / very\ndaw = person\nQuestion:\nWhat does tay daw most likely mean?\"",
+        "targets": [
+            "many people"
+        ],
+        "actual": "Many persons (or people) or Very much of a person (in terms of quantity, presence, etc.)",
+        "raw_target": "\"many people\"",
+        "raw_actual": "Many persons (or people) or Very much of a person (in terms of quantity, presence, etc.)",
+        "bleu_score": 1.6466642419110007,
+        "chrF_score": 27.26103936354939,
+        "chrF_plus_score": 22.549840451973974,
+        "ter_test": 750.0,
+        "bert_score_p": 0.7993484139442444,
+        "bert_score_r": 0.8934943675994873,
+        "bert_score_f1": 0.8438035249710083
+    },
+    {
+        "file": "2.csv",
+        "row": 4,
+        "prompt": "\"Word/Rule:\nhomu = calm\nkwe = invert prefix\nsegu = music\nQuestion:\nWhat does kwehomusegu most likely mean?\"",
+        "targets": [
+            "chaotic music",
+            "rock music"
+        ],
+        "actual": "Inverted Calm Music",
+        "raw_target": "\"chaotic music/ rock music\"",
+        "raw_actual": "Inverted Calm Music",
+        "bleu_score": 0.0,
+        "chrF_score": 20.73377534271143,
+        "chrF_plus_score": 15.550331507033574,
+        "ter_test": 100.0,
+        "bert_score_p": 0.824375331401825,
+        "bert_score_r": 0.9141989946365356,
+        "bert_score_f1": 0.8669667840003967
+    },
+    {
+        "file": "2.csv",
+        "row": 5,
+        "prompt": "\"Word/Rule:\nbegu = if\nmyu = would\nQuestion:\nIn begu bay i myu plu, what tense is plu?\"",
+        "targets": [
+            "Conditional future",
+            "would go"
+        ],
+        "actual": "In begu bay I myu plu, the word plu appears to be in a conditional form based on the provided rule for begu. However, since there's no explicit definition of how begu translates into English or any tense markers given within this prompt context, we can only speculate. If we follow an analogy with common languages where 'if' often introduces conditions in present and future scenarios (e.g., If I would like more, which is a non-standard but understandable construction), then it might suggest that the word following begu could be intended to express desire or intention, similar to how one uses modal verbs for such purposes (would).\n\nGiven this speculative framework and assuming 'plu' follows English conditional patterns (which are not provided in your prompt but can serve as a loose analogy), the phrase I would like more could be translated into an equivalent form using begu. However, without explicit rules for tense or mood within the context of this unique language construct, any translation remains hypothetical and tentative at best:\n\nBegu bay I myu plu (If I would want)",
+        "raw_target": "\"Conditional future / would go\"",
+        "raw_actual": "In \"begu bay I myu plu,\" the word \"plu\" appears to be in a conditional form based on the provided rule for \"begu.\" However, since there's no explicit definition of how begu translates into English or any tense markers given within this prompt context, we can only speculate. If we follow an analogy with common languages where 'if' often introduces conditions in present and future scenarios (e.g., \"If I would like more,\" which is a non-standard but understandable construction), then it might suggest that the word following \"begu\" could be intended to express desire or intention, similar to how one uses modal verbs for such purposes (\"would\").\n\nGiven this speculative framework and assuming 'plu' follows English conditional patterns (which are not provided in your prompt but can serve as a loose analogy), the phrase \"I would like more\" could be translated into an equivalent form using begu. However, without explicit rules for tense or mood within the context of this unique language construct, any translation remains hypothetical and tentative at best:\n\nBegu bay I myu plu (If I would want)",
+        "bleu_score": 0.2056012182834876,
+        "chrF_score": 6.143745548282969,
+        "chrF_plus_score": 4.912154703724913,
+        "ter_test": 8900.0,
+        "bert_score_p": 0.7573615312576294,
+        "bert_score_r": 0.8188695907592773,
+        "bert_score_f1": 0.7869154214859009
+    },
+    {
+        "file": "2.csv",
+        "row": 6,
+        "prompt": "\"Word/Rule:\ntamye = fun\nbey = -ly\nQuestion:\nWhat does tamyebey most likely mean?\"",
+        "targets": [
+            "funnily",
+            "in a fun way"
+        ],
+        "actual": "fun-ly",
+        "raw_target": "\"funnily / in a fun way\"",
+        "raw_actual": "fun-ly",
+        "bleu_score": 0.0,
+        "chrF_score": 24.34979544126242,
+        "chrF_plus_score": 20.87125323536779,
+        "ter_test": 40.0,
+        "bert_score_p": 0.8059471845626831,
+        "bert_score_r": 0.8541665077209473,
+        "bert_score_f1": 0.8217659592628479
+    },
+    {
+        "file": "2.csv",
+        "row": 7,
+        "prompt": "\"Word/Rule:\nmye = before / already\nplu = to go\nQuestion:\nWhat does mye plu most likely mean?\"",
+        "targets": [
+            "already go",
+            "went"
+        ],
+        "actual": "Before going (or has gone)",
+        "raw_target": "\"went / already go\n\"\n\"",
+        "raw_actual": "Before going (or has gone)",
+        "bleu_score": 0.0,
+        "chrF_score": 10.33119106367514,
+        "chrF_plus_score": 7.748393297756354,
+        "ter_test": 333.33333333333337,
+        "bert_score_p": 0.8208977580070496,
+        "bert_score_r": 0.8952871561050415,
+        "bert_score_f1": 0.8564802408218384
+    },
+    {
+        "file": "2.csv",
+        "row": 8,
+        "prompt": "\"Word/Rule:\npomo = egg\nsun = -like\nQuestion:\nWhat does pomosun most likely mean?\"",
+        "targets": [
+            "egg-like"
+        ],
+        "actual": "An object resembling an egg-like sun.",
+        "raw_target": "\"egg-like\"",
+        "raw_actual": "An object resembling an egg-like sun.",
+        "bleu_score": 6.567274736060395,
+        "chrF_score": 52.945266034808625,
+        "chrF_plus_score": 51.96271570426055,
+        "ter_test": 500.0,
+        "bert_score_p": 0.8494672179222107,
+        "bert_score_r": 0.8576796650886536,
+        "bert_score_f1": 0.8535537123680115
+    },
+    {
+        "file": "2.csv",
+        "row": 9,
+        "prompt": "\"Word/Rule:\npay = up / above\nkwe = invert prefix\nQuestion:\nWhat does kwepay most likely mean?\"",
+        "targets": [
+            "below",
+            "under"
+        ],
+        "actual": "Invert pay",
+        "raw_target": "\"below / under\"",
+        "raw_actual": "Invert pay",
+        "bleu_score": 0.0,
+        "chrF_score": 14.518633540372672,
+        "chrF_plus_score": 12.098861283643894,
+        "ter_test": 200.0,
+        "bert_score_p": 0.7941668033599854,
+        "bert_score_r": 0.8845862150192261,
+        "bert_score_f1": 0.8369414210319519
+    },
+    {
+        "file": "2.csv",
+        "row": 10,
+        "prompt": "\"Word/Rule:\ngwi = good\nkwe = invert\nQuestion:\nWhat does kwegwi most likely mean?\"",
+        "targets": [
+            "bad"
+        ],
+        "actual": "Inverted good",
+        "raw_target": "\"bad\"",
+        "raw_actual": "Inverted good",
+        "bleu_score": 0.0,
+        "chrF_score": 6.944444444444445,
+        "chrF_plus_score": 5.208333333333333,
+        "ter_test": 200.0,
+        "bert_score_p": 0.7978101968765259,
+        "bert_score_r": 0.8766751885414124,
+        "bert_score_f1": 0.8353854417800903
+    },
+    {
+        "file": "2.csv",
+        "row": 11,
+        "prompt": "\"Word/Rule:\nmoy = multiple\nbay = me\nQuestion:\nWhat does moybay most likely mean?\"",
+        "targets": [
+            "us",
+            "we"
+        ],
+        "actual": "multiple me",
+        "raw_target": "\"we / us\"",
+        "raw_actual": "\nmultiple me",
+        "bleu_score": 0.0,
+        "chrF_score": 13.88888888888889,
+        "chrF_plus_score": 9.25925925925926,
+        "ter_test": 200.0,
+        "bert_score_p": 0.8852699995040894,
+        "bert_score_r": 0.9083895087242126,
+        "bert_score_f1": 0.8965966105461121
+    }
+]

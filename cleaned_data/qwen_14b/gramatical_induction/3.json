@@ -1,0 +1,94 @@
+[
+    {
+        "file": "3.csv",
+        "row": 2,
+        "prompt": "\"New Vocab:\ngati (to catch)\n\npika (bug)\n\nRules:\nmyu = conditional (“would”).\n\nmye = past marker.\n\nVerbs stack after i.\n\nObject marked with e.\n\nSentence Sample:\nbegu bay i myu mye gati e pika.\nQuestion:\nIs this sentence grammatical according to the rules above? Translate it to English.\"",
+        "targets": [
+            "If I had caught the bug.",
+            "Yes, it is grammatical.\nTranslation: If I would have caught the bug."
+        ],
+        "actual": "I would have caught a bug.",
+        "raw_target": "\"Yes, it is grammatical.\nTranslation: If I would have caught the bug. / If I had caught the bug.\"",
+        "raw_actual": "The sentence is grammatical according to the rules provided. Translation: \"I would have caught a bug.\"",
+        "bleu_score": 48.892302243490086,
+        "chrF_score": 34.17330947036756,
+        "chrF_plus_score": 34.869445538478296,
+        "ter_test": 44.44444444444444,
+        "bert_score_p": 0.9245647192001343,
+        "bert_score_r": 0.9244948625564575,
+        "bert_score_f1": 0.9209226965904236
+    },
+    {
+        "file": "3.csv",
+        "row": 3,
+        "prompt": "\"New Vocab:\nsene (clean)\n\nkwe (invert prefix)\n\nRules:\ngen = abstract noun suffix (“-ness”).\n\nkwe inverts root before gen.\n\ne marks predicate noun.\n\nSentence Sample:\nswe e kwe senegen.\nQuestion:\nWhat does kwe senegen mean?\"",
+        "targets": [
+            "Uncleanliness",
+            "dirtiness"
+        ],
+        "actual": "dirty ness",
+        "raw_target": "\"Uncleanliness/ dirtiness\"",
+        "raw_actual": "dirty ness",
+        "bleu_score": 0.0,
+        "chrF_score": 42.3941798941799,
+        "chrF_plus_score": 36.33786848072562,
+        "ter_test": 200.0,
+        "bert_score_p": 0.8506851196289062,
+        "bert_score_r": 0.8876715898513794,
+        "bert_score_f1": 0.8687849044799805
+    },
+    {
+        "file": "3.csv",
+        "row": 4,
+        "prompt": "\"New Vocab:\nlato (liquid)\n\npodo (dirt)\n\nlaw (inside)\n\nRules:\nboy = preposition marker.\n\nlaw = inside.\n\nLocation phrase follows verb.\n\nboy can prefix location word.\n\nSentence Sample:\nswe i hay e lato boylaw podo.\nQuestion:\nIs this sentence grammatical? Where is the liquid?\"",
+        "targets": [
+            "Yes, it is grammatical.\nThe liquid is inside the dirt."
+        ],
+        "actual": "grammatical\n\nthe liquid is inside the dirt",
+        "raw_target": "\"Target Output:\nYes, it is grammatical.\nThe liquid is inside the dirt.\"",
+        "raw_actual": "grammatical\n\nthe liquid is inside the dirt",
+        "bleu_score": 27.30664777474173,
+        "chrF_score": 71.7649982876725,
+        "chrF_plus_score": 64.98394140348537,
+        "ter_test": 50.0,
+        "bert_score_p": 0.9353833198547363,
+        "bert_score_r": 0.9298192262649536,
+        "bert_score_f1": 0.9325929880142212
+    },
+    {
+        "file": "3.csv",
+        "row": 5,
+        "prompt": "\"New Vocab:\nsuki (to swim)\n\nliso (water)\n\nRules:\nCommands: omit subject, use i yoy.\n\nObject marked with e.\n\nVerb can be intransitive.\n\nSentence Sample:\ni yoy suki e liso!\nQuestion:\nWhat is this a command to do?\"",
+        "targets": [
+            "Swim in the water!"
+        ],
+        "actual": "to swim in the water",
+        "raw_target": "\"Swim in the water!\"",
+        "raw_actual": "to swim in the water",
+        "bleu_score": 39.76353643835254,
+        "chrF_score": 82.3552437685685,
+        "chrF_plus_score": 75.52780065002447,
+        "ter_test": 50.0,
+        "bert_score_p": 0.9221732020378113,
+        "bert_score_r": 0.9309837818145752,
+        "bert_score_f1": 0.9265575408935547
+    },
+    {
+        "file": "3.csv",
+        "row": 6,
+        "prompt": "\"New Vocab:\nbese (pretty)\n\nhasu (flower)\n\nRules:\nbyu = most (superlative).\n\nQuestion starts with kay.\n\nAdjective follows e.\n\nSentence Sample:\nkay a pin hasu byubese e?\nQuestion:\nIs this sentence grammatical? explain.\"",
+        "targets": [
+            "No it is not grammatical."
+        ],
+        "actual": "kay a pin hasu byubese e?",
+        "raw_target": "\"No it is not grammatical.\"",
+        "raw_actual": "kay a pin hasu byubese e?",
+        "bleu_score": 0.0,
+        "chrF_score": 4.8076923076923075,
+        "chrF_plus_score": 3.6057692307692304,
+        "ter_test": 120.0,
+        "bert_score_p": 0.7623404264450073,
+        "bert_score_r": 0.8471702933311462,
+        "bert_score_f1": 0.8025199174880981
+    }
+]

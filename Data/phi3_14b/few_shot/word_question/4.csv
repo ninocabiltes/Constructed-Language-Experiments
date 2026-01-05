@@ -3,49 +3,49 @@ Prompt;Target Output;Actual Output;Bleu Score;chrF Score
 bade = strong
 byu = most
 Question:
-What does byubade most likely mean?""";"""Strongest""";;;
+What does byubade most likely mean?""";"""Strongest""";Most strong;;
 """Word/Rule:
 pana = hand
 goy = thing
 Question:
-What does panagoy most likely mean?""";"""hand-thing / tool / glove""";;;
+What does panagoy most likely mean?""";"""hand-thing / tool / glove""";Handthing;;
 """Word/Rule:
 toso = sound
 doso = device
 Question:
-What does tosodoso most likely mean?""";"""Speaker / phone""";;;
+What does tosodoso most likely mean?""";"""Speaker / phone""";Tosodoso most likely means a sound device.;;
 """Word/Rule:
 lano = bread
 tako = container
 Question:
-What does lanotako most likely mean?""";"""bread container / breadbox""";;;
+What does lanotako most likely mean?""";"""bread container / breadbox""";Container of bread;;
 """Word/Rule:
 gyu = in front
 kwe = invert
 Question:
-What does kwegyu most likely mean?""";"""behind""";;;
+What does kwegyu most likely mean?""";"""behind""";Inverted in front;;
 """Word/Rule:
 pome = soft
 bey = -ly
 Question:
-What does pomebey most likely mean?""";"""softly""";;;
+What does pomebey most likely mean?""";"""softly""";Pome-ly;;
 """Word/Rule:
 swa = to be
 sume = mature
 Question:
-In swe e sume, what part of speech is sume?""";"""Adjective (mature)""";;;
+In swe e sume, what part of speech is sume?""";"""Adjective (mature)""";"Sume is a noun in ""in swe e sume"".";;
 """Word/Rule:
 mye = before
 hay = have
 Question:
-What does mye hay most likely mean?""";"""Had / already have""";;;
+What does mye hay most likely mean?""";"""Had / already have""";Before having;;
 """Word/Rule:
 koy = far
 kwe = invert
 Question:
-What does kwekoy most likely mean?""";"""close / nearby""";;;
+What does kwekoy most likely mean?""";"""close / nearby""";Inverted far;;
 """Word/Rule:
 syo = life
 gen = -ness
 Question:
-What does syogen most likely mean?""";"""life-ness / vitality""";;;
+What does syogen most likely mean?""";"""life-ness / vitality""";"Syogen most likely means ""lifeness.""";;

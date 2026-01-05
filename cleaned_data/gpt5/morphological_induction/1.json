@@ -1,0 +1,291 @@
+[
+    {
+        "file": "1.csv",
+        "row": 2,
+        "prompt": "gwa = house → gwaki = small house (cottage)\n\ndoso = machine → dosoki = small machine (device/tool)\n\npilo = bird → pilodo = big bird (eagle/large bird)\n\nQuestion:\nIf gwa = house and gwaki = cottage, what does gwanodo mean?",
+        "targets": [
+            "hall",
+            "large room"
+        ],
+        "actual": "big house (mansion/large house)",
+        "raw_target": "large room / hall",
+        "raw_actual": "big house (mansion/large house)",
+        "bleu_score": 5.522397783539471,
+        "chrF_score": 26.106462622369715,
+        "chrF_plus_score": 19.579846966777286,
+        "ter_test": 266.66666666666663,
+        "bert_score_p": 0.834256649017334,
+        "bert_score_r": 0.8902981281280518,
+        "bert_score_f1": 0.8613668084144592
+    },
+    {
+        "file": "1.csv",
+        "row": 3,
+        "prompt": "Context Examples:\ngwi = good → soygwi = not good (bad)\n\nsole = happy → soysole = not happy (neutral)\n\nkwe = opposite prefix\n\nkwe + gwi = kwegwi = bad (opposite of good)\n\nkwe + sole = kwesole = unhappy/sad\n\nQuestion:\nWhat is the difference between kwehate and soyhate if hate = dangerous?",
+        "targets": [
+            "kwehate = safe opposite, soyhate = not dangerous",
+            "kwehate = safe opposite, soyhate = not dangerous neutral",
+            "kwehate = safe, soyhate = not dangerous",
+            "kwehate = safe, soyhate = not dangerous neutral"
+        ],
+        "actual": "kwehate = safe; soyhate = not dangerous (neutral)",
+        "raw_target": "kwehate = safe (opposite), soyhate = not dangerous (neutral)",
+        "raw_actual": "kwehate = safe; soyhate = not dangerous (neutral)",
+        "bleu_score": 35.08439695638686,
+        "chrF_score": 83.26680504344527,
+        "chrF_plus_score": 81.314744525286,
+        "ter_test": 25.0,
+        "bert_score_p": 0.973783552646637,
+        "bert_score_r": 0.9886391758918762,
+        "bert_score_f1": 0.9781109690666199
+    },
+    {
+        "file": "1.csv",
+        "row": 4,
+        "prompt": "Context Examples:\nplu = to go → pluti = to make go/move (something)\n\nloy = to see → loyti = to show (make see)\n\nsuki = to swim → sukiha = to want to swim\n\nQuestion:\nIf paki = to find and pakiha = to want to find, what does pakiti mean?",
+        "targets": [
+            "to cause to be found",
+            "to help find",
+            "to make find"
+        ],
+        "actual": "to make find",
+        "raw_target": "to make find / to help find / to cause to be found",
+        "raw_actual": "to make find",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 0.9999998807907104,
+        "bert_score_r": 0.9999998807907104,
+        "bert_score_f1": 0.9999998807907104
+    },
+    {
+        "file": "1.csv",
+        "row": 5,
+        "prompt": "Context Examples:\ntoga = body → togapa = body part\n\ngwa = house → gwapa = part of a house (room/wall)\n\nkyu = you → hoykyu = yours\n\nbay = me → hoybay = mine\n\nQuestion:\nIf paka = head and pakapa = part of head (face/skull), what does hoypaka mean?",
+        "targets": [
+            "belonging to the head",
+            "head's"
+        ],
+        "actual": "head's",
+        "raw_target": "belonging to the head / head's",
+        "raw_actual": "head's",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 0.9999998807907104,
+        "bert_score_r": 0.9999998807907104,
+        "bert_score_f1": 0.9999998807907104
+    },
+    {
+        "file": "1.csv",
+        "row": 6,
+        "prompt": "Context Examples:\nmabo = eat → mabole = to eat regularly\n\nsami = walk → samile = to walk habitually\n\nloy = see → loypu = to glance/see briefly\n\npya = speak → pyapu = to speak briefly\n\nQuestion:\nIf suki = swim and sukile = to swim regularly, what does sukipu mean?",
+        "targets": [
+            "swim briefly",
+            "to take a quick swim"
+        ],
+        "actual": "to swim briefly",
+        "raw_target": "to take a quick swim / swim briefly",
+        "raw_actual": "to swim briefly",
+        "bleu_score": 62.996052494743665,
+        "chrF_score": 95.35782504283952,
+        "chrF_plus_score": 93.71916273326948,
+        "ter_test": 28.57142857142857,
+        "bert_score_p": 0.9303007125854492,
+        "bert_score_r": 0.9474886655807495,
+        "bert_score_f1": 0.9278486967086792
+    },
+    {
+        "file": "1.csv",
+        "row": 7,
+        "prompt": "Context Examples:\nmabo = eat → mabodaw = eater\n\nliru = drink → lirudaw = drinker\n\nsegu = music → segusu = musician\n\nlenu = art → lenusu = artist\n\nQuestion:\nIf kami = to buy, what does kamidaw mean?",
+        "targets": [
+            "buyer",
+            "shopper"
+        ],
+        "actual": "kamidaw = buyer",
+        "raw_target": "buyer/shopper",
+        "raw_actual": "kamidaw = buyer",
+        "bleu_score": 27.516060407455225,
+        "chrF_score": 63.76840278306412,
+        "chrF_plus_score": 65.19368509752411,
+        "ter_test": 200.0,
+        "bert_score_p": 0.7760922908782959,
+        "bert_score_r": 0.8285526037216187,
+        "bert_score_f1": 0.7898295521736145
+    },
+    {
+        "file": "1.csv",
+        "row": 8,
+        "prompt": "Context Examples:\nsapa = fish → sapamu = school of fish\n\ndaw = person → dawmu = group of people\n\nmuta = leg → mutatu = pair of legs\n\nQuestion:\nIf pila = bird, what does pilamu mean?",
+        "targets": [
+            "flock of birds"
+        ],
+        "actual": "pilamu = flock of birds",
+        "raw_target": "flock of birds",
+        "raw_actual": "pilamu = flock of birds",
+        "bleu_score": 39.76353643835254,
+        "chrF_score": 86.94252409084918,
+        "chrF_plus_score": 86.69614780780611,
+        "ter_test": 66.66666666666666,
+        "bert_score_p": 0.794815182685852,
+        "bert_score_r": 0.8801370859146118,
+        "bert_score_f1": 0.835303008556366
+    },
+    {
+        "file": "1.csv",
+        "row": 9,
+        "prompt": "Context Examples:\nsote = hot → sotefo = too hot\n\nlase = fast → lasefo = too fast\n\nbote = blue → botene = somewhat blue\n\nlake = red → lakene = somewhat red\n\nQuestion:\nIf bade = strong and badefo = too strong, what does badene mean?",
+        "targets": [
+            "somewhat strong",
+            "strongish"
+        ],
+        "actual": "somewhat strong",
+        "raw_target": "somewhat strong / strongish",
+        "raw_actual": "somewhat strong",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 0.9999998807907104,
+        "bert_score_r": 0.9999998807907104,
+        "bert_score_f1": 0.9999998807907104
+    },
+    {
+        "file": "1.csv",
+        "row": 10,
+        "prompt": "Context Examples:\nkuto = school → kutodin = school location\n\ndago = store → dagodin = store location\n\npay = up → paysay = upward direction\n\ngyu = front → gyusay = forward\n\nQuestion:\nIf law = inside and lawdin = inside place, what does lawsay mean?",
+        "targets": [
+            "inward direction",
+            "toward the inside"
+        ],
+        "actual": "inside direction",
+        "raw_target": "inward direction / toward the inside",
+        "raw_actual": "inside direction",
+        "bleu_score": 70.71067811865478,
+        "chrF_score": 55.5977355977356,
+        "chrF_plus_score": 47.9483016983017,
+        "ter_test": 40.0,
+        "bert_score_p": 0.9974550008773804,
+        "bert_score_r": 0.9974550008773804,
+        "bert_score_f1": 0.9974550008773804
+    },
+    {
+        "file": "1.csv",
+        "row": 11,
+        "prompt": "Context Examples:\nhomu = calm → homuta = calmness (state)\n\nsole = happy → soleta = happiness (state)\n\nbade = strong → badevi = strength (quality)\n\nQuestion:\nIf gwi = good and gwivi = goodness, what does gwita mean?",
+        "targets": [
+            "goodness",
+            "goodness as a condition",
+            "state of being good"
+        ],
+        "actual": "goodness (quality)",
+        "raw_target": "state of being good / goodness (as a condition)",
+        "raw_actual": "goodness (quality)",
+        "bleu_score": 15.97357760615681,
+        "chrF_score": 74.63635298177532,
+        "chrF_plus_score": 74.20182108508301,
+        "ter_test": 33.33333333333333,
+        "bert_score_p": 0.8838551044464111,
+        "bert_score_r": 0.9396617412567139,
+        "bert_score_f1": 0.9002798795700073
+    },
+    {
+        "file": "1.csv",
+        "row": 12,
+        "prompt": "Context Examples:\npya = speak → pyazo = speaking tool (microphone)\n\nkato = cut → katozo = cutting tool (knife)\n\nplu = go → plumo = means of going (vehicle)\n\nQuestion:\nIf doli = write and dolizo = writing tool (pen), what does dolimo mean?",
+        "targets": [
+            "means of writing (method",
+            "process)"
+        ],
+        "actual": "dolimo = means of writing (writing instrument or device)",
+        "raw_target": "means of writing (method/process)",
+        "raw_actual": "dolimo = means of writing (writing instrument or device)",
+        "bleu_score": 24.808415001701817,
+        "chrF_score": 55.90924283910923,
+        "chrF_plus_score": 57.22817559716121,
+        "ter_test": 240.0,
+        "bert_score_p": 0.8051474094390869,
+        "bert_score_r": 0.8457643985748291,
+        "bert_score_f1": 0.8249562382698059
+    },
+    {
+        "file": "1.csv",
+        "row": 13,
+        "prompt": "Context Examples:\nkapi = break → kapira = breakage (result)\n\nsyu = make → syura = product/creation\n\ndoli = write → dolibu = writing/text\n\nQuestion:\nIf kami = buy and kamira = purchase (result), what does kamibu mean?",
+        "targets": [
+            "bought item",
+            "purchase",
+            "purchase product"
+        ],
+        "actual": "kamibu = buying/process of buying",
+        "raw_target": "bought item / purchase (product)",
+        "raw_actual": "kamibu = buying/process of buying",
+        "bleu_score": 0.0,
+        "chrF_score": 11.467250798736506,
+        "chrF_plus_score": 8.600438099052381,
+        "ter_test": 300.0,
+        "bert_score_p": 0.7890601754188538,
+        "bert_score_r": 0.851420521736145,
+        "bert_score_f1": 0.8168768286705017
+    },
+    {
+        "file": "1.csv",
+        "row": 14,
+        "prompt": "sami = walk → samire = walk often\n\nmabo = eat → mabore = eat frequently\n\nhan = day → hanpe = every day\n\nsebo = week → sebope = every week\n\nQuestion:\nIf suki = swim and sukire = swim often, what does hanre mean?",
+        "targets": [
+            "frequently",
+            "often daily"
+        ],
+        "actual": "every day often",
+        "raw_target": "often daily / frequently",
+        "raw_actual": "every day often",
+        "bleu_score": 27.516060407455225,
+        "chrF_score": 33.99628476148903,
+        "chrF_plus_score": 31.18873524692795,
+        "ter_test": 200.0,
+        "bert_score_p": 0.867820143699646,
+        "bert_score_r": 0.8954038619995117,
+        "bert_score_f1": 0.8813962340354919
+    },
+    {
+        "file": "1.csv",
+        "row": 15,
+        "prompt": "Context Examples:\nmya = parent → myashi = honorable parent\n\nbamu = hello → bamujo = formal greeting\n\nkyu = you → kyujo = formal \"you\"\n\nQuestion:\nIf domay = friend and domayshi = respected friend, what does domayjo mean?",
+        "targets": [
+            "formal friend",
+            "polite acquaintance"
+        ],
+        "actual": "domayjo = formal greeting for a friend",
+        "raw_target": "formal friend / polite acquaintance",
+        "raw_actual": "domayjo = formal greeting for a friend",
+        "bleu_score": 7.809849842300641,
+        "chrF_score": 49.555374232044684,
+        "chrF_plus_score": 45.540012247220155,
+        "ter_test": 250.0,
+        "bert_score_p": 0.8128785490989685,
+        "bert_score_r": 0.8574008941650391,
+        "bert_score_f1": 0.8345462679862976
+    },
+    {
+        "file": "1.csv",
+        "row": 16,
+        "prompt": "Context Examples:\nsuki = swim → sukidaw = swimmer → sukidawbey = in a swimmer-like way\n\nkato = cut → katoti = make cut → katotizo = cutting tool → katotizoki = small cutter\n\nQuestion:\nIf pya = speak, pyadaw = speaker, pyadawbey = speaker-like, what does pyatizoki likely mean?",
+        "targets": [
+            "little device for making speech",
+            "small speaking tool"
+        ],
+        "actual": "small speaking tool",
+        "raw_target": "small speaking tool / little device for making speech",
+        "raw_actual": "small speaking tool",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 0.9999998807907104,
+        "bert_score_r": 0.9999998807907104,
+        "bert_score_f1": 0.9999998807907104
+    }
+]

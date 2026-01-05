@@ -1,0 +1,94 @@
+[
+    {
+        "file": "3.csv",
+        "row": 2,
+        "prompt": "New Vocab:\ngati (to catch)\n\npika (bug)\n\nRules:\nmyu = conditional (“would”).\n\nmye = past marker.\n\nVerbs stack after i.\n\nObject marked with e.\n\nSentence Sample:\nbegu bay i myu mye gati e pika.\nQuestion:\nIs this sentence grammatical according to the rules above? Translate it to English.",
+        "targets": [
+            "If I had caught the bug.",
+            "Yes, it is grammatical.\nTranslation: If I would have caught the bug."
+        ],
+        "actual": "Yes. Begu bay would have caught the bug.",
+        "raw_target": "Yes, it is grammatical.\nTranslation: If I would have caught the bug. / If I had caught the bug.",
+        "raw_actual": "\nYes. Begu bay would have caught the bug.",
+        "bleu_score": 55.55238068023583,
+        "chrF_score": 57.16570254524454,
+        "chrF_plus_score": 55.24522806266715,
+        "ter_test": 55.55555555555556,
+        "bert_score_p": 0.8847503662109375,
+        "bert_score_r": 0.91681969165802,
+        "bert_score_f1": 0.8966591954231262
+    },
+    {
+        "file": "3.csv",
+        "row": 3,
+        "prompt": "New Vocab:\nsene (clean)\n\nkwe (invert prefix)\n\nRules:\ngen = abstract noun suffix (“-ness”).\n\nkwe inverts root before gen.\n\ne marks predicate noun.\n\nSentence Sample:\nswe e kwe senegen.\nQuestion:\nWhat does kwe senegen mean?",
+        "targets": [
+            "Uncleanliness",
+            "dirtiness"
+        ],
+        "actual": "uncleanness",
+        "raw_target": "Uncleanliness/ dirtiness",
+        "raw_actual": "uncleanness",
+        "bleu_score": 0.0,
+        "chrF_score": 47.17598805414546,
+        "chrF_plus_score": 40.436561189267536,
+        "ter_test": 100.0,
+        "bert_score_p": 0.9392613172531128,
+        "bert_score_r": 0.9392613172531128,
+        "bert_score_f1": 0.9392613172531128
+    },
+    {
+        "file": "3.csv",
+        "row": 4,
+        "prompt": "New Vocab:\nlato (liquid)\n\npodo (dirt)\n\nlaw (inside)\n\nRules:\nboy = preposition marker.\n\nlaw = inside.\n\nLocation phrase follows verb.\n\nboy can prefix location word.\n\nSentence Sample:\nswe i hay e lato boylaw podo.\nQuestion:\nIs this sentence grammatical? Where is the liquid?",
+        "targets": [
+            "Yes, it is grammatical.\nThe liquid is inside the dirt."
+        ],
+        "actual": "Yes. The liquid is inside the dirt.",
+        "raw_target": "Yes, it is grammatical.\nThe liquid is inside the dirt.",
+        "raw_actual": "Yes. The liquid is inside the dirt.",
+        "bleu_score": 57.00989414328733,
+        "chrF_score": 62.15652204959285,
+        "chrF_plus_score": 63.66316064034272,
+        "ter_test": 40.0,
+        "bert_score_p": 0.9564981460571289,
+        "bert_score_r": 0.9283446073532104,
+        "bert_score_f1": 0.9422110915184021
+    },
+    {
+        "file": "3.csv",
+        "row": 5,
+        "prompt": "New Vocab:\nsuki (to swim)\n\nliso (water)\n\nRules:\nCommands: omit subject, use i yoy.\n\nObject marked with e.\n\nVerb can be intransitive.\n\nSentence Sample:\ni yoy suki e liso!\nQuestion:\nWhat is this a command to do?",
+        "targets": [
+            "Swim in the water!"
+        ],
+        "actual": "Swim in the water",
+        "raw_target": "Swim in the water!",
+        "raw_actual": "Swim in the water",
+        "bleu_score": 77.88007830714052,
+        "chrF_score": 93.36837027445603,
+        "chrF_plus_score": 90.38153647844744,
+        "ter_test": 25.0,
+        "bert_score_p": 0.9792346954345703,
+        "bert_score_r": 0.9571196436882019,
+        "bert_score_f1": 0.9680508375167847
+    },
+    {
+        "file": "3.csv",
+        "row": 6,
+        "prompt": "New Vocab:\nbese (pretty)\n\nhasu (flower)\n\nRules:\nbyu = most (superlative).\n\nQuestion starts with kay.\n\nAdjective follows e.\n\nSentence Sample:\nkay a pin hasu byubese e?\nQuestion:\nIs this sentence grammatical? explain.",
+        "targets": [
+            "No it is not grammatical."
+        ],
+        "actual": "No. The rule states Adjective follows e. In the sentence, the adjective byubese comes before e.",
+        "raw_target": "No it is not grammatical.",
+        "raw_actual": "No. The rule states \"Adjective follows e\". In the sentence, the adjective \"byubese\" comes before \"e\".",
+        "bleu_score": 2.276859592073037,
+        "chrF_score": 10.735200261136038,
+        "chrF_plus_score": 10.902678946857716,
+        "ter_test": 320.0,
+        "bert_score_p": 0.8353662490844727,
+        "bert_score_r": 0.8683754801750183,
+        "bert_score_f1": 0.8515511155128479
+    }
+]

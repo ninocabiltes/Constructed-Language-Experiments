@@ -1,0 +1,94 @@
+[
+    {
+        "file": "2.csv",
+        "row": 2,
+        "prompt": "New Vocab:\nhebi (to fit)\n\nkado (box)\n\nkapi (to break)\n\nRules:\ndyu = future marker before verb.\n\nVerbs can be compounded.\n\ni comes before whole verb phrase.\n\nObject marked with e.\n\nSentence Sample:\nbay i dyu hebi kapi e kado.\nQuestion:\nIs this sentence grammatical according to the rules above? Translate it to English.",
+        "targets": [
+            "Yes, it is grammatical.\nTranslation: I will fit and break the box."
+        ],
+        "actual": "Yes. bay will fit and break the box.",
+        "raw_target": "Yes, it is grammatical.\nTranslation: I will fit and break the box.",
+        "raw_actual": "\nYes. bay will fit and break the box.",
+        "bleu_score": 37.33976803111331,
+        "chrF_score": 43.85905195922088,
+        "chrF_plus_score": 45.9678163156697,
+        "ter_test": 50.0,
+        "bert_score_p": 0.927666425704956,
+        "bert_score_r": 0.888225793838501,
+        "bert_score_f1": 0.9075177907943726
+    },
+    {
+        "file": "2.csv",
+        "row": 3,
+        "prompt": "New Vocab:\nkesu (healthy)\n\ndaw (person)\n\nRules:\nkwe inverts meaning of following root.\n\nAdjective follows e.\n\nkwe attaches directly to root.\n\nSentence Sample:\nswe e kwekesu.\nQuestion:\nIs this sentence grammatical? What does kwekesu mean?",
+        "targets": [
+            "Yes, it is grammatical.\nkwekesu = unhealthy",
+            "not healthy."
+        ],
+        "actual": "unhealthy",
+        "raw_target": "Yes, it is grammatical.\nkwekesu = unhealthy / not healthy.",
+        "raw_actual": "\nunhealthy",
+        "bleu_score": 13.533528323661276,
+        "chrF_score": 55.01654521223255,
+        "chrF_plus_score": 47.157038753342185,
+        "ter_test": 44.44444444444444,
+        "bert_score_p": 0.8723405003547668,
+        "bert_score_r": 0.8904175162315369,
+        "bert_score_f1": 0.8812863230705261
+    },
+    {
+        "file": "2.csv",
+        "row": 4,
+        "prompt": "New Vocab:\nsito (chair)\n\nsunu (comfortable)\n\nRules:\nteso = relative marker (“that/which”).\n\nteso acts as subject for second clause.\n\nAdjective follows e.\n\nSentence Sample:\nsito teso e sunu.\nQuestion:\nIs this sentence grammatical? Translate to English.",
+        "targets": [
+            "Yes, it is grammatical.\nTranslation: The chair that is comfortable."
+        ],
+        "actual": "Yes.\nchair that is comfortable.",
+        "raw_target": "Yes, it is grammatical.\nTranslation: The chair that is comfortable.",
+        "raw_actual": "Yes.\nchair that is comfortable.",
+        "bleu_score": 24.601580968354597,
+        "chrF_score": 43.795781302664274,
+        "chrF_plus_score": 44.109725513655896,
+        "ter_test": 60.0,
+        "bert_score_p": 0.9165834784507751,
+        "bert_score_r": 0.8673588037490845,
+        "bert_score_f1": 0.8912920355796814
+    },
+    {
+        "file": "2.csv",
+        "row": 5,
+        "prompt": "New Vocab:\njadi (to send)\n\ndibo (message)\n\nseya (Mr./Ms.)\n\nRules:\nu = indirect object particle (“to”).\n\nDirect object marked with e.\n\nIndirect object comes before direct object.\n\nSentence Sample:\nbay i jadi u seya e dibo.\nQuestion:\nWho receives the message?",
+        "targets": [
+            "Ms.) receives the message.",
+            "seya (Mr."
+        ],
+        "actual": "seya",
+        "raw_target": "seya (Mr./Ms.) receives the message.",
+        "raw_actual": "\nseya",
+        "bleu_score": 4.9787068367863965,
+        "chrF_score": 41.85983092446141,
+        "chrF_plus_score": 41.1841817784575,
+        "ter_test": 33.33333333333333,
+        "bert_score_p": 0.9151026010513306,
+        "bert_score_r": 0.8600835800170898,
+        "bert_score_f1": 0.886740505695343
+    },
+    {
+        "file": "2.csv",
+        "row": 6,
+        "prompt": "New Vocab:\nhate (dangerous)\n\nkoba (path)\n\nRules:\nbaw = more (comparative).\n\nAdjective follows e.\n\nbaw attaches to adjective.\n\nSentence Sample:\npin koba e bawhate buki san.\nQuestion:\nWhat does bawhate mean?",
+        "targets": [
+            "bawhate = more dangerous."
+        ],
+        "actual": "more dangerous",
+        "raw_target": "bawhate = more dangerous.",
+        "raw_actual": "\nmore dangerous",
+        "bleu_score": 22.31301601484299,
+        "chrF_score": 58.97337610526524,
+        "chrF_plus_score": 53.81097738736064,
+        "ter_test": 75.0,
+        "bert_score_p": 0.9178276062011719,
+        "bert_score_r": 0.846219003200531,
+        "bert_score_f1": 0.8805698752403259
+    }
+]

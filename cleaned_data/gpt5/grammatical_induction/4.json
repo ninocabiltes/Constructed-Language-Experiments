@@ -1,0 +1,94 @@
+[
+    {
+        "file": "4.csv",
+        "row": 2,
+        "prompt": "New Vocab:\ndemu (to collect)\n\nheko (gem)\n\nluka (rare)\n\nRules:\nteso = relative marker.\n\nNew subject introduced with a.\n\nAdjective follows e.\n\nObject marked with e.\n\nVerb marked with i.\n\nSentence Sample:\nheko teso a swe i demu e luka.\nQuestion:\nWhat is rare?",
+        "targets": [
+            "The gem that they collect is rare.",
+            "The gem they collect."
+        ],
+        "actual": "luka",
+        "raw_target": "The gem that they collect is rare. / The gem they collect.",
+        "raw_actual": "luka",
+        "bleu_score": 0.0,
+        "chrF_score": 2.1551724137931028,
+        "chrF_plus_score": 1.7241379310344827,
+        "ter_test": 72.72727272727273,
+        "bert_score_p": 0.7757667899131775,
+        "bert_score_r": 0.8650931119918823,
+        "bert_score_f1": 0.8179985880851746
+    },
+    {
+        "file": "4.csv",
+        "row": 3,
+        "prompt": "New Vocab:\nsesu (to ensure)\n\nhelu (safety)\n\nmitu (to reach)\n\nRules:\ntelu = in order to.\n\nVerbs can stack.\n\ni before verb phrase.\n\nObject marked with e.\n\ntelu introduces goal.\n\nSentence Sample:\nswe i mitu e helu telu sesu.\nQuestion:\nWhy do they reach safety?",
+        "targets": [
+            "In order to ensure it.",
+            "In order to ensure."
+        ],
+        "actual": "i metu e helu telu sesu",
+        "raw_target": "In order to ensure (it).",
+        "raw_actual": "i metu e helu telu sesu",
+        "bleu_score": 0.0,
+        "chrF_score": 8.387799564270153,
+        "chrF_plus_score": 6.290849673202614,
+        "ter_test": 133.33333333333331,
+        "bert_score_p": 0.765166163444519,
+        "bert_score_r": 0.8361082077026367,
+        "bert_score_f1": 0.7990656495094299
+    },
+    {
+        "file": "4.csv",
+        "row": 4,
+        "prompt": "New Vocab:\nguse (excessive)\n\nsadi (to begin)\n\nRules:\nkwebaw = less (invert + more).\n\nbuki = than (comparison).\n\nAdjective follows e.\n\nkwe inverts root.\n\nComparison after buki.\n\nSentence Sample:\npin e kwebawguse buki san.\nQuestion:\nWhat does kwebawguse mean?",
+        "targets": [
+            "Less excessive."
+        ],
+        "actual": "lessguse",
+        "raw_target": "Less excessive.",
+        "raw_actual": "lessguse",
+        "bleu_score": 0.0,
+        "chrF_score": 12.293618722985375,
+        "chrF_plus_score": 10.537387476844607,
+        "ter_test": 100.0,
+        "bert_score_p": 0.7646288871765137,
+        "bert_score_r": 0.9176934957504272,
+        "bert_score_f1": 0.834197998046875
+    },
+    {
+        "file": "4.csv",
+        "row": 5,
+        "prompt": "New Vocab:\nkiso (seat)\n\ndoke (from)\n\npaci (to open)\n\nRules:\ndoke = from.\n\nboy marks preposition.\n\ni before verb.\n\nObject marked with e.\n\nLocation phrase after object.\n\nSentence Sample:\nbay i paci e kiso boydoke gan.\nQuestion:\nWhere is the seat opened from?",
+        "targets": [
+            "From the room."
+        ],
+        "actual": "kiso boydoke i paci e gan",
+        "raw_target": "From the room.",
+        "raw_actual": "kiso boydoke i paci e gan",
+        "bleu_score": 0.0,
+        "chrF_score": 4.901960784313726,
+        "chrF_plus_score": 3.6764705882352944,
+        "ter_test": 200.0,
+        "bert_score_p": 0.7571243047714233,
+        "bert_score_r": 0.8702902793884277,
+        "bert_score_f1": 0.8097726702690125
+    },
+    {
+        "file": "4.csv",
+        "row": 6,
+        "prompt": "New Vocab:\nmagu (sky)\n\nbaso (color)\n\nmope (purple)\n\nRules:\nhoy = possessive.\n\nteso = relative marker.\n\nAdjective follows e.\n\nPossessor after hoy.\n\nteso clause describes noun.\n\nSentence Sample:\nbaso hoy magu teso e mope.\nQuestion:\nTranslate to English.",
+        "targets": [
+            "The color of the sky that is purple."
+        ],
+        "actual": "The color of the sky is purple.",
+        "raw_target": "The color of the sky that is purple.",
+        "raw_actual": "The color of the sky is purple.",
+        "bleu_score": 61.019504321125766,
+        "chrF_score": 77.27877367282302,
+        "chrF_plus_score": 78.94156734377572,
+        "ter_test": 12.5,
+        "bert_score_p": 0.9670218229293823,
+        "bert_score_r": 0.9500700235366821,
+        "bert_score_f1": 0.9584709405899048
+    }
+]

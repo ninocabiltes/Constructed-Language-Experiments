@@ -1,0 +1,94 @@
+[
+    {
+        "file": "3.csv",
+        "row": 2,
+        "prompt": "New Vocab:\ngati (to catch)\n\npika (bug)\n\nRules:\nmyu = conditional (“would”).\n\nmye = past marker.\n\nVerbs stack after i.\n\nObject marked with e.\n\nSentence Sample:\nbegu bay i myu mye gati e pika.\nQuestion:\nIs this sentence grammatical according to the rules above? Translate it to English.",
+        "targets": [
+            "If I had caught the bug.",
+            "Yes, it is grammatical.\nTranslation: If I would have caught the bug."
+        ],
+        "actual": "I would have caught the bug.",
+        "raw_target": "Yes, it is grammatical.\nTranslation: If I would have caught the bug. / If I had caught the bug.",
+        "raw_actual": "Yes.\n\nTranslation: \"I would have caught the bug.\"",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 64.5625023544246,
+        "chrF_plus_score": 63.69524181965443,
+        "ter_test": 33.33333333333333,
+        "bert_score_p": 0.9356118440628052,
+        "bert_score_r": 0.9269459247589111,
+        "bert_score_f1": 0.9232465028762817
+    },
+    {
+        "file": "3.csv",
+        "row": 3,
+        "prompt": "New Vocab:\nsene (clean)\n\nkwe (invert prefix)\n\nRules:\ngen = abstract noun suffix (“-ness”).\n\nkwe inverts root before gen.\n\ne marks predicate noun.\n\nSentence Sample:\nswe e kwe senegen.\nQuestion:\nWhat does kwe senegen mean?",
+        "targets": [
+            "Uncleanliness",
+            "dirtiness"
+        ],
+        "actual": "uncleanness",
+        "raw_target": "Uncleanliness/ dirtiness",
+        "raw_actual": "uncleanness",
+        "bleu_score": 0.0,
+        "chrF_score": 47.17598805414546,
+        "chrF_plus_score": 40.436561189267536,
+        "ter_test": 100.0,
+        "bert_score_p": 0.9392614364624023,
+        "bert_score_r": 0.9392614364624023,
+        "bert_score_f1": 0.9392614364624023
+    },
+    {
+        "file": "3.csv",
+        "row": 4,
+        "prompt": "New Vocab:\nlato (liquid)\n\npodo (dirt)\n\nlaw (inside)\n\nRules:\nboy = preposition marker.\n\nlaw = inside.\n\nLocation phrase follows verb.\n\nboy can prefix location word.\n\nSentence Sample:\nswe i hay e lato boylaw podo.\nQuestion:\nIs this sentence grammatical? Where is the liquid?",
+        "targets": [
+            "Yes, it is grammatical.\nThe liquid is inside the dirt."
+        ],
+        "actual": "The liquid is inside the dirt.",
+        "raw_target": "Target Output:\nYes, it is grammatical.\nThe liquid is inside the dirt.",
+        "raw_actual": "Grammatical. The liquid is inside the dirt.",
+        "bleu_score": 42.43728456769501,
+        "chrF_score": 58.367258943490384,
+        "chrF_plus_score": 58.137505474207614,
+        "ter_test": 40.0,
+        "bert_score_p": 0.9453890323638916,
+        "bert_score_r": 0.916304886341095,
+        "bert_score_f1": 0.9306197762489319
+    },
+    {
+        "file": "3.csv",
+        "row": 5,
+        "prompt": "New Vocab:\nsuki (to swim)\n\nliso (water)\n\nRules:\nCommands: omit subject, use i yoy.\n\nObject marked with e.\n\nVerb can be intransitive.\n\nSentence Sample:\ni yoy suki e liso!\nQuestion:\nWhat is this a command to do?",
+        "targets": [
+            "Swim in the water!"
+        ],
+        "actual": "i yoy suki e liso!",
+        "raw_target": "Swim in the water!",
+        "raw_actual": "i yoy suki e liso!",
+        "bleu_score": 8.116697886877475,
+        "chrF_score": 4.504504504504505,
+        "chrF_plus_score": 5.796722454672246,
+        "ter_test": 125.0,
+        "bert_score_p": 0.8075166344642639,
+        "bert_score_r": 0.858811616897583,
+        "bert_score_f1": 0.8323746919631958
+    },
+    {
+        "file": "3.csv",
+        "row": 6,
+        "prompt": "New Vocab:\nbese (pretty)\n\nhasu (flower)\n\nRules:\nbyu = most (superlative).\n\nQuestion starts with kay.\n\nAdjective follows e.\n\nSentence Sample:\nkay a pin hasu byubese e?\nQuestion:\nIs this sentence grammatical? explain.",
+        "targets": [
+            "No it is not grammatical."
+        ],
+        "actual": "Yes, the sentence is grammatical.",
+        "raw_target": "No it is not grammatical.",
+        "raw_actual": "Yes, the sentence is grammatical.",
+        "bleu_score": 14.535768424205482,
+        "chrF_score": 51.345026625045996,
+        "chrF_plus_score": 47.01082895239532,
+        "ter_test": 80.0,
+        "bert_score_p": 0.9446663856506348,
+        "bert_score_r": 0.9540994763374329,
+        "bert_score_f1": 0.9493594765663147
+    }
+]

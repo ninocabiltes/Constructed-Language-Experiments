@@ -79,17 +79,36 @@ def compute_metrics(json_file_path):
         print(f"No items updated in {json_file_path}.")
 
 def main():
-    cleaned_data_dir = 'cleaned_data'
+    parser = argparse.ArgumentParser(description='Compute translation metrics for specified models.')
+    parser.add_argument('models', nargs='*', help='List of model names (directories) to compute metrics for. If empty, computes for all.')
+    args = parser.parse_args()
+
+    cleaned_data_dir = os.path.join('/home/ninin/projects/Research', 'cleaned_data')
     
     if not os.path.exists(cleaned_data_dir):
         print(f"Directory '{cleaned_data_dir}' not found.")
         return
 
+    target_models = args.models if args.models else []
+    
+    if target_models:
+        print(f"Targeting models: {target_models}")
+    else:
+        print("Targeting ALL models.")
+
     for root, dirs, files in os.walk(cleaned_data_dir):
+        # Filter directories if models are specified
+        rel_from_source = os.path.relpath(root, cleaned_data_dir)
+        
+        if rel_from_source == '.':
+            if target_models:
+                dirs[:] = [d for d in dirs if d in target_models]
+
         for file in files:
             if file.endswith('.json'):
                 file_path = os.path.join(root, file)
                 compute_metrics(file_path)
 
 if __name__ == "__main__":
+    import argparse
     main()

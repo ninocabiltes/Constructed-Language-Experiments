@@ -1,0 +1,190 @@
+[
+    {
+        "file": "4.csv",
+        "row": 2,
+        "prompt": "Word/Rule:\nbade = strong\nbyu = most\nQuestion:\nWhat does byubade most likely mean?",
+        "targets": [
+            "Strongest"
+        ],
+        "actual": "most strong",
+        "raw_target": "Strongest",
+        "raw_actual": "most strong",
+        "bleu_score": 0.0,
+        "chrF_score": 38.37327227723258,
+        "chrF_plus_score": 32.89137623762793,
+        "ter_test": 200.0,
+        "bert_score_p": 0.8798166513442993,
+        "bert_score_r": 0.8235136866569519,
+        "bert_score_f1": 0.8507346510887146
+    },
+    {
+        "file": "4.csv",
+        "row": 3,
+        "prompt": "Word/Rule:\npana = hand\ngoy = thing\nQuestion:\nWhat does panagoy most likely mean?",
+        "targets": [
+            "glove",
+            "hand-thing",
+            "tool"
+        ],
+        "actual": "hand-thing",
+        "raw_target": "hand-thing / tool / glove",
+        "raw_actual": "hand-thing",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 1.0,
+        "bert_score_r": 1.0,
+        "bert_score_f1": 1.0
+    },
+    {
+        "file": "4.csv",
+        "row": 4,
+        "prompt": "Word/Rule:\ntoso = sound\ndoso = device\nQuestion:\nWhat does tosodoso most likely mean?",
+        "targets": [
+            "Speaker",
+            "phone"
+        ],
+        "actual": "sound device",
+        "raw_target": "Speaker / phone",
+        "raw_actual": "sound device",
+        "bleu_score": 0.0,
+        "chrF_score": 9.67741935483871,
+        "chrF_plus_score": 8.064516129032256,
+        "ter_test": 200.0,
+        "bert_score_p": 0.8748180866241455,
+        "bert_score_r": 0.925677478313446,
+        "bert_score_f1": 0.8995293974876404
+    },
+    {
+        "file": "4.csv",
+        "row": 5,
+        "prompt": "Word/Rule:\nlano = bread\ntako = container\nQuestion:\nWhat does lanotako most likely mean?",
+        "targets": [
+            "bread container",
+            "breadbox"
+        ],
+        "actual": "bread container",
+        "raw_target": "bread container / breadbox",
+        "raw_actual": "bread container",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 0.9999996423721313,
+        "bert_score_r": 0.9999996423721313,
+        "bert_score_f1": 0.9999996423721313
+    },
+    {
+        "file": "4.csv",
+        "row": 6,
+        "prompt": "Word/Rule:\ngyu = in front\nkwe = invert\nQuestion:\nWhat does kwegyu most likely mean?",
+        "targets": [
+            "behind"
+        ],
+        "actual": "in front inverted",
+        "raw_target": "behind",
+        "raw_actual": "\"in front inverted\"",
+        "bleu_score": 0.0,
+        "chrF_score": 11.003814973772055,
+        "chrF_plus_score": 9.431841406090333,
+        "ter_test": 300.0,
+        "bert_score_p": 0.7950196266174316,
+        "bert_score_r": 0.8879467248916626,
+        "bert_score_f1": 0.83891761302948
+    },
+    {
+        "file": "4.csv",
+        "row": 7,
+        "prompt": "Word/Rule:\npome = soft\nbey = -ly\nQuestion:\nWhat does pomebey most likely mean?",
+        "targets": [
+            "softly"
+        ],
+        "actual": "softly",
+        "raw_target": "softly",
+        "raw_actual": "softly",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 0.9999998807907104,
+        "bert_score_r": 0.9999998807907104,
+        "bert_score_f1": 0.9999998807907104
+    },
+    {
+        "file": "4.csv",
+        "row": 8,
+        "prompt": "Word/Rule:\nswa = to be\nsume = mature\nQuestion:\nIn swe e sume, what part of speech is sume?",
+        "targets": [
+            "Adjective",
+            "Adjective mature"
+        ],
+        "actual": "adjective",
+        "raw_target": "Adjective (mature)",
+        "raw_actual": "adjective",
+        "bleu_score": 0.0,
+        "chrF_score": 83.40608465608467,
+        "chrF_plus_score": 71.49092970521542,
+        "ter_test": 0.0,
+        "bert_score_p": 0.8642994165420532,
+        "bert_score_r": 0.7829993367195129,
+        "bert_score_f1": 0.8216431736946106
+    },
+    {
+        "file": "4.csv",
+        "row": 9,
+        "prompt": "Word/Rule:\nmye = before\nhay = have\nQuestion:\nWhat does mye hay most likely mean?",
+        "targets": [
+            "Had",
+            "already have"
+        ],
+        "actual": "before have",
+        "raw_target": "Had / already have",
+        "raw_actual": "before have",
+        "bleu_score": 49.99999999999999,
+        "chrF_score": 21.987091842843093,
+        "chrF_plus_score": 22.748101088884766,
+        "ter_test": 66.66666666666666,
+        "bert_score_p": 0.9983642101287842,
+        "bert_score_r": 0.9983642101287842,
+        "bert_score_f1": 0.9983642101287842
+    },
+    {
+        "file": "4.csv",
+        "row": 10,
+        "prompt": "Word/Rule:\nkoy = far\nkwe = invert\nQuestion:\nWhat does kwekoy most likely mean?",
+        "targets": [
+            "close",
+            "nearby"
+        ],
+        "actual": "far-invert",
+        "raw_target": "close / nearby",
+        "raw_actual": "far-invert",
+        "bleu_score": 0.0,
+        "chrF_score": 12.680237489397797,
+        "chrF_plus_score": 10.868774990912394,
+        "ter_test": 100.0,
+        "bert_score_p": 0.7858914136886597,
+        "bert_score_r": 0.9012387990951538,
+        "bert_score_f1": 0.8396220207214355
+    },
+    {
+        "file": "4.csv",
+        "row": 11,
+        "prompt": "Word/Rule:\nsyo = life\ngen = -ness\nQuestion:\nWhat does syogen most likely mean?",
+        "targets": [
+            "life-ness",
+            "vitality"
+        ],
+        "actual": "lifeness",
+        "raw_target": "life-ness / vitality",
+        "raw_actual": "lifeness",
+        "bleu_score": 0.0,
+        "chrF_score": 43.52604613180947,
+        "chrF_plus_score": 37.308039541550976,
+        "ter_test": 100.0,
+        "bert_score_p": 0.882688045501709,
+        "bert_score_r": 0.8695342540740967,
+        "bert_score_f1": 0.8726275563240051
+    }
+]

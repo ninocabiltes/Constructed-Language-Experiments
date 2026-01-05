@@ -1,0 +1,188 @@
+[
+    {
+        "file": "1.csv",
+        "row": 2,
+        "prompt": "Word/Rule:\nmya = parent\nbey = related / -ly\n\nQuestion:\nWhat does myabey most likely mean?",
+        "targets": [
+            "parent-related",
+            "parental"
+        ],
+        "actual": "parental",
+        "raw_target": "parental / parent-related",
+        "raw_actual": "parental",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 1.0000001192092896,
+        "bert_score_r": 1.0000001192092896,
+        "bert_score_f1": 1.0000001192092896
+    },
+    {
+        "file": "1.csv",
+        "row": 3,
+        "prompt": "Word/Rule:\nbya = male\nmya = parent\n\nQuestion:\nWhat does byamya most likely mean?",
+        "targets": [
+            "father"
+        ],
+        "actual": "father",
+        "raw_target": "father",
+        "raw_actual": "father",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 1.0000001192092896,
+        "bert_score_r": 1.0000001192092896,
+        "bert_score_f1": 1.0000001192092896
+    },
+    {
+        "file": "1.csv",
+        "row": 4,
+        "prompt": "Word/Rule:\ndomay = friend\nbay = I / me\n\nQuestion:\nWhat does bay domay most likely mean?",
+        "targets": [
+            "my friend"
+        ],
+        "actual": "my friend",
+        "raw_target": "my friend",
+        "raw_actual": "my friend",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 1.0,
+        "bert_score_r": 1.0,
+        "bert_score_f1": 1.0
+    },
+    {
+        "file": "1.csv",
+        "row": 5,
+        "prompt": "Word/Rule:\nkyu = you\nmoy = multiple\n\nQuestion:\nWhat does moykyu most likely mean?",
+        "targets": [
+            "you",
+            "you plural"
+        ],
+        "actual": "you",
+        "raw_target": "you (plural)",
+        "raw_actual": "you",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 1.0,
+        "bert_score_r": 1.0,
+        "bert_score_f1": 1.0
+    },
+    {
+        "file": "1.csv",
+        "row": 6,
+        "prompt": "Word/Rule:\ndune = number\ngen = concept / -ness\n\nQuestion:\nWhat does dungen most likely mean?",
+        "targets": [
+            "amount-ness",
+            "quantity"
+        ],
+        "actual": "number-ness",
+        "raw_target": "quantity / amount-ness",
+        "raw_actual": "number-ness",
+        "bleu_score": 0.0,
+        "chrF_score": 30.89105339105339,
+        "chrF_plus_score": 26.47804576376005,
+        "ter_test": 100.0,
+        "bert_score_p": 0.9977536201477051,
+        "bert_score_r": 0.9977536201477051,
+        "bert_score_f1": 0.9977536201477051
+    },
+    {
+        "file": "1.csv",
+        "row": 7,
+        "prompt": "lenu = art\nsyu = to do / make\n\nQuestion:\nWhat does lenusyu most likely mean?",
+        "targets": [
+            "to make art"
+        ],
+        "actual": "art-making",
+        "raw_target": "to make art",
+        "raw_actual": "art-making",
+        "bleu_score": 0.0,
+        "chrF_score": 23.62973159896789,
+        "chrF_plus_score": 20.25405565625819,
+        "ter_test": 100.0,
+        "bert_score_p": 0.8994327783584595,
+        "bert_score_r": 0.8673964142799377,
+        "bert_score_f1": 0.8831241130828857
+    },
+    {
+        "file": "1.csv",
+        "row": 8,
+        "prompt": "bote = blue\nsun = similar / -like\n\nQuestion:\nWhat does botesun most likely mean?",
+        "targets": [
+            "blue-like",
+            "bluish"
+        ],
+        "actual": "blue-like",
+        "raw_target": "blue-like / bluish",
+        "raw_actual": "blue-like ",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 1.0,
+        "bert_score_r": 1.0,
+        "bert_score_f1": 1.0
+    },
+    {
+        "file": "1.csv",
+        "row": 9,
+        "prompt": "Word/Rule:\npila = bird\nlase = fast\n\nQuestion:\nWhat does lase pila most likely mean?",
+        "targets": [
+            "fast bird"
+        ],
+        "actual": "fast bird",
+        "raw_target": "fast bird",
+        "raw_actual": "fast bird",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 1.0000001192092896,
+        "bert_score_r": 1.0000001192092896,
+        "bert_score_f1": 1.0000001192092896
+    },
+    {
+        "file": "1.csv",
+        "row": 10,
+        "prompt": "Word/Rule:\nhagu = story\ngoy = thing / object\n\nQuestion:\nWhat does hagugoy most likely mean?\n\nTarget Output:\nstory-thing / book / tale object",
+        "targets": [
+            "Story-thing",
+            "Storybook",
+            "book"
+        ],
+        "actual": "book",
+        "raw_target": "Story-thing / Storybook / book",
+        "raw_actual": "book",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 1.0,
+        "bert_score_r": 1.0,
+        "bert_score_f1": 1.0
+    },
+    {
+        "file": "1.csv",
+        "row": 11,
+        "prompt": "Word/Rule:\nswa = to be\nlase = fast\n\nQuestion:\nIn swe i swa lase, what does lase modify?",
+        "targets": [
+            "The verb “to be” — so “they are quickly”"
+        ],
+        "actual": "swa",
+        "raw_target": "The verb “to be” — so “they are quickly”",
+        "raw_actual": "swa",
+        "bleu_score": 0.0,
+        "chrF_score": 2.5445292620865136,
+        "chrF_plus_score": 1.9083969465648856,
+        "ter_test": 100.0,
+        "bert_score_p": 0.8128331303596497,
+        "bert_score_r": 0.7778220176696777,
+        "bert_score_f1": 0.794942319393158
+    }
+]

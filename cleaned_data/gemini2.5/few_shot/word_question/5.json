@@ -1,0 +1,189 @@
+[
+    {
+        "file": "5.csv",
+        "row": 2,
+        "prompt": "Word/Rule:\nsapye = excellent\ntay = very\nQuestion:\nWhat does tay sapye most likely mean?",
+        "targets": [
+            "awesome",
+            "very excellent"
+        ],
+        "actual": "very excellent",
+        "raw_target": "very excellent / awesome",
+        "raw_actual": "\nvery excellent",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 1.000000238418579,
+        "bert_score_r": 1.000000238418579,
+        "bert_score_f1": 1.000000238418579
+    },
+    {
+        "file": "5.csv",
+        "row": 3,
+        "prompt": "Word/Rule:\nlesu = straight\ngen = -ness\nQuestion:\nWhat does lesugen most likely mean?",
+        "targets": [
+            "straightness"
+        ],
+        "actual": "straightness",
+        "raw_target": "straightness",
+        "raw_actual": "straightness",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 1.0,
+        "bert_score_r": 1.0,
+        "bert_score_f1": 1.0
+    },
+    {
+        "file": "5.csv",
+        "row": 4,
+        "prompt": "Word/Rule:\nhagu = story\nsun = -like\nQuestion:\nWhat does hagusun most likely mean?",
+        "targets": [
+            "fictional",
+            "story-like"
+        ],
+        "actual": "story-like",
+        "raw_target": "story-like / fictional",
+        "raw_actual": "\nstory-like",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 1.0,
+        "bert_score_r": 1.0,
+        "bert_score_f1": 1.0
+    },
+    {
+        "file": "5.csv",
+        "row": 5,
+        "prompt": "Word/Rule:\nkya = what\ndaw = person\nQuestion:\nWhat does kyadaw most likely mean?",
+        "targets": [
+            "Who"
+        ],
+        "actual": "what person",
+        "raw_target": "Who",
+        "raw_actual": "\nwhat person",
+        "bleu_score": 0.0,
+        "chrF_score": 15.151515151515152,
+        "chrF_plus_score": 11.363636363636362,
+        "ter_test": 200.0,
+        "bert_score_p": 0.8672575354576111,
+        "bert_score_r": 0.919597864151001,
+        "bert_score_f1": 0.8926610350608826
+    },
+    {
+        "file": "5.csv",
+        "row": 6,
+        "prompt": "Word/Rule:\nbegu = if\ntey = can\nQuestion:\nIn begu bay i tey, what does tey mean?",
+        "targets": [
+            "be able",
+            "can"
+        ],
+        "actual": "can",
+        "raw_target": "can / be able",
+        "raw_actual": "can",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 0.9999999403953552,
+        "bert_score_r": 0.9999999403953552,
+        "bert_score_f1": 0.9999999403953552
+    },
+    {
+        "file": "5.csv",
+        "row": 7,
+        "prompt": "Word/Rule:\nboy = preposition marker\nlaw = inside\nQuestion:\nWhat does boylaw clarify?",
+        "targets": [
+            "That law is used as a preposition",
+            "That law is used as a preposition “inside”"
+        ],
+        "actual": "inside",
+        "raw_target": "That law is used as a preposition (“inside”)",
+        "raw_actual": "inside",
+        "bleu_score": 0.0,
+        "chrF_score": 12.814975350788945,
+        "chrF_plus_score": 10.984264586390525,
+        "ter_test": 93.33333333333333,
+        "bert_score_p": 0.8446999788284302,
+        "bert_score_r": 0.7954673171043396,
+        "bert_score_f1": 0.8193447589874268
+    },
+    {
+        "file": "5.csv",
+        "row": 8,
+        "prompt": "Word/Rule:\nkwetaw = same\ngwi = good\nQuestion:\nWhat does kwetaw gwi most likely mean?",
+        "targets": [
+            "equally good",
+            "same good"
+        ],
+        "actual": "same good",
+        "raw_target": "equally good / same good",
+        "raw_actual": "\nsame good",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 1.0000001192092896,
+        "bert_score_r": 1.0000001192092896,
+        "bert_score_f1": 1.0000001192092896
+    },
+    {
+        "file": "5.csv",
+        "row": 9,
+        "prompt": "Word/Rule:\ntelu = to / in order to\nmabosyu = to make food\nQuestion:\nWhat does telu mabosyu most likely mean?",
+        "targets": [
+            "in order to make food"
+        ],
+        "actual": "in order to make food",
+        "raw_target": "in order to make food",
+        "raw_actual": "\nin order to make food",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 1.0,
+        "bert_score_r": 1.0,
+        "bert_score_f1": 1.0
+    },
+    {
+        "file": "5.csv",
+        "row": 10,
+        "prompt": "Word/Rule:\nyoy = hey/command marker\nplu = go\nQuestion:\nWhat does i yoy plu mean?",
+        "targets": [
+            "Go!",
+            "Go! command"
+        ],
+        "actual": "i hey go",
+        "raw_target": "Go! (command)",
+        "raw_actual": "i hey go",
+        "bleu_score": 0.0,
+        "chrF_score": 9.25925925925926,
+        "chrF_plus_score": 5.5555555555555545,
+        "ter_test": 200.0,
+        "bert_score_p": 0.8139954209327698,
+        "bert_score_r": 0.8764141201972961,
+        "bert_score_f1": 0.8440523743629456
+    },
+    {
+        "file": "5.csv",
+        "row": 11,
+        "prompt": "Word/Rule:\ntitu = precise\nbey = -ly\nQuestion:\nWhat does titu bey most likely mean?",
+        "targets": [
+            "exactly",
+            "precisely"
+        ],
+        "actual": "precisely",
+        "raw_target": "precisely / exactly",
+        "raw_actual": "\nprecisely",
+        "bleu_score": 100.00000000000004,
+        "chrF_score": 100.0,
+        "chrF_plus_score": 100.0,
+        "ter_test": 0.0,
+        "bert_score_p": 1.0000001192092896,
+        "bert_score_r": 1.0000001192092896,
+        "bert_score_f1": 1.0000001192092896
+    }
+]

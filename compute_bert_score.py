@@ -86,15 +86,33 @@ def compute_bert_metrics(json_file_path):
         logger.error(f"Error computing BERT scores for {json_file_path}: {e}")
 
 def main():
-    cleaned_data_dir = 'cleaned_data'
+    parser = argparse.ArgumentParser(description='Compute BERT scores for specified models.')
+    parser.add_argument('models', nargs='*', help='List of model names (directories) to compute metrics for. If empty, computes for all.')
+    args = parser.parse_args()
+
+    cleaned_data_dir = os.path.join('/home/ninin/projects/Research', 'cleaned_data')
     
     if not os.path.exists(cleaned_data_dir):
         logger.error(f"Directory '{cleaned_data_dir}' not found.")
         return
 
+    target_models = args.models if args.models else []
+    
+    if target_models:
+        logger.info(f"Targeting models: {target_models}")
+    else:
+        logger.info("Targeting ALL models.")
+
     # Count files first
     files_to_process = []
     for root, dirs, files in os.walk(cleaned_data_dir):
+        # Filter directories if models are specified
+        rel_from_source = os.path.relpath(root, cleaned_data_dir)
+        
+        if rel_from_source == '.':
+            if target_models:
+                dirs[:] = [d for d in dirs if d in target_models]
+
         for file in files:
             if file.endswith('.json'):
                 files_to_process.append(os.path.join(root, file))
@@ -105,4 +123,5 @@ def main():
         compute_bert_metrics(file_path)
 
 if __name__ == "__main__":
+    import argparse
     main()

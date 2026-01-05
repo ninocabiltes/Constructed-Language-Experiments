@@ -95,13 +95,41 @@ def clean_actual(actual_raw):
     return best_candidate
 
 def process_all_data():
+    parser = argparse.ArgumentParser(description='Clean data for specified models.')
+    parser.add_argument('models', nargs='*', help='List of model names (directories) to clean. If empty, cleans all.')
+    args = parser.parse_args()
+
     base_dir = '/home/ninin/projects/Research'
     source_dir = os.path.join(base_dir, 'Data')
     dest_dir = os.path.join(base_dir, 'cleaned_data')
     
+    # Filter directories if models are specified
+    target_models = args.models if args.models else []
+    
     print(f"Cleaning data from {source_dir} to {dest_dir}")
+    if target_models:
+        print(f"Targeting models: {target_models}")
+    else:
+        print("Targeting ALL models.")
     
     for root, dirs, files in os.walk(source_dir):
+        # Determine if we should process this directory
+        # We only care about the top-level model directories usually, but os.walk goes deep.
+        # Check if the current root is inside one of the target models
+        
+        rel_from_source = os.path.relpath(root, source_dir)
+        
+        # If we are at source_dir, rel_path is '.', dirs are the model folders.
+        # We can filter 'dirs' in-place to prevent walking into unwanted ones.
+        if rel_from_source == '.':
+            if target_models:
+                # Keep only dirs that match one of the target models
+                # We do exact match or simple containment? Let's do exact match capability generally, 
+                # but user might say 'claude' for 'claude3.5'. Let's stick to what allows the user's request.
+                # The user asked 'claude 3.5' -> 'claude3.5'.
+                # I'll just look for exact directory names in the args for safety/precision.
+                dirs[:] = [d for d in dirs if d in target_models]
+        
         for file in files:
             if file.endswith('.csv'):
                 source_path = os.path.join(root, file)
@@ -167,4 +195,5 @@ def process_all_data():
     print("All done.")
 
 if __name__ == "__main__":
+    import argparse
     process_all_data()

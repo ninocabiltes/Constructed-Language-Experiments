@@ -1,0 +1,73 @@
+Prompt,Target Output,Actual Output,Bleu Score,chrF Score
+"New Vocab:
+paki (to find)
+
+misu (secret)
+
+bino (key)
+
+Rules:
+Subject-Verb-Object word order.
+
+Use particle i before verb, e before object.
+
+Sentence Sample:
+swe i paki e bino. (They find the key.)
+Question:
+Translate to English.",They find the key.,They find the key.,,
+"New Vocab:
+lake (red)
+
+kado (box)
+
+Rules:
+Adjectives follow e without i for “to be” statements.
+
+No article (“a/the”) needed.
+
+Sentence Sample:
+kado e lake.
+Question:
+What does this mean in English?",The box is red.,box is red,,
+"New Vocab:
+seba (snake)
+
+gala (tail)
+
+Rules:
+hoy = possessive marker (“of”).
+
+Possessor comes after hoy.
+
+Sentence Sample:
+gala hoy seba.
+Question:
+Translate to English.",The snake’s tail / tail of the snake.,tail of the snake,,
+"New Vocab:
+sutu (order)
+
+doyi (to follow)
+
+Rules:
+Questions start with kay.
+
+Subject marked with a if not first.
+
+Sentence Sample:
+kay a swe i doyi e sutu?
+Question:
+What is this asking?",Do they follow the order?,Does swe follow the order?,,
+"New Vocab:
+haso (village)
+
+daw (person)
+
+Rules:
+moy = multiple/plural prefix.
+
+Attach directly to noun.
+
+Sentence Sample:
+moydaw i plu e law haso.
+Question:
+What does moydaw mean?",(Many) people / people (plural).,people,,

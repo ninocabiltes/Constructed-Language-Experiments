@@ -1,0 +1,149 @@
+Prompt,Target Output,Actual Output,Bleu Score,chrF Score
+"gwa = house → gwaki = small house (cottage)
+
+doso = machine → dosoki = small machine (device/tool)
+
+pilo = bird → pilodo = big bird (eagle/large bird)
+
+Question:
+If gwa = house and gwaki = cottage, what does gwanodo mean?",large room / hall,big house (mansion/large house),,
+"Context Examples:
+gwi = good → soygwi = not good (bad)
+
+sole = happy → soysole = not happy (neutral)
+
+kwe = opposite prefix
+
+kwe + gwi = kwegwi = bad (opposite of good)
+
+kwe + sole = kwesole = unhappy/sad
+
+Question:
+What is the difference between kwehate and soyhate if hate = dangerous?","kwehate = safe (opposite), soyhate = not dangerous (neutral)","kwehate = safe (opposite of dangerous)
+soyhate = not dangerous (harmless/neutral)",,
+"Context Examples:
+plu = to go → pluti = to make go/move (something)
+
+loy = to see → loyti = to show (make see)
+
+suki = to swim → sukiha = to want to swim
+
+Question:
+If paki = to find and pakiha = to want to find, what does pakiti mean?",to make find / to help find / to cause to be found,to make find,,
+"Context Examples:
+toga = body → togapa = body part
+
+gwa = house → gwapa = part of a house (room/wall)
+
+kyu = you → hoykyu = yours
+
+bay = me → hoybay = mine
+
+Question:
+If paka = head and pakapa = part of head (face/skull), what does hoypaka mean?",belonging to the head / head's,head's,,
+"Context Examples:
+mabo = eat → mabole = to eat regularly
+
+sami = walk → samile = to walk habitually
+
+loy = see → loypu = to glance/see briefly
+
+pya = speak → pyapu = to speak briefly
+
+Question:
+If suki = swim and sukile = to swim regularly, what does sukipu mean?",to take a quick swim / swim briefly,to swim briefly,,
+"Context Examples:
+mabo = eat → mabodaw = eater
+
+liru = drink → lirudaw = drinker
+
+segu = music → segusu = musician
+
+lenu = art → lenusu = artist
+
+Question:
+If kami = to buy, what does kamidaw mean?",buyer/shopper,buyer,,
+"Context Examples:
+sapa = fish → sapamu = school of fish
+
+daw = person → dawmu = group of people
+
+muta = leg → mutatu = pair of legs
+
+Question:
+If pila = bird, what does pilamu mean?",flock of birds,flock of birds,,
+"Context Examples:
+sote = hot → sotefo = too hot
+
+lase = fast → lasefo = too fast
+
+bote = blue → botene = somewhat blue
+
+lake = red → lakene = somewhat red
+
+Question:
+If bade = strong and badefo = too strong, what does badene mean?",somewhat strong / strongish,somewhat strong,,
+"Context Examples:
+kuto = school → kutodin = school location
+
+dago = store → dagodin = store location
+
+pay = up → paysay = upward direction
+
+gyu = front → gyusay = forward
+
+Question:
+If law = inside and lawdin = inside place, what does lawsay mean?",inward direction / toward the inside,inward direction,,
+"Context Examples:
+homu = calm → homuta = calmness (state)
+
+sole = happy → soleta = happiness (state)
+
+bade = strong → badevi = strength (quality)
+
+Question:
+If gwi = good and gwivi = goodness, what does gwita mean?",state of being good / goodness (as a condition),goodness (state),,
+"Context Examples:
+pya = speak → pyazo = speaking tool (microphone)
+
+kato = cut → katozo = cutting tool (knife)
+
+plu = go → plumo = means of going (vehicle)
+
+Question:
+If doli = write and dolizo = writing tool (pen), what does dolimo mean?",means of writing (method/process),means of writing,,
+"Context Examples:
+kapi = break → kapira = breakage (result)
+
+syu = make → syura = product/creation
+
+doli = write → dolibu = writing/text
+
+Question:
+If kami = buy and kamira = purchase (result), what does kamibu mean?",bought item / purchase (product),buying/shopping,,
+"sami = walk → samire = walk often
+
+mabo = eat → mabore = eat frequently
+
+han = day → hanpe = every day
+
+sebo = week → sebope = every week
+
+Question:
+If suki = swim and sukire = swim often, what does hanre mean?",often daily / frequently,day frequently,,
+"Context Examples:
+mya = parent → myashi = honorable parent
+
+bamu = hello → bamujo = formal greeting
+
+kyu = you → kyujo = formal ""you""
+
+Question:
+If domay = friend and domayshi = respected friend, what does domayjo mean?",formal friend / polite acquaintance,formal friend,,
+"Context Examples:
+suki = swim → sukidaw = swimmer → sukidawbey = in a swimmer-like way
+
+kato = cut → katoti = make cut → katotizo = cutting tool → katotizoki = small cutter
+
+Question:
+If pya = speak, pyadaw = speaker, pyadawbey = speaker-like, what does pyatizoki likely mean?",small speaking tool / little device for making speech,small speaker,,

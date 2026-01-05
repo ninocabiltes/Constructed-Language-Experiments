@@ -1,0 +1,24 @@
+Prompt,Target Output,Actual Output,Bleu Score,chrF Score
+"Rule: teso = relative clause marker (“that/which”). gwi = good.
+Dasopya → English
+Sentence:
+bay i dani e kopo teso e gwi",I like books that are good.,bay i dani is kopo that is good,,
+"Rule: mabo = eat/food, law = inside, kuto = school.
+English → Dasopya
+Sentence:
+They eat in school.",swe i mabo law kuto,"
+They mabo law kuto.",,
+"Rule: maymasu = now-morning (this morning), dago = store, law = inside.
+Dasopya → English
+Sentence:
+maymasu a baydin e law dago",This morning I am at the store.,"
+this morning a baydin e inside store",,
+"Rule: bote = blue, *e* for adjectives.
+English → Dasopya
+Sentence:
+The fish is blue.",sapa e bote,"
+The fish is bote.",,
+"Rule: kay = question marker, dani = like, lenu = art.
+Dasopya → English
+Sentence:
+kay a kyu i dani e lenu?",Do you like art?,Do a kyu i like e art?,,

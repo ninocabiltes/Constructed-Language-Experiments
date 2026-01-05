@@ -1,0 +1,136 @@
+Prompt,Target Output,Actual Output,Bleu Score,chrF Score
+"New Vocab:
+lati (to borrow)
+
+melo (money)
+
+sehu (hundred)
+
+u (indirect object)
+
+Rules:
+myu = conditional.
+
+mye = past.
+
+u = indirect object.
+
+Number compounds: sehu = 100.
+
+Object marked with e.
+
+Verb stacking allowed.
+
+Sentence Sample:
+begu bay i myu mye lati u kyu e melo sehu.
+Question:
+Translate to English.",If I would have borrowed 100 money from you. / If I had borrowed 100 units of money from you.,begu bay i would have borrowed from kyu 100 money.,,
+"New Vocab:
+sume (mature)
+
+kuto (school)
+
+daw (person)
+
+twi (reorder prefix)
+
+Rules:
+twi reorders adjective-noun compounding.
+
+Default: left-to-right compounding.
+
+twi swaps interpretation.
+
+Nouns can compound.
+
+e marks predicate.
+
+No i for “to be”.
+
+Sentence Sample:
+sume twikutodaw.
+Question:
+What does this mean vs. sumekutodaw?",Adult student (adult + school-person) vs. college student (adult-school + person).,A mature school-person vs. a person from a mature school.,,
+"New Vocab:
+degu (war)
+
+hido (city)
+
+kwepay (below)
+
+boy (preposition marker)
+
+Rules:
+boy = preposition marker.
+
+kwepay = below (inverted pay).
+
+teso = relative marker.
+
+Location phrase after verb.
+
+e marks object.
+
+i marks verb.
+
+Sentence Sample:
+degu teso e hido i hay boykwepay baso.
+Question:
+Where is the war located?",Below the city.,"
+boykwepay baso",,
+"New Vocab:
+sole (happy)
+
+kwe (invert)
+
+byu (most)
+
+gen (-ness)
+
+Rules:
+kwebyu = least (invert + most).
+
+gen = abstract noun.
+
+e marks predicate.
+
+kwe inverts root.
+
+byu superlative.
+
+Compound: kwebyugeni.
+
+Sentence Sample:
+swe e kwebyusolegen.
+Question:
+What does kwebyusolegen mean?",The least happiness / unhappiness (minimal happiness).,"
+least happiness",,
+"New Vocab:
+hesa (shark)
+
+ludo (to protect)
+
+seya (person title)
+
+telu (in order to)
+
+Rules:
+telu = in order to.
+
+begu = if.
+
+myu = conditional.
+
+u = indirect object.
+
+Object e.
+
+Verb stacking.
+
+i before verb phrase.
+
+Sentence Sample:
+bay i ludo u seya e hesa telu begu bay i myu hay e helu.
+Question:
+Translate to English.",I protect the person from the shark so that I would have safety.,"
+bay to protect to person title the shark in order to if bay would hay the helu.",,

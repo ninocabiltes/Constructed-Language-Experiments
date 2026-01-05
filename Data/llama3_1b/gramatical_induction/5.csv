@@ -24,7 +24,7 @@ Verb stacking allowed.
 Sentence Sample:
 begu bay i myu mye lati u kyu e melo sehu.
 Question:
-Translate to English.""";"""If I would have borrowed 100 money from you. / If I had borrowed 100 units of money from you.""";;;
+Translate to English.""";"""If I would have borrowed 100 money from you. / If I had borrowed 100 units of money from you.""";"""Can I borrow $100?""";;
 """New Vocab:
 sume (mature)
 
@@ -50,7 +50,10 @@ No i for “to be”.
 Sentence Sample:
 sume twikutodaw.
 Question:
-What does this mean vs. sumekutodaw?""";"""Adult student (adult + school-person) vs. college student (adult-school + person).""";;;
+What does this mean vs. sumekutodaw?""";"""Adult student (adult + school-person) vs. college student (adult-school + person).""";"sume (mature) kuto (school)
+twekutodaw (person who is a teacher)
+
+sumekutodaw (teacher who is mature)";;
 """New Vocab:
 degu (war)
 
@@ -76,7 +79,7 @@ i marks verb.
 Sentence Sample:
 degu teso e hido i hay boykwepay baso.
 Question:
-Where is the war located?""";"""Below the city.""";;;
+Where is the war located?""";"""Below the city.""";degu teso e hido i hay boykwepay baso.;;
 """New Vocab:
 sole (happy)
 
@@ -102,7 +105,7 @@ Compound: kwebyugeni.
 Sentence Sample:
 swe e kwebyusolegen.
 Question:
-What does kwebyusolegen mean?""";"""The least happiness / unhappiness (minimal happiness).""";;;
+What does kwebyusolegen mean?""";"""The least happiness / unhappiness (minimal happiness).""";kwebyugenien.;;
 """New Vocab:
 hesa (shark)
 
@@ -130,4 +133,4 @@ i before verb phrase.
 Sentence Sample:
 bay i ludo u seya e hesa telu begu bay i myu hay e helu.
 Question:
-Translate to English.""";"""I protect the person from the shark so that I would have safety.""";;;
+Translate to English.""";"""I protect the person from the shark so that I would have safety.""";bay i ludo u seya e hesa telu begu bay i myu hay e helu.;;

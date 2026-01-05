@@ -14,7 +14,7 @@ Use particle i before verb, e before object.
 Sentence Sample:
 swe i paki e bino. (They find the key.)
 Question:
-Translate to English.""";"""They find the key.""";;;
+Translate to English.""";"""They find the key.""";i misu bino.;;
 """New Vocab:
 lake (red)
 
@@ -28,7 +28,7 @@ No article (“a/the”) needed.
 Sentence Sample:
 kado e lake.
 Question:
-What does this mean in English?""";"""The box is red.""";;;
+What does this mean in English?""";"""The box is red.""";"What does the sentence ""kado e lake"" mean in English?";;
 """New Vocab:
 seba (snake)
 
@@ -42,7 +42,7 @@ Possessor comes after hoy.
 Sentence Sample:
 gala hoy seba.
 Question:
-Translate to English.""";"""The snake’s tail / tail of the snake.""";;;
+Translate to English.""";"""The snake’s tail / tail of the snake.""";gala hoy seba.;;
 """New Vocab:
 sutu (order)
 
@@ -56,7 +56,8 @@ Subject marked with a if not first.
 Sentence Sample:
 kay a swe i doyi e sutu?
 Question:
-What is this asking?""";"""Do they follow the order?""";;;
+What is this asking?""";"""Do they follow the order?""";"kay a sutu?
+Question: What order?";;
 """New Vocab:
 haso (village)
 
@@ -70,4 +71,4 @@ Attach directly to noun.
 Sentence Sample:
 moydaw i plu e law haso.
 Question:
-What does moydaw mean?""";"""(Many) people / people (plural).""";;;
+What does moydaw mean?""";"""(Many) people / people (plural).""";moydaw;;

@@ -3,49 +3,52 @@ Prompt;Target Output;Actual Output;Bleu Score;chrF Score
 mosey = interesting
 gen = -ness
 Question:
-What does moseygen most likely mean?""";"""interestingness""";;;
+What does moseygen most likely mean?""";"""interestingness""";moseygen = wandering;;
 """Word/Rule:
 pya = talk
 lase = fast
 Question:
-What does pyalase most likely mean?""";"""fast talk / rap""";;;
+What does pyalase most likely mean?""";"""fast talk / rap""";"pya = talk
+lase = fast
+pyalase = to speak quickly";;
 """Word/Rule:
 day = give
 u = indirect object particle
 Question:
-In bay i day u kyu e lano, what is the indirect object?""";"""kyu (you)""";;;
+In bay i day u kyu e lano, what is the indirect object?""";"""kyu (you)""";bay;;
 """Word/Rule:
 law = inside
 kwe = invert
 Question:
-What does kwelaw most likely mean?""";"""outside""";;;
+What does kwelaw most likely mean?""";"""outside""";kwelaw means to turn inside out.;;
 """Word/Rule:
 sote = hot
 bey = -ly
 Question:
-What does sotebey most likely mean?""";"""hotly""";;;
+What does sotebey most likely mean?""";"""hotly""";sotebey = cold;;
 """Word/Rule:
 gwi = good
 baw = more
 Question:
-What does bawgwi most likely mean?""";"""better""";;;
+What does bawgwi most likely mean?""";"""better""";bawgwi = better;;
 """Word/Rule:
 suka = sibling
 moy = multiple
 Question:
-What does moysuka most likely mean?""";"""siblings""";;;
+What does moysuka most likely mean?""";"""siblings""";"moysuka: ""multiple siblings""";;
 """Word/Rule:
 dey = animal
 sun = -like
 Question:
-What does deysun most likely mean?""";"""animal-like""";;;
+What does deysun most likely mean?""";"""animal-like""";deysun = deer;;
 """Word/Rule:
 loy = see
 gen = -ness
 Question:
-What does loygen most likely mean?""";"""sight / vision""";;;
+What does loygen most likely mean?""";"""sight / vision""";loygen = seeing;;
 """Word/Rule:
 taku = cause / because
 gen = -ness
 Question:
-What does takugen most likely mean?""";"""cause / origin-ness""";;;
+What does takugen most likely mean?""";"""cause / origin-ness""";"taku = cause / because
+gen = -ness";;
